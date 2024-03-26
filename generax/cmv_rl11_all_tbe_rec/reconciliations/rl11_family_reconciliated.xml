@@ -1,0 +1,1984 @@
+<recPhylo 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.recg.org ./recGeneTreeXML.xsd"
+	xmlns="http://www.recg.org">
+<spTree>
+<phylogeny>
+<clade>
+		<name>7</name>
+	<clade>
+			<name>5</name>
+		<clade>
+				<name>2</name>
+			<clade>
+					<name>1</name>
+				<clade>
+						<name>papiinebeta4</name>
+				</clade>
+				<clade>
+						<name>mandrillinebeta1</name>
+				</clade>
+			</clade>
+			<clade>
+					<name>cercopithecinebeta5</name>
+			</clade>
+		</clade>
+		<clade>
+				<name>4</name>
+			<clade>
+					<name>3</name>
+				<clade>
+						<name>macacinebeta3</name>
+				</clade>
+				<clade>
+						<name>macacinebeta8</name>
+				</clade>
+			</clade>
+			<clade>
+					<name>macacinebetajap</name>
+			</clade>
+		</clade>
+	</clade>
+	<clade>
+			<name>6</name>
+		<clade>
+				<name>humanbeta5</name>
+		</clade>
+		<clade>
+				<name>paninebeta2</name>
+		</clade>
+	</clade>
+</clade>
+</phylogeny>
+</spTree>
+<recGeneTree>
+<phylogeny rooted="true">
+<clade>
+	<name>NULL</name>
+	<eventsRec>
+		<duplication speciesLocation="7"/>
+	</eventsRec>
+	<clade>
+		<name>0.636429</name>
+		<eventsRec>
+			<duplication speciesLocation="7"/>
+		</eventsRec>
+		<clade>
+			<name>0.864444</name>
+			<eventsRec>
+				<speciation speciesLocation="7"/>
+			</eventsRec>
+			<clade>
+				<name>1.000000</name>
+				<eventsRec>
+					<speciation speciesLocation="5"/>
+				</eventsRec>
+				<clade>
+					<name>0.820000</name>
+					<eventsRec>
+						<speciation speciesLocation="2"/>
+					</eventsRec>
+					<clade>
+						<name>cercopithecinebeta5_RL11T</name>
+						<eventsRec>
+							<leaf speciesLocation="cercopithecinebeta5"/>
+						</eventsRec>
+					</clade>
+					<clade>
+						<name>0.990000</name>
+						<eventsRec>
+							<speciation speciesLocation="1"/>
+						</eventsRec>
+						<clade>
+							<name>mandrillinebeta1_RL11T</name>
+							<eventsRec>
+								<leaf speciesLocation="mandrillinebeta1"/>
+							</eventsRec>
+						</clade>
+						<clade>
+							<name>papiinebeta4_RL11T</name>
+							<eventsRec>
+								<leaf speciesLocation="papiinebeta4"/>
+							</eventsRec>
+						</clade>
+					</clade>
+				</clade>
+				<clade>
+					<name>0.980000</name>
+					<eventsRec>
+						<duplication speciesLocation="4"/>
+					</eventsRec>
+					<clade>
+						<name>0.980000</name>
+						<eventsRec>
+							<speciation speciesLocation="4"/>
+						</eventsRec>
+						<clade>
+							<name>macacinebetajap_RL11T</name>
+							<eventsRec>
+								<leaf speciesLocation="macacinebetajap"/>
+							</eventsRec>
+						</clade>
+						<clade>
+							<name>macacinebeta8_RL11T</name>
+							<eventsRec>
+								<speciation speciesLocation="3"/>
+							</eventsRec>
+								<clade>
+								<name>loss</name>
+								<eventsRec>
+									<loss speciesLocation="macacinebeta3"/>
+								</eventsRec>
+							</clade>
+							<clade>
+								<name>macacinebeta8_RL11T</name>
+								<eventsRec>
+									<leaf speciesLocation="macacinebeta8"/>
+								</eventsRec>
+							</clade>
+						</clade>
+					</clade>
+					<clade>
+						<name>macacinebeta3_RL11T</name>
+						<eventsRec>
+							<speciation speciesLocation="4"/>
+						</eventsRec>
+							<clade>
+							<name>loss</name>
+							<eventsRec>
+								<loss speciesLocation="macacinebetajap"/>
+							</eventsRec>
+						</clade>
+						<clade>
+							<name>macacinebeta3_RL11T</name>
+							<eventsRec>
+								<speciation speciesLocation="3"/>
+							</eventsRec>
+								<clade>
+								<name>loss</name>
+								<eventsRec>
+									<loss speciesLocation="macacinebeta8"/>
+								</eventsRec>
+							</clade>
+							<clade>
+								<name>macacinebeta3_RL11T</name>
+								<eventsRec>
+									<leaf speciesLocation="macacinebeta3"/>
+								</eventsRec>
+							</clade>
+						</clade>
+					</clade>
+				</clade>
+			</clade>
+			<clade>
+				<name>0.646667</name>
+				<eventsRec>
+					<duplication speciesLocation="6"/>
+				</eventsRec>
+				<clade>
+					<name>1.000000</name>
+					<eventsRec>
+						<speciation speciesLocation="6"/>
+					</eventsRec>
+					<clade>
+						<name>humanbeta5_RL12</name>
+						<eventsRec>
+							<leaf speciesLocation="humanbeta5"/>
+						</eventsRec>
+					</clade>
+					<clade>
+						<name>paninebeta2_RL12</name>
+						<eventsRec>
+							<leaf speciesLocation="paninebeta2"/>
+						</eventsRec>
+					</clade>
+				</clade>
+				<clade>
+					<name>0.900000</name>
+					<eventsRec>
+						<speciation speciesLocation="6"/>
+					</eventsRec>
+					<clade>
+						<name>humanbeta5_RL13</name>
+						<eventsRec>
+							<leaf speciesLocation="humanbeta5"/>
+						</eventsRec>
+					</clade>
+					<clade>
+						<name>paninebeta2_RL13</name>
+						<eventsRec>
+							<leaf speciesLocation="paninebeta2"/>
+						</eventsRec>
+					</clade>
+				</clade>
+			</clade>
+		</clade>
+		<clade>
+			<name>0.649167</name>
+			<eventsRec>
+				<duplication speciesLocation="7"/>
+			</eventsRec>
+			<clade>
+				<name>0.960000</name>
+				<eventsRec>
+					<speciation speciesLocation="7"/>
+				</eventsRec>
+				<clade>
+					<name>0.900000</name>
+					<eventsRec>
+						<speciation speciesLocation="6"/>
+					</eventsRec>
+						<clade>
+						<name>loss</name>
+						<eventsRec>
+							<loss speciesLocation="paninebeta2"/>
+						</eventsRec>
+					</clade>
+					<clade>
+						<name>0.900000</name>
+						<eventsRec>
+							<duplication speciesLocation="humanbeta5"/>
+						</eventsRec>
+						<clade>
+							<name>humanbeta5_RL5A</name>
+							<eventsRec>
+								<leaf speciesLocation="humanbeta5"/>
+							</eventsRec>
+						</clade>
+						<clade>
+							<name>humanbeta5_RL6</name>
+							<eventsRec>
+								<leaf speciesLocation="humanbeta5"/>
+							</eventsRec>
+						</clade>
+					</clade>
+				</clade>
+				<clade>
+					<name>NULL</name>
+					<eventsRec>
+						<speciation speciesLocation="5"/>
+					</eventsRec>
+					<clade>
+						<name>0.832500</name>
+						<eventsRec>
+							<speciation speciesLocation="2"/>
+						</eventsRec>
+						<clade>
+							<name>0.720000</name>
+							<eventsRec>
+								<speciation speciesLocation="1"/>
+							</eventsRec>
+							<clade>
+								<name>mandrillinebeta1_RL11A</name>
+								<eventsRec>
+									<leaf speciesLocation="mandrillinebeta1"/>
+								</eventsRec>
+							</clade>
+							<clade>
+								<name>papiinebeta4_RL11A</name>
+								<eventsRec>
+									<leaf speciesLocation="papiinebeta4"/>
+								</eventsRec>
+							</clade>
+						</clade>
+						<clade>
+							<name>cercopithecinebeta5_RL11A</name>
+							<eventsRec>
+								<leaf speciesLocation="cercopithecinebeta5"/>
+							</eventsRec>
+						</clade>
+					</clade>
+					<clade>
+						<name>1.000000</name>
+						<eventsRec>
+							<speciation speciesLocation="4"/>
+						</eventsRec>
+						<clade>
+							<name>macacinebetajap_RL11A</name>
+							<eventsRec>
+								<leaf speciesLocation="macacinebetajap"/>
+							</eventsRec>
+						</clade>
+						<clade>
+							<name>1.000000</name>
+							<eventsRec>
+								<speciation speciesLocation="3"/>
+							</eventsRec>
+							<clade>
+								<name>macacinebeta3_RL11A</name>
+								<eventsRec>
+									<leaf speciesLocation="macacinebeta3"/>
+								</eventsRec>
+							</clade>
+							<clade>
+								<name>macacinebeta8_RL11A</name>
+								<eventsRec>
+									<leaf speciesLocation="macacinebeta8"/>
+								</eventsRec>
+							</clade>
+						</clade>
+					</clade>
+				</clade>
+			</clade>
+			<clade>
+				<name>0.824286</name>
+				<eventsRec>
+					<speciation speciesLocation="7"/>
+				</eventsRec>
+				<clade>
+					<name>1.000000</name>
+					<eventsRec>
+						<speciation speciesLocation="5"/>
+					</eventsRec>
+					<clade>
+						<name>0.930000</name>
+						<eventsRec>
+							<speciation speciesLocation="2"/>
+						</eventsRec>
+						<clade>
+							<name>cercopithecinebeta5_RL11G</name>
+							<eventsRec>
+								<leaf speciesLocation="cercopithecinebeta5"/>
+							</eventsRec>
+						</clade>
+						<clade>
+							<name>0.980000</name>
+							<eventsRec>
+								<speciation speciesLocation="1"/>
+							</eventsRec>
+							<clade>
+								<name>mandrillinebeta1_RL11G</name>
+								<eventsRec>
+									<leaf speciesLocation="mandrillinebeta1"/>
+								</eventsRec>
+							</clade>
+							<clade>
+								<name>papiinebeta4_RL11G</name>
+								<eventsRec>
+									<leaf speciesLocation="papiinebeta4"/>
+								</eventsRec>
+							</clade>
+						</clade>
+					</clade>
+					<clade>
+						<name>1.000000</name>
+						<eventsRec>
+							<speciation speciesLocation="4"/>
+						</eventsRec>
+						<clade>
+							<name>macacinebetajap_RL11G</name>
+							<eventsRec>
+								<leaf speciesLocation="macacinebetajap"/>
+							</eventsRec>
+						</clade>
+						<clade>
+							<name>macacinebeta3_RL11G</name>
+							<eventsRec>
+								<speciation speciesLocation="3"/>
+							</eventsRec>
+								<clade>
+								<name>loss</name>
+								<eventsRec>
+									<loss speciesLocation="macacinebeta8"/>
+								</eventsRec>
+							</clade>
+							<clade>
+								<name>macacinebeta3_RL11G</name>
+								<eventsRec>
+									<leaf speciesLocation="macacinebeta3"/>
+								</eventsRec>
+							</clade>
+						</clade>
+					</clade>
+				</clade>
+				<clade>
+					<name>1.000000</name>
+					<eventsRec>
+						<speciation speciesLocation="6"/>
+					</eventsRec>
+					<clade>
+						<name>humanbeta5_RL11</name>
+						<eventsRec>
+							<leaf speciesLocation="humanbeta5"/>
+						</eventsRec>
+					</clade>
+					<clade>
+						<name>paninebeta2_RL11</name>
+						<eventsRec>
+							<leaf speciesLocation="paninebeta2"/>
+						</eventsRec>
+					</clade>
+				</clade>
+			</clade>
+		</clade>
+	</clade>
+	<clade>
+		<name>0.722500</name>
+		<eventsRec>
+			<duplication speciesLocation="7"/>
+		</eventsRec>
+		<clade>
+			<name>0.636552</name>
+			<eventsRec>
+				<duplication speciesLocation="7"/>
+			</eventsRec>
+			<clade>
+				<name>0.980000</name>
+				<eventsRec>
+					<speciation speciesLocation="7"/>
+				</eventsRec>
+				<clade>
+					<name>0.977778</name>
+					<eventsRec>
+						<speciation speciesLocation="5"/>
+					</eventsRec>
+					<clade>
+						<name>0.830000</name>
+						<eventsRec>
+							<duplication speciesLocation="2"/>
+						</eventsRec>
+						<clade>
+							<name>cercopithecinebeta5_RL11I</name>
+							<eventsRec>
+								<speciation speciesLocation="2"/>
+							</eventsRec>
+								<clade>
+								<name>loss</name>
+								<eventsRec>
+									<loss speciesLocation="1"/>
+								</eventsRec>
+							</clade>
+							<clade>
+								<name>cercopithecinebeta5_RL11I</name>
+								<eventsRec>
+									<leaf speciesLocation="cercopithecinebeta5"/>
+								</eventsRec>
+							</clade>
+						</clade>
+						<clade>
+							<name>0.520000</name>
+							<eventsRec>
+								<speciation speciesLocation="2"/>
+							</eventsRec>
+							<clade>
+								<name>cercopithecinebeta5_RL11H</name>
+								<eventsRec>
+									<leaf speciesLocation="cercopithecinebeta5"/>
+								</eventsRec>
+							</clade>
+							<clade>
+								<name>0.850000</name>
+								<eventsRec>
+									<speciation speciesLocation="1"/>
+								</eventsRec>
+								<clade>
+									<name>mandrillinebeta1_RL11H</name>
+									<eventsRec>
+										<leaf speciesLocation="mandrillinebeta1"/>
+									</eventsRec>
+								</clade>
+								<clade>
+									<name>papiinebeta4_RL11H</name>
+									<eventsRec>
+										<leaf speciesLocation="papiinebeta4"/>
+									</eventsRec>
+								</clade>
+							</clade>
+						</clade>
+					</clade>
+					<clade>
+						<name>0.842000</name>
+						<eventsRec>
+							<duplication speciesLocation="4"/>
+						</eventsRec>
+						<clade>
+							<name>0.830000</name>
+							<eventsRec>
+								<speciation speciesLocation="4"/>
+							</eventsRec>
+							<clade>
+								<name>0.995000</name>
+								<eventsRec>
+									<speciation speciesLocation="3"/>
+								</eventsRec>
+								<clade>
+									<name>macacinebeta3_RL11H</name>
+									<eventsRec>
+										<leaf speciesLocation="macacinebeta3"/>
+									</eventsRec>
+								</clade>
+								<clade>
+									<name>macacinebeta8_RL11H</name>
+									<eventsRec>
+										<leaf speciesLocation="macacinebeta8"/>
+									</eventsRec>
+								</clade>
+							</clade>
+							<clade>
+								<name>macacinebetajap_RL11H</name>
+								<eventsRec>
+									<leaf speciesLocation="macacinebetajap"/>
+								</eventsRec>
+							</clade>
+						</clade>
+						<clade>
+							<name>0.990000</name>
+							<eventsRec>
+								<speciation speciesLocation="4"/>
+							</eventsRec>
+							<clade>
+								<name>macacinebetajap_RL11I</name>
+								<eventsRec>
+									<leaf speciesLocation="macacinebetajap"/>
+								</eventsRec>
+							</clade>
+							<clade>
+								<name>1.000000</name>
+								<eventsRec>
+									<speciation speciesLocation="3"/>
+								</eventsRec>
+								<clade>
+									<name>macacinebeta3_RL11I</name>
+									<eventsRec>
+										<leaf speciesLocation="macacinebeta3"/>
+									</eventsRec>
+								</clade>
+								<clade>
+									<name>macacinebeta8_RL11I</name>
+									<eventsRec>
+										<leaf speciesLocation="macacinebeta8"/>
+									</eventsRec>
+								</clade>
+							</clade>
+						</clade>
+					</clade>
+				</clade>
+				<clade>
+					<name>humanbeta5_UL4</name>
+					<eventsRec>
+						<speciation speciesLocation="6"/>
+					</eventsRec>
+						<clade>
+						<name>loss</name>
+						<eventsRec>
+							<loss speciesLocation="paninebeta2"/>
+						</eventsRec>
+					</clade>
+					<clade>
+						<name>humanbeta5_UL4</name>
+						<eventsRec>
+							<leaf speciesLocation="humanbeta5"/>
+						</eventsRec>
+					</clade>
+				</clade>
+			</clade>
+			<clade>
+				<name>0.590833</name>
+				<eventsRec>
+					<duplication speciesLocation="7"/>
+				</eventsRec>
+				<clade>
+					<name>0.706875</name>
+					<eventsRec>
+						<duplication speciesLocation="7"/>
+					</eventsRec>
+					<clade>
+						<name>0.584194</name>
+						<eventsRec>
+							<duplication speciesLocation="7"/>
+						</eventsRec>
+						<clade>
+							<name>0.569286</name>
+							<eventsRec>
+								<duplication speciesLocation="7"/>
+							</eventsRec>
+							<clade>
+								<name>0.632500</name>
+								<eventsRec>
+									<speciation speciesLocation="7"/>
+								</eventsRec>
+								<clade>
+									<name>0.987500</name>
+									<eventsRec>
+										<speciation speciesLocation="5"/>
+									</eventsRec>
+									<clade>
+										<name>0.580000</name>
+										<eventsRec>
+											<speciation speciesLocation="2"/>
+										</eventsRec>
+										<clade>
+											<name>cercopithecinebeta5_RL11M</name>
+											<eventsRec>
+												<leaf speciesLocation="cercopithecinebeta5"/>
+											</eventsRec>
+										</clade>
+										<clade>
+											<name>papiinebeta4_RL11M</name>
+											<eventsRec>
+												<speciation speciesLocation="1"/>
+											</eventsRec>
+												<clade>
+												<name>loss</name>
+												<eventsRec>
+													<loss speciesLocation="mandrillinebeta1"/>
+												</eventsRec>
+											</clade>
+											<clade>
+												<name>papiinebeta4_RL11M</name>
+												<eventsRec>
+													<leaf speciesLocation="papiinebeta4"/>
+												</eventsRec>
+											</clade>
+										</clade>
+									</clade>
+									<clade>
+										<name>0.590000</name>
+										<eventsRec>
+											<speciation speciesLocation="4"/>
+										</eventsRec>
+										<clade>
+											<name>0.995000</name>
+											<eventsRec>
+												<speciation speciesLocation="3"/>
+											</eventsRec>
+											<clade>
+												<name>macacinebeta3_RL11M</name>
+												<eventsRec>
+													<leaf speciesLocation="macacinebeta3"/>
+												</eventsRec>
+											</clade>
+											<clade>
+												<name>macacinebeta8_RL11M</name>
+												<eventsRec>
+													<leaf speciesLocation="macacinebeta8"/>
+												</eventsRec>
+											</clade>
+										</clade>
+										<clade>
+											<name>macacinebetajap_RL11M</name>
+											<eventsRec>
+												<leaf speciesLocation="macacinebetajap"/>
+											</eventsRec>
+										</clade>
+									</clade>
+								</clade>
+								<clade>
+									<name>0.643333</name>
+									<eventsRec>
+										<duplication speciesLocation="6"/>
+									</eventsRec>
+									<clade>
+										<name>0.800000</name>
+										<eventsRec>
+											<speciation speciesLocation="6"/>
+										</eventsRec>
+										<clade>
+											<name>humanbeta5_UL8</name>
+											<eventsRec>
+												<leaf speciesLocation="humanbeta5"/>
+											</eventsRec>
+										</clade>
+										<clade>
+											<name>paninebeta2_UL8</name>
+											<eventsRec>
+												<leaf speciesLocation="paninebeta2"/>
+											</eventsRec>
+										</clade>
+									</clade>
+									<clade>
+										<name>0.870000</name>
+										<eventsRec>
+											<speciation speciesLocation="6"/>
+										</eventsRec>
+										<clade>
+											<name>humanbeta5_UL9</name>
+											<eventsRec>
+												<leaf speciesLocation="humanbeta5"/>
+											</eventsRec>
+										</clade>
+										<clade>
+											<name>paninebeta2_UL9</name>
+											<eventsRec>
+												<leaf speciesLocation="paninebeta2"/>
+											</eventsRec>
+										</clade>
+									</clade>
+								</clade>
+							</clade>
+							<clade>
+								<name>0.625000</name>
+								<eventsRec>
+									<speciation speciesLocation="7"/>
+								</eventsRec>
+								<clade>
+									<name>0.900000</name>
+									<eventsRec>
+										<speciation speciesLocation="6"/>
+									</eventsRec>
+									<clade>
+										<name>humanbeta5_UL11</name>
+										<eventsRec>
+											<leaf speciesLocation="humanbeta5"/>
+										</eventsRec>
+									</clade>
+									<clade>
+										<name>paninebeta2_UL11</name>
+										<eventsRec>
+											<leaf speciesLocation="paninebeta2"/>
+										</eventsRec>
+									</clade>
+								</clade>
+								<clade>
+									<name>0.916250</name>
+									<eventsRec>
+										<speciation speciesLocation="5"/>
+									</eventsRec>
+									<clade>
+										<name>0.821429</name>
+										<eventsRec>
+											<speciation speciesLocation="2"/>
+										</eventsRec>
+										<clade>
+											<name>0.990000</name>
+											<eventsRec>
+												<speciation speciesLocation="1"/>
+											</eventsRec>
+											<clade>
+												<name>mandrillinebeta1_RL11K</name>
+												<eventsRec>
+													<leaf speciesLocation="mandrillinebeta1"/>
+												</eventsRec>
+											</clade>
+											<clade>
+												<name>papiinebeta4_RL11K</name>
+												<eventsRec>
+													<leaf speciesLocation="papiinebeta4"/>
+												</eventsRec>
+											</clade>
+										</clade>
+										<clade>
+											<name>cercopithecinebeta5_RL11K</name>
+											<eventsRec>
+												<leaf speciesLocation="cercopithecinebeta5"/>
+											</eventsRec>
+										</clade>
+									</clade>
+									<clade>
+										<name>0.812000</name>
+										<eventsRec>
+											<duplication speciesLocation="4"/>
+										</eventsRec>
+										<clade>
+											<name>0.830000</name>
+											<eventsRec>
+												<speciation speciesLocation="4"/>
+											</eventsRec>
+											<clade>
+												<name>0.630000</name>
+												<eventsRec>
+													<speciation speciesLocation="3"/>
+												</eventsRec>
+												<clade>
+													<name>macacinebeta3_RL11L</name>
+													<eventsRec>
+														<leaf speciesLocation="macacinebeta3"/>
+													</eventsRec>
+												</clade>
+												<clade>
+													<name>macacinebeta8_RL11L</name>
+													<eventsRec>
+														<leaf speciesLocation="macacinebeta8"/>
+													</eventsRec>
+												</clade>
+											</clade>
+											<clade>
+												<name>macacinebetajap_RL11L</name>
+												<eventsRec>
+													<leaf speciesLocation="macacinebetajap"/>
+												</eventsRec>
+											</clade>
+										</clade>
+										<clade>
+											<name>1.000000</name>
+											<eventsRec>
+												<speciation speciesLocation="4"/>
+											</eventsRec>
+											<clade>
+												<name>macacinebetajap_RL11K</name>
+												<eventsRec>
+													<leaf speciesLocation="macacinebetajap"/>
+												</eventsRec>
+											</clade>
+											<clade>
+												<name>0.550000</name>
+												<eventsRec>
+													<speciation speciesLocation="3"/>
+												</eventsRec>
+												<clade>
+													<name>macacinebeta3_RL11K</name>
+													<eventsRec>
+														<leaf speciesLocation="macacinebeta3"/>
+													</eventsRec>
+												</clade>
+												<clade>
+													<name>macacinebeta8_RL11K</name>
+													<eventsRec>
+														<leaf speciesLocation="macacinebeta8"/>
+													</eventsRec>
+												</clade>
+											</clade>
+										</clade>
+									</clade>
+								</clade>
+							</clade>
+						</clade>
+						<clade>
+							<name>0.530400</name>
+							<eventsRec>
+								<duplication speciesLocation="7"/>
+							</eventsRec>
+							<clade>
+								<name>0.692000</name>
+								<eventsRec>
+									<speciation speciesLocation="7"/>
+								</eventsRec>
+								<clade>
+									<name>1.000000</name>
+									<eventsRec>
+										<speciation speciesLocation="6"/>
+									</eventsRec>
+									<clade>
+										<name>humanbeta5_UL7</name>
+										<eventsRec>
+											<leaf speciesLocation="humanbeta5"/>
+										</eventsRec>
+									</clade>
+									<clade>
+										<name>paninebeta2_UL7</name>
+										<eventsRec>
+											<leaf speciesLocation="paninebeta2"/>
+										</eventsRec>
+									</clade>
+								</clade>
+								<clade>
+									<name>0.850000</name>
+									<eventsRec>
+										<speciation speciesLocation="5"/>
+									</eventsRec>
+									<clade>
+										<name>0.650000</name>
+										<eventsRec>
+											<speciation speciesLocation="2"/>
+										</eventsRec>
+										<clade>
+											<name>cercopithecinebeta5_RL11P</name>
+											<eventsRec>
+												<leaf speciesLocation="cercopithecinebeta5"/>
+											</eventsRec>
+										</clade>
+										<clade>
+											<name>1.000000</name>
+											<eventsRec>
+												<speciation speciesLocation="1"/>
+											</eventsRec>
+											<clade>
+												<name>papiinebeta4_RL11P</name>
+												<eventsRec>
+													<leaf speciesLocation="papiinebeta4"/>
+												</eventsRec>
+											</clade>
+											<clade>
+												<name>mandrillinebeta1_RL11P</name>
+												<eventsRec>
+													<leaf speciesLocation="mandrillinebeta1"/>
+												</eventsRec>
+											</clade>
+										</clade>
+									</clade>
+									<clade>
+										<name>macacinebetajap_RL11P</name>
+										<eventsRec>
+											<speciation speciesLocation="4"/>
+										</eventsRec>
+											<clade>
+											<name>loss</name>
+											<eventsRec>
+												<loss speciesLocation="3"/>
+											</eventsRec>
+										</clade>
+										<clade>
+											<name>macacinebetajap_RL11P</name>
+											<eventsRec>
+												<leaf speciesLocation="macacinebetajap"/>
+											</eventsRec>
+										</clade>
+									</clade>
+								</clade>
+							</clade>
+							<clade>
+								<name>0.756190</name>
+								<eventsRec>
+									<speciation speciesLocation="7"/>
+								</eventsRec>
+								<clade>
+									<name>0.747273</name>
+									<eventsRec>
+										<duplication speciesLocation="6"/>
+									</eventsRec>
+									<clade>
+										<name>0.840000</name>
+										<eventsRec>
+											<speciation speciesLocation="6"/>
+										</eventsRec>
+										<clade>
+											<name>humanbeta5_UL10</name>
+											<eventsRec>
+												<leaf speciesLocation="humanbeta5"/>
+											</eventsRec>
+										</clade>
+										<clade>
+											<name>paninebeta2_UL10</name>
+											<eventsRec>
+												<leaf speciesLocation="paninebeta2"/>
+											</eventsRec>
+										</clade>
+									</clade>
+									<clade>
+										<name>humanbeta5_UL1</name>
+										<eventsRec>
+											<speciation speciesLocation="6"/>
+										</eventsRec>
+											<clade>
+											<name>loss</name>
+											<eventsRec>
+												<loss speciesLocation="paninebeta2"/>
+											</eventsRec>
+										</clade>
+										<clade>
+											<name>humanbeta5_UL1</name>
+											<eventsRec>
+												<leaf speciesLocation="humanbeta5"/>
+											</eventsRec>
+										</clade>
+									</clade>
+								</clade>
+								<clade>
+									<name>0.780526</name>
+									<eventsRec>
+										<duplication speciesLocation="5"/>
+									</eventsRec>
+									<clade>
+										<name>0.750000</name>
+										<eventsRec>
+											<duplication speciesLocation="5"/>
+										</eventsRec>
+										<clade>
+											<name>0.816000</name>
+											<eventsRec>
+												<speciation speciesLocation="5"/>
+											</eventsRec>
+											<clade>
+												<name>0.490000</name>
+												<eventsRec>
+													<speciation speciesLocation="2"/>
+												</eventsRec>
+												<clade>
+													<name>0.945000</name>
+													<eventsRec>
+														<speciation speciesLocation="1"/>
+													</eventsRec>
+													<clade>
+														<name>mandrillinebeta1_RL11N</name>
+														<eventsRec>
+															<leaf speciesLocation="mandrillinebeta1"/>
+														</eventsRec>
+													</clade>
+													<clade>
+														<name>papiinebeta4_RL11N</name>
+														<eventsRec>
+															<leaf speciesLocation="papiinebeta4"/>
+														</eventsRec>
+													</clade>
+												</clade>
+												<clade>
+													<name>cercopithecinebeta5_RL11N</name>
+													<eventsRec>
+														<leaf speciesLocation="cercopithecinebeta5"/>
+													</eventsRec>
+												</clade>
+											</clade>
+											<clade>
+												<name>0.560000</name>
+												<eventsRec>
+													<speciation speciesLocation="4"/>
+												</eventsRec>
+												<clade>
+													<name>0.985000</name>
+													<eventsRec>
+														<speciation speciesLocation="3"/>
+													</eventsRec>
+													<clade>
+														<name>macacinebeta8_RL11N</name>
+														<eventsRec>
+															<leaf speciesLocation="macacinebeta8"/>
+														</eventsRec>
+													</clade>
+													<clade>
+														<name>macacinebeta3_RL11N</name>
+														<eventsRec>
+															<leaf speciesLocation="macacinebeta3"/>
+														</eventsRec>
+													</clade>
+												</clade>
+												<clade>
+													<name>macacinebetajap_RL11N</name>
+													<eventsRec>
+														<leaf speciesLocation="macacinebetajap"/>
+													</eventsRec>
+												</clade>
+											</clade>
+										</clade>
+										<clade>
+											<name>0.723636</name>
+											<eventsRec>
+												<duplication speciesLocation="5"/>
+											</eventsRec>
+											<clade>
+												<name>0.930000</name>
+												<eventsRec>
+													<speciation speciesLocation="5"/>
+												</eventsRec>
+												<clade>
+													<name>0.780000</name>
+													<eventsRec>
+														<speciation speciesLocation="2"/>
+													</eventsRec>
+													<clade>
+														<name>cercopithecinebeta5_RL11O</name>
+														<eventsRec>
+															<leaf speciesLocation="cercopithecinebeta5"/>
+														</eventsRec>
+													</clade>
+													<clade>
+														<name>0.900000</name>
+														<eventsRec>
+															<speciation speciesLocation="1"/>
+														</eventsRec>
+														<clade>
+															<name>mandrillinebeta1_RL11O</name>
+															<eventsRec>
+																<leaf speciesLocation="mandrillinebeta1"/>
+															</eventsRec>
+														</clade>
+														<clade>
+															<name>papiinebeta4_RL11O</name>
+															<eventsRec>
+																<leaf speciesLocation="papiinebeta4"/>
+															</eventsRec>
+														</clade>
+													</clade>
+												</clade>
+												<clade>
+													<name>0.725000</name>
+													<eventsRec>
+														<speciation speciesLocation="4"/>
+													</eventsRec>
+													<clade>
+														<name>macacinebetajap_RL11O</name>
+														<eventsRec>
+															<leaf speciesLocation="macacinebetajap"/>
+														</eventsRec>
+													</clade>
+													<clade>
+														<name>0.960000</name>
+														<eventsRec>
+															<speciation speciesLocation="3"/>
+														</eventsRec>
+														<clade>
+															<name>macacinebeta3_RL11O</name>
+															<eventsRec>
+																<leaf speciesLocation="macacinebeta3"/>
+															</eventsRec>
+														</clade>
+														<clade>
+															<name>macacinebeta8_RL11O</name>
+															<eventsRec>
+																<leaf speciesLocation="macacinebeta8"/>
+															</eventsRec>
+														</clade>
+													</clade>
+												</clade>
+											</clade>
+											<clade>
+												<name>0.992000</name>
+												<eventsRec>
+													<speciation speciesLocation="5"/>
+												</eventsRec>
+												<clade>
+													<name>0.590000</name>
+													<eventsRec>
+														<speciation speciesLocation="2"/>
+													</eventsRec>
+													<clade>
+														<name>cercopithecinebeta5_RL11Q</name>
+														<eventsRec>
+															<leaf speciesLocation="cercopithecinebeta5"/>
+														</eventsRec>
+													</clade>
+													<clade>
+														<name>0.870000</name>
+														<eventsRec>
+															<speciation speciesLocation="1"/>
+														</eventsRec>
+														<clade>
+															<name>mandrillinebeta1_RL11Q</name>
+															<eventsRec>
+																<leaf speciesLocation="mandrillinebeta1"/>
+															</eventsRec>
+														</clade>
+														<clade>
+															<name>papiinebeta4_RL11Q</name>
+															<eventsRec>
+																<leaf speciesLocation="papiinebeta4"/>
+															</eventsRec>
+														</clade>
+													</clade>
+												</clade>
+												<clade>
+													<name>1.000000</name>
+													<eventsRec>
+														<speciation speciesLocation="4"/>
+													</eventsRec>
+													<clade>
+														<name>macacinebetajap_RL11Q</name>
+														<eventsRec>
+															<leaf speciesLocation="macacinebetajap"/>
+														</eventsRec>
+													</clade>
+													<clade>
+														<name>1.000000</name>
+														<eventsRec>
+															<speciation speciesLocation="3"/>
+														</eventsRec>
+														<clade>
+															<name>macacinebeta3_RL11Q</name>
+															<eventsRec>
+																<leaf speciesLocation="macacinebeta3"/>
+															</eventsRec>
+														</clade>
+														<clade>
+															<name>macacinebeta8_RL11Q</name>
+															<eventsRec>
+																<leaf speciesLocation="macacinebeta8"/>
+															</eventsRec>
+														</clade>
+													</clade>
+												</clade>
+											</clade>
+										</clade>
+									</clade>
+									<clade>
+										<name>1.000000</name>
+										<eventsRec>
+											<speciation speciesLocation="5"/>
+										</eventsRec>
+											<clade>
+											<name>loss</name>
+											<eventsRec>
+												<loss speciesLocation="2"/>
+											</eventsRec>
+										</clade>
+										<clade>
+											<name>1.000000</name>
+											<eventsRec>
+												<speciation speciesLocation="4"/>
+											</eventsRec>
+												<clade>
+												<name>loss</name>
+												<eventsRec>
+													<loss speciesLocation="macacinebetajap"/>
+												</eventsRec>
+											</clade>
+											<clade>
+												<name>1.000000</name>
+												<eventsRec>
+													<speciation speciesLocation="3"/>
+												</eventsRec>
+												<clade>
+													<name>macacinebeta3_RL11O2</name>
+													<eventsRec>
+														<leaf speciesLocation="macacinebeta3"/>
+													</eventsRec>
+												</clade>
+												<clade>
+													<name>macacinebeta8_RL11O2</name>
+													<eventsRec>
+														<leaf speciesLocation="macacinebeta8"/>
+													</eventsRec>
+												</clade>
+											</clade>
+										</clade>
+									</clade>
+								</clade>
+							</clade>
+						</clade>
+					</clade>
+					<clade>
+						<name>0.637963</name>
+						<eventsRec>
+							<speciation speciesLocation="7"/>
+						</eventsRec>
+							<clade>
+							<name>loss</name>
+							<eventsRec>
+								<loss speciesLocation="6"/>
+							</eventsRec>
+						</clade>
+						<clade>
+							<name>0.637963</name>
+							<eventsRec>
+								<duplication speciesLocation="5"/>
+							</eventsRec>
+							<clade>
+								<name>0.827500</name>
+								<eventsRec>
+									<speciation speciesLocation="5"/>
+								</eventsRec>
+								<clade>
+									<name>0.746667</name>
+									<eventsRec>
+										<speciation speciesLocation="2"/>
+									</eventsRec>
+									<clade>
+										<name>cercopithecinebeta5_RL11R</name>
+										<eventsRec>
+											<leaf speciesLocation="cercopithecinebeta5"/>
+										</eventsRec>
+									</clade>
+									<clade>
+										<name>1.000000</name>
+										<eventsRec>
+											<speciation speciesLocation="1"/>
+										</eventsRec>
+										<clade>
+											<name>papiinebeta4_RL11R</name>
+											<eventsRec>
+												<leaf speciesLocation="papiinebeta4"/>
+											</eventsRec>
+										</clade>
+										<clade>
+											<name>mandrillinebeta1_RL11R</name>
+											<eventsRec>
+												<leaf speciesLocation="mandrillinebeta1"/>
+											</eventsRec>
+										</clade>
+									</clade>
+								</clade>
+								<clade>
+									<name>0.800000</name>
+									<eventsRec>
+										<speciation speciesLocation="4"/>
+									</eventsRec>
+									<clade>
+										<name>0.960000</name>
+										<eventsRec>
+											<speciation speciesLocation="3"/>
+										</eventsRec>
+										<clade>
+											<name>macacinebeta8_RL11R</name>
+											<eventsRec>
+												<leaf speciesLocation="macacinebeta8"/>
+											</eventsRec>
+										</clade>
+										<clade>
+											<name>macacinebeta3_RL11R</name>
+											<eventsRec>
+												<leaf speciesLocation="macacinebeta3"/>
+											</eventsRec>
+										</clade>
+									</clade>
+									<clade>
+										<name>macacinebetajap_RL11R</name>
+										<eventsRec>
+											<leaf speciesLocation="macacinebetajap"/>
+										</eventsRec>
+									</clade>
+								</clade>
+							</clade>
+							<clade>
+								<name>0.980000</name>
+								<eventsRec>
+									<speciation speciesLocation="5"/>
+								</eventsRec>
+								<clade>
+									<name>0.850000</name>
+									<eventsRec>
+										<speciation speciesLocation="2"/>
+									</eventsRec>
+									<clade>
+										<name>0.430000</name>
+										<eventsRec>
+											<speciation speciesLocation="1"/>
+										</eventsRec>
+										<clade>
+											<name>mandrillinebeta1_RL11S</name>
+											<eventsRec>
+												<leaf speciesLocation="mandrillinebeta1"/>
+											</eventsRec>
+										</clade>
+										<clade>
+											<name>papiinebeta4_RL11S</name>
+											<eventsRec>
+												<leaf speciesLocation="papiinebeta4"/>
+											</eventsRec>
+										</clade>
+									</clade>
+									<clade>
+										<name>cercopithecinebeta5_RL11S</name>
+										<eventsRec>
+											<leaf speciesLocation="cercopithecinebeta5"/>
+										</eventsRec>
+									</clade>
+								</clade>
+								<clade>
+									<name>0.790000</name>
+									<eventsRec>
+										<speciation speciesLocation="4"/>
+									</eventsRec>
+									<clade>
+										<name>0.990000</name>
+										<eventsRec>
+											<speciation speciesLocation="3"/>
+										</eventsRec>
+										<clade>
+											<name>macacinebeta3_RL11S</name>
+											<eventsRec>
+												<leaf speciesLocation="macacinebeta3"/>
+											</eventsRec>
+										</clade>
+										<clade>
+											<name>macacinebeta8_RL11S</name>
+											<eventsRec>
+												<leaf speciesLocation="macacinebeta8"/>
+											</eventsRec>
+										</clade>
+									</clade>
+									<clade>
+										<name>macacinebetajap_RL11S</name>
+										<eventsRec>
+											<leaf speciesLocation="macacinebetajap"/>
+										</eventsRec>
+									</clade>
+								</clade>
+							</clade>
+						</clade>
+					</clade>
+				</clade>
+				<clade>
+					<name>0.998571</name>
+					<eventsRec>
+						<speciation speciesLocation="7"/>
+					</eventsRec>
+					<clade>
+						<name>0.998000</name>
+						<eventsRec>
+							<speciation speciesLocation="5"/>
+						</eventsRec>
+						<clade>
+							<name>0.950000</name>
+							<eventsRec>
+								<speciation speciesLocation="2"/>
+							</eventsRec>
+							<clade>
+								<name>cercopithecinebeta5_RL11J</name>
+								<eventsRec>
+									<leaf speciesLocation="cercopithecinebeta5"/>
+								</eventsRec>
+							</clade>
+							<clade>
+								<name>0.890000</name>
+								<eventsRec>
+									<speciation speciesLocation="1"/>
+								</eventsRec>
+								<clade>
+									<name>mandrillinebeta1_RL11J</name>
+									<eventsRec>
+										<leaf speciesLocation="mandrillinebeta1"/>
+									</eventsRec>
+								</clade>
+								<clade>
+									<name>papiinebeta4_RL11J</name>
+									<eventsRec>
+										<leaf speciesLocation="papiinebeta4"/>
+									</eventsRec>
+								</clade>
+							</clade>
+						</clade>
+						<clade>
+							<name>0.910000</name>
+							<eventsRec>
+								<speciation speciesLocation="4"/>
+							</eventsRec>
+							<clade>
+								<name>macacinebetajap_RL11J</name>
+								<eventsRec>
+									<leaf speciesLocation="macacinebetajap"/>
+								</eventsRec>
+							</clade>
+							<clade>
+								<name>0.940000</name>
+								<eventsRec>
+									<speciation speciesLocation="3"/>
+								</eventsRec>
+								<clade>
+									<name>macacinebeta3_RL11J</name>
+									<eventsRec>
+										<leaf speciesLocation="macacinebeta3"/>
+									</eventsRec>
+								</clade>
+								<clade>
+									<name>macacinebeta8_RL11J</name>
+									<eventsRec>
+										<leaf speciesLocation="macacinebeta8"/>
+									</eventsRec>
+								</clade>
+							</clade>
+						</clade>
+					</clade>
+					<clade>
+						<name>0.940000</name>
+						<eventsRec>
+							<speciation speciesLocation="6"/>
+						</eventsRec>
+						<clade>
+							<name>humanbeta5_UL6</name>
+							<eventsRec>
+								<leaf speciesLocation="humanbeta5"/>
+							</eventsRec>
+						</clade>
+						<clade>
+							<name>paninebeta2_UL6</name>
+							<eventsRec>
+								<leaf speciesLocation="paninebeta2"/>
+							</eventsRec>
+						</clade>
+					</clade>
+				</clade>
+			</clade>
+		</clade>
+		<clade>
+			<name>0.710385</name>
+			<eventsRec>
+				<speciation speciesLocation="7"/>
+			</eventsRec>
+			<clade>
+				<name>0.993939</name>
+				<eventsRec>
+					<duplication speciesLocation="5"/>
+				</eventsRec>
+				<clade>
+					<name>0.801667</name>
+					<eventsRec>
+						<duplication speciesLocation="5"/>
+					</eventsRec>
+					<clade>
+						<name>0.742500</name>
+						<eventsRec>
+							<speciation speciesLocation="5"/>
+						</eventsRec>
+						<clade>
+							<name>1.000000</name>
+							<eventsRec>
+								<speciation speciesLocation="4"/>
+							</eventsRec>
+							<clade>
+								<name>macacinebetajap_RL11C</name>
+								<eventsRec>
+									<leaf speciesLocation="macacinebetajap"/>
+								</eventsRec>
+							</clade>
+							<clade>
+								<name>0.800000</name>
+								<eventsRec>
+									<speciation speciesLocation="3"/>
+								</eventsRec>
+								<clade>
+									<name>macacinebeta3_RL11C</name>
+									<eventsRec>
+										<leaf speciesLocation="macacinebeta3"/>
+									</eventsRec>
+								</clade>
+								<clade>
+									<name>macacinebeta8_RL11C</name>
+									<eventsRec>
+										<leaf speciesLocation="macacinebeta8"/>
+									</eventsRec>
+								</clade>
+							</clade>
+						</clade>
+						<clade>
+							<name>0.974706</name>
+							<eventsRec>
+								<duplication speciesLocation="2"/>
+							</eventsRec>
+							<clade>
+								<name>0.930000</name>
+								<eventsRec>
+									<duplication speciesLocation="2"/>
+								</eventsRec>
+								<clade>
+									<name>0.910000</name>
+									<eventsRec>
+										<speciation speciesLocation="2"/>
+									</eventsRec>
+									<clade>
+										<name>cercopithecinebeta5_RL11C1</name>
+										<eventsRec>
+											<leaf speciesLocation="cercopithecinebeta5"/>
+										</eventsRec>
+									</clade>
+									<clade>
+										<name>1.000000</name>
+										<eventsRec>
+											<speciation speciesLocation="1"/>
+										</eventsRec>
+										<clade>
+											<name>mandrillinebeta1_RL11B4</name>
+											<eventsRec>
+												<leaf speciesLocation="mandrillinebeta1"/>
+											</eventsRec>
+										</clade>
+										<clade>
+											<name>papiinebeta4_RL11B4</name>
+											<eventsRec>
+												<leaf speciesLocation="papiinebeta4"/>
+											</eventsRec>
+										</clade>
+									</clade>
+								</clade>
+								<clade>
+									<name>1.000000</name>
+									<eventsRec>
+										<speciation speciesLocation="2"/>
+									</eventsRec>
+										<clade>
+										<name>loss</name>
+										<eventsRec>
+											<loss speciesLocation="cercopithecinebeta5"/>
+										</eventsRec>
+									</clade>
+									<clade>
+										<name>1.000000</name>
+										<eventsRec>
+											<speciation speciesLocation="1"/>
+										</eventsRec>
+										<clade>
+											<name>mandrillinebeta1_RL11B3</name>
+											<eventsRec>
+												<leaf speciesLocation="mandrillinebeta1"/>
+											</eventsRec>
+										</clade>
+										<clade>
+											<name>papiinebeta4_RL11B3</name>
+											<eventsRec>
+												<leaf speciesLocation="papiinebeta4"/>
+											</eventsRec>
+										</clade>
+									</clade>
+								</clade>
+							</clade>
+							<clade>
+								<name>1.000000</name>
+								<eventsRec>
+									<speciation speciesLocation="2"/>
+								</eventsRec>
+								<clade>
+									<name>cercopithecinebeta5_RL11C2</name>
+									<eventsRec>
+										<leaf speciesLocation="cercopithecinebeta5"/>
+									</eventsRec>
+								</clade>
+								<clade>
+									<name>papiinebeta4_RL11C</name>
+									<eventsRec>
+										<speciation speciesLocation="1"/>
+									</eventsRec>
+										<clade>
+										<name>loss</name>
+										<eventsRec>
+											<loss speciesLocation="mandrillinebeta1"/>
+										</eventsRec>
+									</clade>
+									<clade>
+										<name>papiinebeta4_RL11C</name>
+										<eventsRec>
+											<leaf speciesLocation="papiinebeta4"/>
+										</eventsRec>
+									</clade>
+								</clade>
+							</clade>
+						</clade>
+					</clade>
+					<clade>
+						<name>0.760000</name>
+						<eventsRec>
+							<speciation speciesLocation="5"/>
+						</eventsRec>
+						<clade>
+							<name>0.990000</name>
+							<eventsRec>
+								<duplication speciesLocation="4"/>
+							</eventsRec>
+							<clade>
+								<name>0.990000</name>
+								<eventsRec>
+									<speciation speciesLocation="4"/>
+								</eventsRec>
+								<clade>
+									<name>macacinebetajap_RL11B</name>
+									<eventsRec>
+										<leaf speciesLocation="macacinebetajap"/>
+									</eventsRec>
+								</clade>
+								<clade>
+									<name>macacinebeta8_RL11B</name>
+									<eventsRec>
+										<speciation speciesLocation="3"/>
+									</eventsRec>
+										<clade>
+										<name>loss</name>
+										<eventsRec>
+											<loss speciesLocation="macacinebeta3"/>
+										</eventsRec>
+									</clade>
+									<clade>
+										<name>macacinebeta8_RL11B</name>
+										<eventsRec>
+											<leaf speciesLocation="macacinebeta8"/>
+										</eventsRec>
+									</clade>
+								</clade>
+							</clade>
+							<clade>
+								<name>macacinebeta3_RL11B</name>
+								<eventsRec>
+									<speciation speciesLocation="4"/>
+								</eventsRec>
+									<clade>
+									<name>loss</name>
+									<eventsRec>
+										<loss speciesLocation="macacinebetajap"/>
+									</eventsRec>
+								</clade>
+								<clade>
+									<name>macacinebeta3_RL11B</name>
+									<eventsRec>
+										<speciation speciesLocation="3"/>
+									</eventsRec>
+										<clade>
+										<name>loss</name>
+										<eventsRec>
+											<loss speciesLocation="macacinebeta8"/>
+										</eventsRec>
+									</clade>
+									<clade>
+										<name>macacinebeta3_RL11B</name>
+										<eventsRec>
+											<leaf speciesLocation="macacinebeta3"/>
+										</eventsRec>
+									</clade>
+								</clade>
+							</clade>
+						</clade>
+						<clade>
+							<name>0.840769</name>
+							<eventsRec>
+								<speciation speciesLocation="2"/>
+							</eventsRec>
+							<clade>
+								<name>cercopithecinebeta5_RL11B</name>
+								<eventsRec>
+									<leaf speciesLocation="cercopithecinebeta5"/>
+								</eventsRec>
+							</clade>
+							<clade>
+								<name>0.756667</name>
+								<eventsRec>
+									<duplication speciesLocation="1"/>
+								</eventsRec>
+								<clade>
+									<name>0.990000</name>
+									<eventsRec>
+										<speciation speciesLocation="1"/>
+									</eventsRec>
+									<clade>
+										<name>mandrillinebeta1_RL11B2</name>
+										<eventsRec>
+											<leaf speciesLocation="mandrillinebeta1"/>
+										</eventsRec>
+									</clade>
+									<clade>
+										<name>papiinebeta4_RL11B2</name>
+										<eventsRec>
+											<leaf speciesLocation="papiinebeta4"/>
+										</eventsRec>
+									</clade>
+								</clade>
+								<clade>
+									<name>0.990000</name>
+									<eventsRec>
+										<speciation speciesLocation="1"/>
+									</eventsRec>
+									<clade>
+										<name>mandrillinebeta1_RL11B1</name>
+										<eventsRec>
+											<leaf speciesLocation="mandrillinebeta1"/>
+										</eventsRec>
+									</clade>
+									<clade>
+										<name>papiinebeta4_RL11B1</name>
+										<eventsRec>
+											<leaf speciesLocation="papiinebeta4"/>
+										</eventsRec>
+									</clade>
+								</clade>
+							</clade>
+						</clade>
+					</clade>
+				</clade>
+				<clade>
+					<name>0.841333</name>
+					<eventsRec>
+						<duplication speciesLocation="5"/>
+					</eventsRec>
+					<clade>
+						<name>0.898000</name>
+						<eventsRec>
+							<speciation speciesLocation="5"/>
+						</eventsRec>
+						<clade>
+							<name>0.650000</name>
+							<eventsRec>
+								<speciation speciesLocation="2"/>
+							</eventsRec>
+							<clade>
+								<name>0.652000</name>
+								<eventsRec>
+									<duplication speciesLocation="1"/>
+								</eventsRec>
+								<clade>
+									<name>0.600000</name>
+									<eventsRec>
+										<speciation speciesLocation="1"/>
+									</eventsRec>
+									<clade>
+										<name>0.750000</name>
+										<eventsRec>
+											<duplication speciesLocation="papiinebeta4"/>
+										</eventsRec>
+										<clade>
+											<name>papiinebeta4_RL11D3</name>
+											<eventsRec>
+												<leaf speciesLocation="papiinebeta4"/>
+											</eventsRec>
+										</clade>
+										<clade>
+											<name>papiinebeta4_RL11D1</name>
+											<eventsRec>
+												<leaf speciesLocation="papiinebeta4"/>
+											</eventsRec>
+										</clade>
+									</clade>
+									<clade>
+										<name>mandrillinebeta1_RL11D2</name>
+										<eventsRec>
+											<leaf speciesLocation="mandrillinebeta1"/>
+										</eventsRec>
+									</clade>
+								</clade>
+								<clade>
+									<name>0.990000</name>
+									<eventsRec>
+										<speciation speciesLocation="1"/>
+									</eventsRec>
+									<clade>
+										<name>mandrillinebeta1_RL11D1</name>
+										<eventsRec>
+											<leaf speciesLocation="mandrillinebeta1"/>
+										</eventsRec>
+									</clade>
+									<clade>
+										<name>papiinebeta4_RL11D2</name>
+										<eventsRec>
+											<leaf speciesLocation="papiinebeta4"/>
+										</eventsRec>
+									</clade>
+								</clade>
+							</clade>
+							<clade>
+								<name>cercopithecinebeta5_RL11D</name>
+								<eventsRec>
+									<leaf speciesLocation="cercopithecinebeta5"/>
+								</eventsRec>
+							</clade>
+						</clade>
+						<clade>
+							<name>0.790000</name>
+							<eventsRec>
+								<duplication speciesLocation="4"/>
+							</eventsRec>
+							<clade>
+								<name>1.000000</name>
+								<eventsRec>
+									<speciation speciesLocation="4"/>
+								</eventsRec>
+								<clade>
+									<name>macacinebetajap_RL11D1</name>
+									<eventsRec>
+										<leaf speciesLocation="macacinebetajap"/>
+									</eventsRec>
+								</clade>
+								<clade>
+									<name>0.920000</name>
+									<eventsRec>
+										<speciation speciesLocation="3"/>
+									</eventsRec>
+									<clade>
+										<name>macacinebeta3_RL11D1</name>
+										<eventsRec>
+											<leaf speciesLocation="macacinebeta3"/>
+										</eventsRec>
+									</clade>
+									<clade>
+										<name>macacinebeta8_RL11D</name>
+										<eventsRec>
+											<leaf speciesLocation="macacinebeta8"/>
+										</eventsRec>
+									</clade>
+								</clade>
+							</clade>
+							<clade>
+								<name>1.000000</name>
+								<eventsRec>
+									<speciation speciesLocation="4"/>
+								</eventsRec>
+								<clade>
+									<name>macacinebetajap_RL11D2</name>
+									<eventsRec>
+										<leaf speciesLocation="macacinebetajap"/>
+									</eventsRec>
+								</clade>
+								<clade>
+									<name>macacinebeta3_RL11D2</name>
+									<eventsRec>
+										<speciation speciesLocation="3"/>
+									</eventsRec>
+										<clade>
+										<name>loss</name>
+										<eventsRec>
+											<loss speciesLocation="macacinebeta8"/>
+										</eventsRec>
+									</clade>
+									<clade>
+										<name>macacinebeta3_RL11D2</name>
+										<eventsRec>
+											<leaf speciesLocation="macacinebeta3"/>
+										</eventsRec>
+									</clade>
+								</clade>
+							</clade>
+						</clade>
+					</clade>
+					<clade>
+						<name>0.757500</name>
+						<eventsRec>
+							<speciation speciesLocation="5"/>
+						</eventsRec>
+						<clade>
+							<name>0.610000</name>
+							<eventsRec>
+								<speciation speciesLocation="2"/>
+							</eventsRec>
+							<clade>
+								<name>1.000000</name>
+								<eventsRec>
+									<speciation speciesLocation="1"/>
+								</eventsRec>
+								<clade>
+									<name>mandrillinebeta1_RL11F</name>
+									<eventsRec>
+										<leaf speciesLocation="mandrillinebeta1"/>
+									</eventsRec>
+								</clade>
+								<clade>
+									<name>papiinebeta4_RL11F</name>
+									<eventsRec>
+										<leaf speciesLocation="papiinebeta4"/>
+									</eventsRec>
+								</clade>
+							</clade>
+							<clade>
+								<name>cercopithecinebeta5_RL11F</name>
+								<eventsRec>
+									<leaf speciesLocation="cercopithecinebeta5"/>
+								</eventsRec>
+							</clade>
+						</clade>
+						<clade>
+							<name>1.000000</name>
+							<eventsRec>
+								<speciation speciesLocation="4"/>
+							</eventsRec>
+							<clade>
+								<name>macacinebetajap_RL11F</name>
+								<eventsRec>
+									<leaf speciesLocation="macacinebetajap"/>
+								</eventsRec>
+							</clade>
+							<clade>
+								<name>macacinebeta3_RL11F</name>
+								<eventsRec>
+									<speciation speciesLocation="3"/>
+								</eventsRec>
+									<clade>
+									<name>loss</name>
+									<eventsRec>
+										<loss speciesLocation="macacinebeta8"/>
+									</eventsRec>
+								</clade>
+								<clade>
+									<name>macacinebeta3_RL11F</name>
+									<eventsRec>
+										<leaf speciesLocation="macacinebeta3"/>
+									</eventsRec>
+								</clade>
+							</clade>
+						</clade>
+					</clade>
+				</clade>
+			</clade>
+			<clade>
+				<name>0.960000</name>
+				<eventsRec>
+					<speciation speciesLocation="6"/>
+				</eventsRec>
+				<clade>
+					<name>humanbeta5_UL5</name>
+					<eventsRec>
+						<leaf speciesLocation="humanbeta5"/>
+					</eventsRec>
+				</clade>
+				<clade>
+					<name>paninebeta2_UL5</name>
+					<eventsRec>
+						<leaf speciesLocation="paninebeta2"/>
+					</eventsRec>
+				</clade>
+			</clade>
+		</clade>
+	</clade>
+</clade>
+</phylogeny>
+</recGeneTree>
+</recPhylo>

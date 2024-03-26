@@ -1,0 +1,9 @@
+SPECIES: FAMILY_COVERAGE
+cercopithecinebeta5: 1
+humanbeta5: 1
+macacinebeta3: 1
+macacinebeta8: 1
+macacinebetajap: 1
+mandrillinebeta1: 1
+paninebeta2: 1
+papiinebeta4: 1

@@ -1,0 +1,15 @@
+1 21 2 2 0 
+2 20 3 2 0 
+3 22 0 7 0 
+4 23 5 4 0 
+5 18 7 1 0 
+6 13 3 3 0 
+7 11 10 1 0 
+cercopithecinebeta5 19 0 0 0 
+humanbeta5 14 1 0 0 
+macacinebeta3 20 0 0 0 
+macacinebeta8 17 0 0 0 
+macacinebetajap 20 0 0 0 
+mandrillinebeta1 19 0 0 0 
+paninebeta2 10 0 0 0 
+papiinebeta4 22 1 0 0 

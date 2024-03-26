@@ -1,0 +1,16 @@
+#S #SL #D #T #TL
+papiinebeta4 S=22 SL=0 D=1 T=0 TL=0
+mandrillinebeta1 S=19 SL=0 D=0 T=0 TL=0
+cercopithecinebeta5 S=19 SL=0 D=0 T=0 TL=0
+macacinebeta3 S=20 SL=0 D=0 T=0 TL=0
+macacinebeta8 S=17 SL=0 D=0 T=0 TL=0
+macacinebetajap S=20 SL=0 D=0 T=0 TL=0
+humanbeta5 S=14 SL=0 D=1 T=0 TL=0
+paninebeta2 S=10 SL=0 D=0 T=0 TL=0
+5 S=17 SL=1 D=7 T=0 TL=0
+2 S=18 SL=2 D=3 T=0 TL=0
+1 S=19 SL=2 D=2 T=0 TL=0
+4 S=19 SL=4 D=5 T=0 TL=0
+3 S=15 SL=7 D=0 T=0 TL=0
+6 S=10 SL=3 D=3 T=0 TL=0
+7 S=10 SL=1 D=10 T=0 TL=0

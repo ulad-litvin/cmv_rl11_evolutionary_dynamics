@@ -1,0 +1,77 @@
+[00:00:00] GeneRax 2.0.4
+Logs will also be printed into cmv_rl11_all_tbe_rec/generax.log
+GeneRax was called as follow:
+generax --families ./rl11_family_file.txt --species-tree ./cmv_tree.nw --rec-model UndatedDL --prefix cmv_rl11_all_tbe_rec 
+
+General information:
+- Output prefix: cmv_rl11_all_tbe_rec
+- Families information: ./rl11_family_file.txt
+- Species tree: ./cmv_tree.nw
+- MPI Ranks: 1
+- Random seed: 123
+- Reconciliation model: UndatedDL
+- DTL rates: global rates
+- Infer ML reconciliation: ON
+- Unrooted reconciliation likelihood: OFF
+- Prune species tree mode: OFF
+
+Gene tree correction information:
+- Gene tree strategy: SPR
+- Max gene SPR radius: 5
+
+[00:00:00] Filtering invalid families...
+
+End of instance initialization
+[00:00:00] Starting species tree initialization...
+[00:00:00] End of species tree initialization
+[00:00:00] Filtering invalid families based on the starting species tree...
+
+[00:00:00] Gathering statistics about the families...
+[00:00:00] Input data information:
+- Number of gene families: 1
+- Number of species: 8
+- Total number of genes: 141
+- Average number of genes per family: 141
+- Maximum number of genes per family: 141
+- Species covered with the smallest family coverage: "paninebeta2" (covered by 1/1 families)
+- Average (over species) species family coverage: 1
+
+[00:00:00] Reconciliation rates optimization... 
+	D=0.248109, L=0.392983, RecLL= -332.676
+
+[00:00:00] Optimizing gene trees with radius=1... 
+	JointLL=-60209.1 RecLL=-214.036 LibpllLL=-59995.1
+
+[00:09:42] Reconciliation rates optimization... 
+	D=0.168808, L=0.126625, RecLL= -191.283
+
+[00:09:42] Optimizing gene trees with radius=2... 
+	JointLL=-60175.3 RecLL=-175.617 LibpllLL=-59999.7
+
+[00:14:57] Reconciliation rates optimization... 
+	D=0.126866, L=0.0920185, RecLL= -175.016
+
+[00:14:57] Optimizing gene trees with radius=3... 
+	JointLL=-60171.6 RecLL=-173.675 LibpllLL=-59997.9
+
+[00:22:33] Reconciliation rates optimization... 
+	D=0.138717, L=0.0916113, RecLL= -175.057
+
+[00:22:34] Optimizing gene trees with radius=4... 
+	JointLL=-60171.1 RecLL=-173.715 LibpllLL=-59997.4
+
+[00:29:22] Reconciliation rates optimization... 
+	D=0.129934, L=0.0876392, RecLL= -174.981
+
+[00:29:22] Optimizing gene trees with radius=5... 
+	JointLL=-60171 RecLL=-173.64 LibpllLL=-59997.4
+
+[00:40:17] Reconciling gene trees with the species tree...
+[00:40:17] Terminating the instance..
+
+[00:40:17] DT rates: D=0.129934 L= 0.0876392
+[00:40:17] Reconciliation likelihood: -173.64
+[00:40:17] Phylogenetic likelihood: -59997.4
+[00:40:17] Joint likelihood: -60171
+[00:40:17] Results directory: cmv_rl11_all_tbe_rec
+[00:40:17] End of GeneRax execution

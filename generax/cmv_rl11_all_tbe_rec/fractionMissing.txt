@@ -1,0 +1,8 @@
+paninebeta2 0.545455
+humanbeta5 0.363636
+macacinebeta8 0.227273
+macacinebeta3 0.0909091
+cercopithecinebeta5 0.136364
+mandrillinebeta1 0.136364
+macacinebetajap 0.0909091
+papiinebeta4 0

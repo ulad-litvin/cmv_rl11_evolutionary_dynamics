@@ -1,0 +1,19 @@
+Starting optimizeGeneTreesSlave
+LibpllModel WAG+F+R5
+Starting optimizing gene tree
+Number of ranks 1
+(0.168808, 0.126625, score = 0)
+Taxa number: 141
+joint: -60181.1  libpll: -59991.1  reconciliation: -189.938  
+Initial ll = -60181.1
+Start SPR round (std::hash=60070, (best ll=-60181.1, radius=2, possible moves: 1772)
+best;; -60175.9 0
+Start SPR round (std::hash=24038, (best ll=-60175.9, radius=2, possible moves: 1772)
+best;; -60175.3 0
+Start SPR round (std::hash=21040, (best ll=-60175.3, radius=2, possible moves: 1772)
+best;; -60175.3 0
+joint: -60175.3  libpll: -59999.7  reconciliation: -175.617  
+Saving tree in cmv_rl11_all_tbe_rec/results/rl11_family/geneTree.newick
+Finished saving  cmv_rl11_all_tbe_rec/results/rl11_family/geneTree.newick
+End of optimizing gene tree
+End of optimizeGeneTreesSlave

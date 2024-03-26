@@ -1,0 +1,5 @@
+[FAMILIES]
+- rl11_family
+starting_gene_tree = rl11_tree.nw
+alignment = rl11_msa.fa
+subst_model = WAG+F+R5
