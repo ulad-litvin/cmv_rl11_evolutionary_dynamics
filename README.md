@@ -19,7 +19,7 @@ Contains [raw DIGS results](digs/digs_raw_results.csv) and [processed DIGS resul
 Contains protein structures predicted with ESMFold v.1.0.3 using:
 
 ```bash
-esm-fold -i ../fasta_files/adeno_cr1_cmv_rl11_elephantidbeta_ee50.fa -o ../esmfold/esmfold_adeno_cr1_cmv_rl11_pdbs
+esm-fold -i ./fasta_files/adeno_cr1_cmv_rl11_elephantidbeta_ee50.fa -o ./esmfold/esmfold_adeno_cr1_cmv_rl11_pdbs
 ```
 
 ## [FASTA files folder](fasta_files)
@@ -31,9 +31,9 @@ Contains FASTA files with sequences from [Table S2](supplementary_tables/sup_tab
 Contains [Foldseek results](foldseek/foldseek_esmfold_cmv_rl11_with_rl11d_only_results.tsv) generated with Foldseek v.8.ef4e960 using:
 
 ```bash
-foldseek createdb ../esmfold/esmfold_adeno_cr1_cmv_rl11_pdbs esmfold_pdbs_DB
+foldseek createdb ./esmfold/esmfold_adeno_cr1_cmv_rl11_pdbs esmfold_pdbs_DB
 
-foldseek easy-search ../esmfold/esmfold_adeno_cr1_cmv_rl11_pdbs esmfold_pdbs_DB foldseek/foldseek_esmfold_cmv_rl11_with_rl11d_only_results.tsv tmp --format-output "query,target,fident,alnlen,mismatch,gapopen,qstart,qend,tstart,tend,qaln,taln,evalue,bits,prob,lddt,alntmscore" --exhaustive-search -e 1
+foldseek easy-search ./esmfold/esmfold_adeno_cr1_cmv_rl11_pdbs esmfold_pdbs_DB ./foldseek/foldseek_esmfold_cmv_rl11_with_rl11d_only_results.tsv tmp --format-output "query,target,fident,alnlen,mismatch,gapopen,qstart,qend,tstart,tend,qaln,taln,evalue,bits,prob,lddt,alntmscore" --exhaustive-search -e 1
 ```
 
 The [Foldseek results](foldseek/foldseek_esmfold_cmv_rl11_with_rl11d_only_results.tsv) were processed with [Foldseek notebook](notebooks/process_foldseek_results_manuscript.ipynb) to produce [Foldseek MSA](foldseek/al_foldseek_esmfold_mandrillinebeta1_RL11J.fa).
@@ -43,7 +43,7 @@ The [Foldseek results](foldseek/foldseek_esmfold_cmv_rl11_with_rl11d_only_result
 Contains files produced with GeneRax v.2.0.4 using:
 
 ```bash
-generax --families ../generax/rl11_family_file.txt --species-tree ../generax/cmv_tree.nw --rec-model UndatedDL --prefix ../generax/cmv_rl11_all_tbe_rec
+generax --families ./generax/rl11_family_file.txt --species-tree ./generax/cmv_tree.nw --rec-model UndatedDL --prefix ./generax/cmv_rl11_all_tbe_rec
 ```
 
 ## [Functional regions prediction folder](interproscan_signalp_netnglyc_netoglyc)
