@@ -1,0 +1,574 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+     width="800" height="1400" viewBox="-400.0 -700.0 800 1400">
+<defs>
+</defs>
+<text x="-290" y="-650" font-size="25" fill="black">macacine_betaherpesvirus_8</text>
+<text x="-290" y="-580" font-size="25" fill="black">RL11A</text>
+<path d="M-54,-567.5 L-54,-600" stroke="#1e90ff" />
+<path d="M-49,-567.5 L-49,-600" stroke="#1e90ff" />
+<path d="M-46,-567.5 L-46,-600" stroke="#1e90ff" />
+<path d="M-44,-567.5 L-44,-600" stroke="#1e90ff" />
+<path d="M-40,-567.5 L-40,-600" stroke="#1e90ff" />
+<path d="M-171,-600 L-171,-607.5" stroke="#dc143c" />
+<path d="M-163,-600 L-163,-607.5" stroke="#dc143c" />
+<path d="M-152,-600 L-152,-607.5" stroke="#dc143c" />
+<path d="M-146,-600 L-146,-607.5" stroke="#dc143c" />
+<path d="M-133,-600 L-133,-607.5" stroke="#dc143c" />
+<path d="M-129,-600 L-129,-607.5" stroke="#dc143c" />
+<path d="M-98,-600 L-98,-607.5" stroke="#dc143c" />
+<path d="M-74,-600 L-74,-607.5" stroke="#dc143c" />
+<path d="M-66,-600 L-66,-607.5" stroke="#dc143c" />
+<rect x="-200" y="-600" width="273" height="25" fill="white" stroke="black" />
+<rect x="-200" y="-600" width="21.0" height="25" fill="#dc143c" stroke="black" />
+<rect x="-171.0" y="-600" width="108.0" height="25" fill="#ffd700" stroke="black" />
+<rect x="-15.0" y="-600" width="22.0" height="25" fill="#1e90ff" stroke="black" />
+<text x="-290" y="-530" font-size="25" fill="black">RL11B</text>
+<path d="M-62,-517.5 L-62,-550" stroke="#1e90ff" />
+<path d="M-59,-517.5 L-59,-550" stroke="#1e90ff" />
+<path d="M-56,-517.5 L-56,-550" stroke="#1e90ff" />
+<path d="M-55,-517.5 L-55,-550" stroke="#1e90ff" />
+<path d="M-54,-517.5 L-54,-550" stroke="#1e90ff" />
+<path d="M-177,-550 L-177,-557.5" stroke="#dc143c" />
+<path d="M-161,-550 L-161,-557.5" stroke="#dc143c" />
+<path d="M-95,-550 L-95,-557.5" stroke="#dc143c" />
+<path d="M-78,-550 L-78,-557.5" stroke="#dc143c" />
+<rect x="-200" y="-550" width="161" height="25" fill="white" stroke="black" />
+<rect x="-200" y="-550" width="17.0" height="25" fill="#dc143c" stroke="black" />
+<rect x="-179.0" y="-550" width="113.0" height="25" fill="#ffd700" stroke="black" />
+<text x="-290" y="-480" font-size="25" fill="black">RL11C</text>
+<path d="M-190,-500 L-190,-507.5" stroke="#dc143c" />
+<path d="M-173,-500 L-173,-507.5" stroke="#dc143c" />
+<path d="M-142,-500 L-142,-507.5" stroke="#dc143c" />
+<path d="M-118,-500 L-118,-507.5" stroke="#dc143c" />
+<path d="M-102,-500 L-102,-507.5" stroke="#dc143c" />
+<path d="M-98,-500 L-98,-507.5" stroke="#dc143c" />
+<path d="M-90,-500 L-90,-507.5" stroke="#dc143c" />
+<path d="M-69,-500 L-69,-507.5" stroke="#dc143c" />
+<rect x="-200" y="-500" width="199" height="25" fill="white" stroke="black" />
+<rect x="-178.0" y="-500" width="117.0" height="25" fill="#ffd700" stroke="black" />
+<rect x="-44.0" y="-500" width="22.0" height="25" fill="#1e90ff" stroke="black" />
+<text x="-290" y="-430" font-size="25" fill="black">RL11D</text>
+<path d="M-124,-417.5 L-124,-450" stroke="#1e90ff" />
+<path d="M-114,-417.5 L-114,-450" stroke="#1e90ff" />
+<path d="M-59,-417.5 L-59,-450" stroke="#1e90ff" />
+<path d="M-58,-417.5 L-58,-450" stroke="#1e90ff" />
+<path d="M-57,-417.5 L-57,-450" stroke="#1e90ff" />
+<path d="M-49,-417.5 L-49,-450" stroke="#1e90ff" />
+<path d="M-45,-417.5 L-45,-450" stroke="#1e90ff" />
+<path d="M-166,-450 L-166,-457.5" stroke="#dc143c" />
+<path d="M-160,-450 L-160,-457.5" stroke="#dc143c" />
+<path d="M-152,-450 L-152,-457.5" stroke="#dc143c" />
+<path d="M-100,-450 L-100,-457.5" stroke="#dc143c" />
+<path d="M-68,-450 L-68,-457.5" stroke="#dc143c" />
+<path d="M-32,-450 L-32,-457.5" stroke="#dc143c" />
+<rect x="-200" y="-450" width="213" height="25" fill="white" stroke="black" />
+<rect x="-200" y="-450" width="23.0" height="25" fill="#dc143c" stroke="black" />
+<rect x="-172.0" y="-450" width="111.0" height="25" fill="#ffd700" stroke="black" />
+<rect x="-31.0" y="-450" width="22.0" height="25" fill="#1e90ff" stroke="black" />
+<text x="-290" y="-380" font-size="25" fill="black">RL11H</text>
+<path d="M-173,-367.5 L-173,-400" stroke="#1e90ff" />
+<path d="M-172,-367.5 L-172,-400" stroke="#1e90ff" />
+<path d="M-169,-367.5 L-169,-400" stroke="#1e90ff" />
+<path d="M-168,-367.5 L-168,-400" stroke="#1e90ff" />
+<path d="M-166,-367.5 L-166,-400" stroke="#1e90ff" />
+<path d="M-165,-367.5 L-165,-400" stroke="#1e90ff" />
+<path d="M-164,-367.5 L-164,-400" stroke="#1e90ff" />
+<path d="M-161,-367.5 L-161,-400" stroke="#1e90ff" />
+<path d="M-160,-367.5 L-160,-400" stroke="#1e90ff" />
+<path d="M-152,-367.5 L-152,-400" stroke="#1e90ff" />
+<path d="M-148,-367.5 L-148,-400" stroke="#1e90ff" />
+<path d="M-147,-367.5 L-147,-400" stroke="#1e90ff" />
+<path d="M-144,-367.5 L-144,-400" stroke="#1e90ff" />
+<path d="M-142,-367.5 L-142,-400" stroke="#1e90ff" />
+<path d="M-141,-367.5 L-141,-400" stroke="#1e90ff" />
+<path d="M-140,-367.5 L-140,-400" stroke="#1e90ff" />
+<path d="M-136,-367.5 L-136,-400" stroke="#1e90ff" />
+<path d="M-135,-367.5 L-135,-400" stroke="#1e90ff" />
+<path d="M-131,-367.5 L-131,-400" stroke="#1e90ff" />
+<path d="M-130,-367.5 L-130,-400" stroke="#1e90ff" />
+<path d="M-129,-367.5 L-129,-400" stroke="#1e90ff" />
+<path d="M-127,-367.5 L-127,-400" stroke="#1e90ff" />
+<path d="M-126,-367.5 L-126,-400" stroke="#1e90ff" />
+<path d="M-125,-367.5 L-125,-400" stroke="#1e90ff" />
+<path d="M-124,-367.5 L-124,-400" stroke="#1e90ff" />
+<path d="M-122,-367.5 L-122,-400" stroke="#1e90ff" />
+<path d="M-121,-367.5 L-121,-400" stroke="#1e90ff" />
+<path d="M-117,-367.5 L-117,-400" stroke="#1e90ff" />
+<path d="M-115,-367.5 L-115,-400" stroke="#1e90ff" />
+<path d="M-114,-367.5 L-114,-400" stroke="#1e90ff" />
+<path d="M-109,-367.5 L-109,-400" stroke="#1e90ff" />
+<path d="M-91,-367.5 L-91,-400" stroke="#1e90ff" />
+<path d="M-89,-367.5 L-89,-400" stroke="#1e90ff" />
+<path d="M-88,-367.5 L-88,-400" stroke="#1e90ff" />
+<path d="M-86,-367.5 L-86,-400" stroke="#1e90ff" />
+<path d="M-85,-367.5 L-85,-400" stroke="#1e90ff" />
+<path d="M-83,-367.5 L-83,-400" stroke="#1e90ff" />
+<path d="M-82,-367.5 L-82,-400" stroke="#1e90ff" />
+<path d="M-81,-367.5 L-81,-400" stroke="#1e90ff" />
+<path d="M-75,-367.5 L-75,-400" stroke="#1e90ff" />
+<path d="M-74,-367.5 L-74,-400" stroke="#1e90ff" />
+<path d="M56,-367.5 L56,-400" stroke="#1e90ff" />
+<path d="M72,-367.5 L72,-400" stroke="#1e90ff" />
+<path d="M-184,-400 L-184,-407.5" stroke="#dc143c" />
+<path d="M-181,-400 L-181,-407.5" stroke="#dc143c" />
+<path d="M-175,-400 L-175,-407.5" stroke="#dc143c" />
+<path d="M-154,-400 L-154,-407.5" stroke="#dc143c" />
+<path d="M-153,-400 L-153,-407.5" stroke="#dc143c" />
+<path d="M-113,-400 L-113,-407.5" stroke="#dc143c" />
+<path d="M-93,-400 L-93,-407.5" stroke="#dc143c" />
+<path d="M-77,-400 L-77,-407.5" stroke="#dc143c" />
+<path d="M-42,-400 L-42,-407.5" stroke="#dc143c" />
+<path d="M-38,-400 L-38,-407.5" stroke="#dc143c" />
+<path d="M-9,-400 L-9,-407.5" stroke="#dc143c" />
+<path d="M-2,-400 L-2,-407.5" stroke="#dc143c" />
+<path d="M41,-400 L41,-407.5" stroke="#dc143c" />
+<path d="M48,-400 L48,-407.5" stroke="#dc143c" />
+<rect x="-200" y="-400" width="357" height="25" fill="white" stroke="black" />
+<rect x="-200" y="-400" width="13.0" height="25" fill="#dc143c" stroke="black" />
+<rect x="-51.0" y="-400" width="93.0" height="25" fill="#ffd700" stroke="black" />
+<rect x="107.0" y="-400" width="22.0" height="25" fill="#1e90ff" stroke="black" />
+<text x="-290" y="-330" font-size="25" fill="black">RL11I</text>
+<path d="M-167,-317.5 L-167,-350" stroke="#1e90ff" />
+<path d="M-159,-317.5 L-159,-350" stroke="#1e90ff" />
+<path d="M-158,-317.5 L-158,-350" stroke="#1e90ff" />
+<path d="M-157,-317.5 L-157,-350" stroke="#1e90ff" />
+<path d="M-154,-317.5 L-154,-350" stroke="#1e90ff" />
+<path d="M-153,-317.5 L-153,-350" stroke="#1e90ff" />
+<path d="M-149,-317.5 L-149,-350" stroke="#1e90ff" />
+<path d="M-148,-317.5 L-148,-350" stroke="#1e90ff" />
+<path d="M-145,-317.5 L-145,-350" stroke="#1e90ff" />
+<path d="M-144,-317.5 L-144,-350" stroke="#1e90ff" />
+<path d="M-138,-317.5 L-138,-350" stroke="#1e90ff" />
+<path d="M-133,-317.5 L-133,-350" stroke="#1e90ff" />
+<path d="M-127,-317.5 L-127,-350" stroke="#1e90ff" />
+<path d="M-126,-317.5 L-126,-350" stroke="#1e90ff" />
+<path d="M11,-317.5 L11,-350" stroke="#1e90ff" />
+<path d="M14,-317.5 L14,-350" stroke="#1e90ff" />
+<path d="M35,-317.5 L35,-350" stroke="#1e90ff" />
+<path d="M-162,-350 L-162,-357.5" stroke="#dc143c" />
+<path d="M-140,-350 L-140,-357.5" stroke="#dc143c" />
+<path d="M-135,-350 L-135,-357.5" stroke="#dc143c" />
+<path d="M-86,-350 L-86,-357.5" stroke="#dc143c" />
+<path d="M-82,-350 L-82,-357.5" stroke="#dc143c" />
+<path d="M-76,-350 L-76,-357.5" stroke="#dc143c" />
+<path d="M-51,-350 L-51,-357.5" stroke="#dc143c" />
+<path d="M-35,-350 L-35,-357.5" stroke="#dc143c" />
+<path d="M-30,-350 L-30,-357.5" stroke="#dc143c" />
+<path d="M-10,-350 L-10,-357.5" stroke="#dc143c" />
+<path d="M-3,-350 L-3,-357.5" stroke="#dc143c" />
+<path d="M6,-350 L6,-357.5" stroke="#dc143c" />
+<rect x="-200" y="-350" width="314" height="25" fill="white" stroke="black" />
+<rect x="-200" y="-350" width="22.0" height="25" fill="#dc143c" stroke="black" />
+<rect x="-95.0" y="-350" width="95.0" height="25" fill="#ffd700" stroke="black" />
+<rect x="64.0" y="-350" width="22.0" height="25" fill="#1e90ff" stroke="black" />
+<text x="-290" y="-280" font-size="25" fill="black">RL11J</text>
+<path d="M-159,-267.5 L-159,-300" stroke="#1e90ff" />
+<path d="M-156,-300 L-156,-307.5" stroke="#dc143c" />
+<path d="M-147,-300 L-147,-307.5" stroke="#dc143c" />
+<path d="M-85,-300 L-85,-307.5" stroke="#dc143c" />
+<path d="M-69,-300 L-69,-307.5" stroke="#dc143c" />
+<path d="M-65,-300 L-65,-307.5" stroke="#dc143c" />
+<path d="M-51,-300 L-51,-307.5" stroke="#dc143c" />
+<path d="M-45,-300 L-45,-307.5" stroke="#dc143c" />
+<rect x="-200" y="-300" width="197" height="25" fill="white" stroke="black" />
+<rect x="-200" y="-300" width="14.0" height="25" fill="#dc143c" stroke="black" />
+<rect x="-177.0" y="-300" width="95.0" height="25" fill="#ffd700" stroke="black" />
+<rect x="-42.0" y="-300" width="22.0" height="25" fill="#1e90ff" stroke="black" />
+<text x="-290" y="-230" font-size="25" fill="black">RL11K</text>
+<path d="M-157,-250 L-157,-257.5" stroke="#dc143c" />
+<path d="M-149,-250 L-149,-257.5" stroke="#dc143c" />
+<path d="M-143,-250 L-143,-257.5" stroke="#dc143c" />
+<path d="M-101,-250 L-101,-257.5" stroke="#dc143c" />
+<path d="M-68,-250 L-68,-257.5" stroke="#dc143c" />
+<path d="M-60,-250 L-60,-257.5" stroke="#dc143c" />
+<path d="M-53,-250 L-53,-257.5" stroke="#dc143c" />
+<rect x="-200" y="-250" width="227" height="25" fill="white" stroke="black" />
+<rect x="-200" y="-250" width="20.0" height="25" fill="#dc143c" stroke="black" />
+<rect x="-170.0" y="-250" width="105.0" height="25" fill="#ffd700" stroke="black" />
+<rect x="-13.0" y="-250" width="22.0" height="25" fill="#1e90ff" stroke="black" />
+<text x="-290" y="-180" font-size="25" fill="black">RL11L</text>
+<rect x="-200" y="-200" width="81" height="25" fill="white" stroke="black" />
+<rect x="-146.0" y="-200" width="17.0" height="25" fill="#1e90ff" stroke="black" />
+<text x="-290" y="-130" font-size="25" fill="black">RL11M</text>
+<path d="M-152,-117.5 L-152,-150" stroke="#1e90ff" />
+<path d="M-60,-117.5 L-60,-150" stroke="#1e90ff" />
+<path d="M-59,-117.5 L-59,-150" stroke="#1e90ff" />
+<path d="M-58,-117.5 L-58,-150" stroke="#1e90ff" />
+<path d="M-54,-117.5 L-54,-150" stroke="#1e90ff" />
+<path d="M-53,-117.5 L-53,-150" stroke="#1e90ff" />
+<path d="M-52,-117.5 L-52,-150" stroke="#1e90ff" />
+<path d="M-51,-117.5 L-51,-150" stroke="#1e90ff" />
+<path d="M-50,-117.5 L-50,-150" stroke="#1e90ff" />
+<path d="M-49,-117.5 L-49,-150" stroke="#1e90ff" />
+<path d="M-48,-117.5 L-48,-150" stroke="#1e90ff" />
+<path d="M-47,-117.5 L-47,-150" stroke="#1e90ff" />
+<path d="M-46,-117.5 L-46,-150" stroke="#1e90ff" />
+<path d="M-44,-117.5 L-44,-150" stroke="#1e90ff" />
+<path d="M-41,-117.5 L-41,-150" stroke="#1e90ff" />
+<path d="M-40,-117.5 L-40,-150" stroke="#1e90ff" />
+<path d="M-37,-117.5 L-37,-150" stroke="#1e90ff" />
+<path d="M-36,-117.5 L-36,-150" stroke="#1e90ff" />
+<path d="M-34,-117.5 L-34,-150" stroke="#1e90ff" />
+<path d="M-33,-117.5 L-33,-150" stroke="#1e90ff" />
+<path d="M-31,-117.5 L-31,-150" stroke="#1e90ff" />
+<path d="M-24,-117.5 L-24,-150" stroke="#1e90ff" />
+<path d="M-154,-150 L-154,-157.5" stroke="#dc143c" />
+<path d="M-105,-150 L-105,-157.5" stroke="#dc143c" />
+<path d="M-98,-150 L-98,-157.5" stroke="#dc143c" />
+<path d="M-90,-150 L-90,-157.5" stroke="#dc143c" />
+<path d="M-13,-150 L-13,-157.5" stroke="#dc143c" />
+<rect x="-200" y="-150" width="226" height="25" fill="white" stroke="black" />
+<rect x="-200" y="-150" width="28.0" height="25" fill="#dc143c" stroke="black" />
+<rect x="-163.0" y="-150" width="94.0" height="25" fill="#ffd700" stroke="black" />
+<rect x="0.0" y="-150" width="19.0" height="25" fill="#1e90ff" stroke="black" />
+<text x="-290" y="-80" font-size="25" fill="black">RL11N</text>
+<path d="M-135,-67.5 L-135,-100" stroke="#1e90ff" />
+<path d="M-168,-100 L-168,-107.5" stroke="#dc143c" />
+<path d="M-165,-100 L-165,-107.5" stroke="#dc143c" />
+<rect x="-200" y="-100" width="120" height="25" fill="white" stroke="black" />
+<rect x="-119.0" y="-100" width="22.0" height="25" fill="#1e90ff" stroke="black" />
+<text x="-290" y="-30" font-size="25" fill="black">RL11O</text>
+<path d="M-154,-50 L-154,-57.5" stroke="#dc143c" />
+<path d="M-133,-50 L-133,-57.5" stroke="#dc143c" />
+<path d="M-112,-50 L-112,-57.5" stroke="#dc143c" />
+<path d="M-101,-50 L-101,-57.5" stroke="#dc143c" />
+<path d="M-93,-50 L-93,-57.5" stroke="#dc143c" />
+<path d="M-76,-50 L-76,-57.5" stroke="#dc143c" />
+<path d="M-68,-50 L-68,-57.5" stroke="#dc143c" />
+<path d="M-115,-50 L-115,-57.5" stroke="#dc143c" />
+<path d="M-103,-50 L-103,-57.5" stroke="#dc143c" />
+<path d="M-78,-50 L-78,-57.5" stroke="#dc143c" />
+<path d="M-9,-50 L-9,-57.5" stroke="#dc143c" />
+<path d="M23,-50 L23,-57.5" stroke="#dc143c" />
+<rect x="-200" y="-50" width="224" height="25" fill="white" stroke="black" />
+<rect x="-200" y="-50" width="30.0" height="25" fill="#dc143c" stroke="black" />
+<rect x="-166.0" y="-50" width="101.0" height="25" fill="#ffd700" stroke="black" />
+<rect x="-17.0" y="-50" width="22.0" height="25" fill="#1e90ff" stroke="black" />
+<text x="-290" y="20" font-size="25" fill="black">RL11O2</text>
+<path d="M-71,32.5 L-71,0" stroke="#1e90ff" />
+<path d="M-70,32.5 L-70,0" stroke="#1e90ff" />
+<path d="M-69,32.5 L-69,0" stroke="#1e90ff" />
+<path d="M-68,32.5 L-68,0" stroke="#1e90ff" />
+<path d="M-65,32.5 L-65,0" stroke="#1e90ff" />
+<path d="M-64,32.5 L-64,0" stroke="#1e90ff" />
+<path d="M-63,32.5 L-63,0" stroke="#1e90ff" />
+<path d="M-62,32.5 L-62,0" stroke="#1e90ff" />
+<path d="M-59,32.5 L-59,0" stroke="#1e90ff" />
+<path d="M-58,32.5 L-58,0" stroke="#1e90ff" />
+<path d="M-55,32.5 L-55,0" stroke="#1e90ff" />
+<path d="M-54,32.5 L-54,0" stroke="#1e90ff" />
+<path d="M-53,32.5 L-53,0" stroke="#1e90ff" />
+<path d="M-52,32.5 L-52,0" stroke="#1e90ff" />
+<path d="M-51,32.5 L-51,0" stroke="#1e90ff" />
+<path d="M-50,32.5 L-50,0" stroke="#1e90ff" />
+<path d="M-47,32.5 L-47,0" stroke="#1e90ff" />
+<path d="M-43,32.5 L-43,0" stroke="#1e90ff" />
+<path d="M-41,32.5 L-41,0" stroke="#1e90ff" />
+<path d="M-40,32.5 L-40,0" stroke="#1e90ff" />
+<path d="M-29,32.5 L-29,0" stroke="#1e90ff" />
+<path d="M-25,32.5 L-25,0" stroke="#1e90ff" />
+<path d="M-20,32.5 L-20,0" stroke="#1e90ff" />
+<path d="M-8,32.5 L-8,0" stroke="#1e90ff" />
+<path d="M3,32.5 L3,0" stroke="#1e90ff" />
+<path d="M6,32.5 L6,0" stroke="#1e90ff" />
+<path d="M7,32.5 L7,0" stroke="#1e90ff" />
+<path d="M-115,0 L-115,-7.5" stroke="#dc143c" />
+<path d="M-103,0 L-103,-7.5" stroke="#dc143c" />
+<path d="M-78,0 L-78,-7.5" stroke="#dc143c" />
+<path d="M-9,0 L-9,-7.5" stroke="#dc143c" />
+<path d="M23,0 L23,-7.5" stroke="#dc143c" />
+<rect x="-200" y="0" width="272" height="25" fill="white" stroke="black" />
+<rect x="-200" y="0" width="17.0" height="25" fill="#dc143c" stroke="black" />
+<rect x="-179.0" y="0" width="104.0" height="25" fill="#ffd700" stroke="black" />
+<rect x="24.0" y="0" width="22.0" height="25" fill="#1e90ff" stroke="black" />
+<text x="-290" y="70" font-size="25" fill="black">RL11Q</text>
+<path d="M-55,82.5 L-55,50" stroke="#1e90ff" />
+<path d="M-54,82.5 L-54,50" stroke="#1e90ff" />
+<path d="M-50,82.5 L-50,50" stroke="#1e90ff" />
+<path d="M-46,82.5 L-46,50" stroke="#1e90ff" />
+<path d="M-198,50 L-198,42.5" stroke="#dc143c" />
+<path d="M-136,50 L-136,42.5" stroke="#dc143c" />
+<path d="M-124,50 L-124,42.5" stroke="#dc143c" />
+<path d="M-77,50 L-77,42.5" stroke="#dc143c" />
+<path d="M-49,50 L-49,42.5" stroke="#dc143c" />
+<rect x="-200" y="50" width="202" height="25" fill="white" stroke="black" />
+<rect x="-200" y="50" width="20.0" height="25" fill="#dc143c" stroke="black" />
+<rect x="-176.0" y="50" width="102.0" height="25" fill="#ffd700" stroke="black" />
+<rect x="-27.0" y="50" width="22.0" height="25" fill="#1e90ff" stroke="black" />
+<text x="-290" y="120" font-size="25" fill="black">RL11R</text>
+<path d="M-164,100 L-164,92.5" stroke="#dc143c" />
+<path d="M-154,100 L-154,92.5" stroke="#dc143c" />
+<path d="M-115,100 L-115,92.5" stroke="#dc143c" />
+<path d="M-110,100 L-110,92.5" stroke="#dc143c" />
+<rect x="-200" y="100" width="207" height="25" fill="white" stroke="black" />
+<rect x="-200" y="100" width="24.0" height="25" fill="#dc143c" stroke="black" />
+<rect x="-170.0" y="100" width="97.0" height="25" fill="#ffd700" stroke="black" />
+<rect x="-45.0" y="100" width="19.0" height="25" fill="#1e90ff" stroke="black" />
+<text x="-290" y="170" font-size="25" fill="black">RL11S</text>
+<path d="M-161,182.5 L-161,150" stroke="#1e90ff" />
+<path d="M-155,182.5 L-155,150" stroke="#1e90ff" />
+<path d="M-124,182.5 L-124,150" stroke="#1e90ff" />
+<path d="M-122,182.5 L-122,150" stroke="#1e90ff" />
+<path d="M-107,182.5 L-107,150" stroke="#1e90ff" />
+<path d="M-102,182.5 L-102,150" stroke="#1e90ff" />
+<path d="M-101,182.5 L-101,150" stroke="#1e90ff" />
+<path d="M-99,182.5 L-99,150" stroke="#1e90ff" />
+<path d="M-75,182.5 L-75,150" stroke="#1e90ff" />
+<path d="M-71,182.5 L-71,150" stroke="#1e90ff" />
+<path d="M-70,182.5 L-70,150" stroke="#1e90ff" />
+<path d="M-68,182.5 L-68,150" stroke="#1e90ff" />
+<path d="M-66,182.5 L-66,150" stroke="#1e90ff" />
+<path d="M-64,182.5 L-64,150" stroke="#1e90ff" />
+<path d="M-63,182.5 L-63,150" stroke="#1e90ff" />
+<path d="M-57,182.5 L-57,150" stroke="#1e90ff" />
+<path d="M-56,182.5 L-56,150" stroke="#1e90ff" />
+<path d="M-53,182.5 L-53,150" stroke="#1e90ff" />
+<path d="M-52,182.5 L-52,150" stroke="#1e90ff" />
+<path d="M-50,182.5 L-50,150" stroke="#1e90ff" />
+<path d="M-48,182.5 L-48,150" stroke="#1e90ff" />
+<path d="M-45,182.5 L-45,150" stroke="#1e90ff" />
+<path d="M-44,182.5 L-44,150" stroke="#1e90ff" />
+<path d="M-43,182.5 L-43,150" stroke="#1e90ff" />
+<path d="M-41,182.5 L-41,150" stroke="#1e90ff" />
+<path d="M-37,182.5 L-37,150" stroke="#1e90ff" />
+<path d="M-36,182.5 L-36,150" stroke="#1e90ff" />
+<path d="M-35,182.5 L-35,150" stroke="#1e90ff" />
+<path d="M-32,182.5 L-32,150" stroke="#1e90ff" />
+<path d="M-31,182.5 L-31,150" stroke="#1e90ff" />
+<path d="M-27,182.5 L-27,150" stroke="#1e90ff" />
+<path d="M-24,182.5 L-24,150" stroke="#1e90ff" />
+<path d="M-23,182.5 L-23,150" stroke="#1e90ff" />
+<path d="M-19,182.5 L-19,150" stroke="#1e90ff" />
+<path d="M-18,182.5 L-18,150" stroke="#1e90ff" />
+<path d="M-16,182.5 L-16,150" stroke="#1e90ff" />
+<path d="M-15,182.5 L-15,150" stroke="#1e90ff" />
+<path d="M-12,182.5 L-12,150" stroke="#1e90ff" />
+<path d="M-11,182.5 L-11,150" stroke="#1e90ff" />
+<path d="M-10,182.5 L-10,150" stroke="#1e90ff" />
+<path d="M-8,182.5 L-8,150" stroke="#1e90ff" />
+<path d="M-6,182.5 L-6,150" stroke="#1e90ff" />
+<path d="M-3,182.5 L-3,150" stroke="#1e90ff" />
+<path d="M-2,182.5 L-2,150" stroke="#1e90ff" />
+<path d="M3,182.5 L3,150" stroke="#1e90ff" />
+<path d="M4,182.5 L4,150" stroke="#1e90ff" />
+<path d="M9,182.5 L9,150" stroke="#1e90ff" />
+<path d="M19,182.5 L19,150" stroke="#1e90ff" />
+<path d="M20,182.5 L20,150" stroke="#1e90ff" />
+<path d="M24,182.5 L24,150" stroke="#1e90ff" />
+<path d="M25,182.5 L25,150" stroke="#1e90ff" />
+<path d="M29,182.5 L29,150" stroke="#1e90ff" />
+<path d="M30,182.5 L30,150" stroke="#1e90ff" />
+<path d="M35,182.5 L35,150" stroke="#1e90ff" />
+<path d="M36,182.5 L36,150" stroke="#1e90ff" />
+<path d="M38,182.5 L38,150" stroke="#1e90ff" />
+<path d="M39,182.5 L39,150" stroke="#1e90ff" />
+<path d="M40,182.5 L40,150" stroke="#1e90ff" />
+<path d="M43,182.5 L43,150" stroke="#1e90ff" />
+<path d="M44,182.5 L44,150" stroke="#1e90ff" />
+<path d="M48,182.5 L48,150" stroke="#1e90ff" />
+<path d="M49,182.5 L49,150" stroke="#1e90ff" />
+<path d="M50,182.5 L50,150" stroke="#1e90ff" />
+<path d="M51,182.5 L51,150" stroke="#1e90ff" />
+<path d="M52,182.5 L52,150" stroke="#1e90ff" />
+<path d="M54,182.5 L54,150" stroke="#1e90ff" />
+<path d="M55,182.5 L55,150" stroke="#1e90ff" />
+<path d="M56,182.5 L56,150" stroke="#1e90ff" />
+<path d="M59,182.5 L59,150" stroke="#1e90ff" />
+<path d="M62,182.5 L62,150" stroke="#1e90ff" />
+<path d="M63,182.5 L63,150" stroke="#1e90ff" />
+<path d="M65,182.5 L65,150" stroke="#1e90ff" />
+<path d="M66,182.5 L66,150" stroke="#1e90ff" />
+<path d="M67,182.5 L67,150" stroke="#1e90ff" />
+<path d="M72,182.5 L72,150" stroke="#1e90ff" />
+<path d="M73,182.5 L73,150" stroke="#1e90ff" />
+<path d="M79,182.5 L79,150" stroke="#1e90ff" />
+<path d="M80,182.5 L80,150" stroke="#1e90ff" />
+<path d="M82,182.5 L82,150" stroke="#1e90ff" />
+<path d="M83,182.5 L83,150" stroke="#1e90ff" />
+<path d="M84,182.5 L84,150" stroke="#1e90ff" />
+<path d="M87,182.5 L87,150" stroke="#1e90ff" />
+<path d="M89,182.5 L89,150" stroke="#1e90ff" />
+<path d="M92,182.5 L92,150" stroke="#1e90ff" />
+<path d="M94,182.5 L94,150" stroke="#1e90ff" />
+<path d="M96,182.5 L96,150" stroke="#1e90ff" />
+<path d="M103,182.5 L103,150" stroke="#1e90ff" />
+<path d="M104,182.5 L104,150" stroke="#1e90ff" />
+<path d="M105,182.5 L105,150" stroke="#1e90ff" />
+<path d="M108,182.5 L108,150" stroke="#1e90ff" />
+<path d="M109,182.5 L109,150" stroke="#1e90ff" />
+<path d="M113,182.5 L113,150" stroke="#1e90ff" />
+<path d="M114,182.5 L114,150" stroke="#1e90ff" />
+<path d="M117,182.5 L117,150" stroke="#1e90ff" />
+<path d="M119,182.5 L119,150" stroke="#1e90ff" />
+<path d="M123,182.5 L123,150" stroke="#1e90ff" />
+<path d="M124,182.5 L124,150" stroke="#1e90ff" />
+<path d="M127,182.5 L127,150" stroke="#1e90ff" />
+<path d="M128,182.5 L128,150" stroke="#1e90ff" />
+<path d="M129,182.5 L129,150" stroke="#1e90ff" />
+<path d="M131,182.5 L131,150" stroke="#1e90ff" />
+<path d="M132,182.5 L132,150" stroke="#1e90ff" />
+<path d="M136,182.5 L136,150" stroke="#1e90ff" />
+<path d="M137,182.5 L137,150" stroke="#1e90ff" />
+<path d="M140,182.5 L140,150" stroke="#1e90ff" />
+<path d="M142,182.5 L142,150" stroke="#1e90ff" />
+<path d="M143,182.5 L143,150" stroke="#1e90ff" />
+<path d="M145,182.5 L145,150" stroke="#1e90ff" />
+<path d="M146,182.5 L146,150" stroke="#1e90ff" />
+<path d="M147,182.5 L147,150" stroke="#1e90ff" />
+<path d="M150,182.5 L150,150" stroke="#1e90ff" />
+<path d="M151,182.5 L151,150" stroke="#1e90ff" />
+<path d="M155,182.5 L155,150" stroke="#1e90ff" />
+<path d="M156,182.5 L156,150" stroke="#1e90ff" />
+<path d="M157,182.5 L157,150" stroke="#1e90ff" />
+<path d="M158,182.5 L158,150" stroke="#1e90ff" />
+<path d="M159,182.5 L159,150" stroke="#1e90ff" />
+<path d="M160,182.5 L160,150" stroke="#1e90ff" />
+<path d="M161,182.5 L161,150" stroke="#1e90ff" />
+<path d="M162,182.5 L162,150" stroke="#1e90ff" />
+<path d="M167,182.5 L167,150" stroke="#1e90ff" />
+<path d="M169,182.5 L169,150" stroke="#1e90ff" />
+<path d="M170,182.5 L170,150" stroke="#1e90ff" />
+<path d="M171,182.5 L171,150" stroke="#1e90ff" />
+<path d="M174,182.5 L174,150" stroke="#1e90ff" />
+<path d="M175,182.5 L175,150" stroke="#1e90ff" />
+<path d="M176,182.5 L176,150" stroke="#1e90ff" />
+<path d="M181,182.5 L181,150" stroke="#1e90ff" />
+<path d="M183,182.5 L183,150" stroke="#1e90ff" />
+<path d="M185,182.5 L185,150" stroke="#1e90ff" />
+<path d="M186,182.5 L186,150" stroke="#1e90ff" />
+<path d="M187,182.5 L187,150" stroke="#1e90ff" />
+<path d="M188,182.5 L188,150" stroke="#1e90ff" />
+<path d="M192,182.5 L192,150" stroke="#1e90ff" />
+<path d="M194,182.5 L194,150" stroke="#1e90ff" />
+<path d="M-157,150 L-157,142.5" stroke="#dc143c" />
+<path d="M-153,150 L-153,142.5" stroke="#dc143c" />
+<path d="M-138,150 L-138,142.5" stroke="#dc143c" />
+<path d="M-111,150 L-111,142.5" stroke="#dc143c" />
+<path d="M-104,150 L-104,142.5" stroke="#dc143c" />
+<path d="M-77,150 L-77,142.5" stroke="#dc143c" />
+<path d="M-26,150 L-26,142.5" stroke="#dc143c" />
+<path d="M-17,150 L-17,142.5" stroke="#dc143c" />
+<path d="M-5,150 L-5,142.5" stroke="#dc143c" />
+<path d="M190,150 L190,142.5" stroke="#dc143c" />
+<rect x="-200" y="150" width="456" height="25" fill="white" stroke="black" />
+<rect x="-200" y="150" width="29.0" height="25" fill="#dc143c" stroke="black" />
+<rect x="-171.0" y="150" width="97.0" height="25" fill="#ffd700" stroke="black" />
+<rect x="207.0" y="150" width="22.0" height="25" fill="#1e90ff" stroke="black" />
+<text x="-290" y="220" font-size="25" fill="black">RL11T</text>
+<path d="M-169,232.5 L-169,200" stroke="#1e90ff" />
+<path d="M-168,232.5 L-168,200" stroke="#1e90ff" />
+<path d="M-165,232.5 L-165,200" stroke="#1e90ff" />
+<path d="M-164,232.5 L-164,200" stroke="#1e90ff" />
+<path d="M-163,232.5 L-163,200" stroke="#1e90ff" />
+<path d="M-160,232.5 L-160,200" stroke="#1e90ff" />
+<path d="M-159,232.5 L-159,200" stroke="#1e90ff" />
+<path d="M-158,232.5 L-158,200" stroke="#1e90ff" />
+<path d="M-155,232.5 L-155,200" stroke="#1e90ff" />
+<path d="M-154,232.5 L-154,200" stroke="#1e90ff" />
+<path d="M-153,232.5 L-153,200" stroke="#1e90ff" />
+<path d="M-150,232.5 L-150,200" stroke="#1e90ff" />
+<path d="M-149,232.5 L-149,200" stroke="#1e90ff" />
+<path d="M-148,232.5 L-148,200" stroke="#1e90ff" />
+<path d="M-145,232.5 L-145,200" stroke="#1e90ff" />
+<path d="M-143,232.5 L-143,200" stroke="#1e90ff" />
+<path d="M-142,232.5 L-142,200" stroke="#1e90ff" />
+<path d="M-141,232.5 L-141,200" stroke="#1e90ff" />
+<path d="M-139,232.5 L-139,200" stroke="#1e90ff" />
+<path d="M-138,232.5 L-138,200" stroke="#1e90ff" />
+<path d="M-137,232.5 L-137,200" stroke="#1e90ff" />
+<path d="M-134,232.5 L-134,200" stroke="#1e90ff" />
+<path d="M-133,232.5 L-133,200" stroke="#1e90ff" />
+<path d="M-132,232.5 L-132,200" stroke="#1e90ff" />
+<path d="M-130,232.5 L-130,200" stroke="#1e90ff" />
+<path d="M-129,232.5 L-129,200" stroke="#1e90ff" />
+<path d="M-128,232.5 L-128,200" stroke="#1e90ff" />
+<path d="M-125,232.5 L-125,200" stroke="#1e90ff" />
+<path d="M-124,232.5 L-124,200" stroke="#1e90ff" />
+<path d="M-122,232.5 L-122,200" stroke="#1e90ff" />
+<path d="M-120,232.5 L-120,200" stroke="#1e90ff" />
+<path d="M-117,232.5 L-117,200" stroke="#1e90ff" />
+<path d="M-115,232.5 L-115,200" stroke="#1e90ff" />
+<path d="M-114,232.5 L-114,200" stroke="#1e90ff" />
+<path d="M-113,232.5 L-113,200" stroke="#1e90ff" />
+<path d="M-111,232.5 L-111,200" stroke="#1e90ff" />
+<path d="M-108,232.5 L-108,200" stroke="#1e90ff" />
+<path d="M-107,232.5 L-107,200" stroke="#1e90ff" />
+<path d="M-106,232.5 L-106,200" stroke="#1e90ff" />
+<path d="M-105,232.5 L-105,200" stroke="#1e90ff" />
+<path d="M-103,232.5 L-103,200" stroke="#1e90ff" />
+<path d="M-102,232.5 L-102,200" stroke="#1e90ff" />
+<path d="M-100,232.5 L-100,200" stroke="#1e90ff" />
+<path d="M-99,232.5 L-99,200" stroke="#1e90ff" />
+<path d="M-96,232.5 L-96,200" stroke="#1e90ff" />
+<path d="M-95,232.5 L-95,200" stroke="#1e90ff" />
+<path d="M-94,232.5 L-94,200" stroke="#1e90ff" />
+<path d="M-93,232.5 L-93,200" stroke="#1e90ff" />
+<path d="M-90,232.5 L-90,200" stroke="#1e90ff" />
+<path d="M-88,232.5 L-88,200" stroke="#1e90ff" />
+<path d="M-87,232.5 L-87,200" stroke="#1e90ff" />
+<path d="M-86,232.5 L-86,200" stroke="#1e90ff" />
+<path d="M-84,232.5 L-84,200" stroke="#1e90ff" />
+<path d="M-83,232.5 L-83,200" stroke="#1e90ff" />
+<path d="M-80,232.5 L-80,200" stroke="#1e90ff" />
+<path d="M-78,232.5 L-78,200" stroke="#1e90ff" />
+<path d="M-77,232.5 L-77,200" stroke="#1e90ff" />
+<path d="M-74,232.5 L-74,200" stroke="#1e90ff" />
+<path d="M-73,232.5 L-73,200" stroke="#1e90ff" />
+<path d="M-71,232.5 L-71,200" stroke="#1e90ff" />
+<path d="M-70,232.5 L-70,200" stroke="#1e90ff" />
+<path d="M-69,232.5 L-69,200" stroke="#1e90ff" />
+<path d="M-68,232.5 L-68,200" stroke="#1e90ff" />
+<path d="M-67,232.5 L-67,200" stroke="#1e90ff" />
+<path d="M-64,232.5 L-64,200" stroke="#1e90ff" />
+<path d="M-63,232.5 L-63,200" stroke="#1e90ff" />
+<path d="M-61,232.5 L-61,200" stroke="#1e90ff" />
+<path d="M-60,232.5 L-60,200" stroke="#1e90ff" />
+<path d="M-59,232.5 L-59,200" stroke="#1e90ff" />
+<path d="M-55,232.5 L-55,200" stroke="#1e90ff" />
+<path d="M-53,232.5 L-53,200" stroke="#1e90ff" />
+<path d="M-52,232.5 L-52,200" stroke="#1e90ff" />
+<path d="M-49,232.5 L-49,200" stroke="#1e90ff" />
+<path d="M-48,232.5 L-48,200" stroke="#1e90ff" />
+<path d="M-45,232.5 L-45,200" stroke="#1e90ff" />
+<path d="M-44,232.5 L-44,200" stroke="#1e90ff" />
+<path d="M-43,232.5 L-43,200" stroke="#1e90ff" />
+<path d="M-42,232.5 L-42,200" stroke="#1e90ff" />
+<path d="M-40,232.5 L-40,200" stroke="#1e90ff" />
+<path d="M-39,232.5 L-39,200" stroke="#1e90ff" />
+<path d="M-38,232.5 L-38,200" stroke="#1e90ff" />
+<path d="M-31,232.5 L-31,200" stroke="#1e90ff" />
+<path d="M-14,232.5 L-14,200" stroke="#1e90ff" />
+<path d="M-8,232.5 L-8,200" stroke="#1e90ff" />
+<path d="M-4,232.5 L-4,200" stroke="#1e90ff" />
+<path d="M17,232.5 L17,200" stroke="#1e90ff" />
+<path d="M19,232.5 L19,200" stroke="#1e90ff" />
+<path d="M89,232.5 L89,200" stroke="#1e90ff" />
+<path d="M90,232.5 L90,200" stroke="#1e90ff" />
+<path d="M94,232.5 L94,200" stroke="#1e90ff" />
+<path d="M96,232.5 L96,200" stroke="#1e90ff" />
+<path d="M97,232.5 L97,200" stroke="#1e90ff" />
+<path d="M-172,200 L-172,192.5" stroke="#dc143c" />
+<path d="M-171,200 L-171,192.5" stroke="#dc143c" />
+<path d="M-162,200 L-162,192.5" stroke="#dc143c" />
+<path d="M-147,200 L-147,192.5" stroke="#dc143c" />
+<path d="M-127,200 L-127,192.5" stroke="#dc143c" />
+<path d="M-109,200 L-109,192.5" stroke="#dc143c" />
+<path d="M-104,200 L-104,192.5" stroke="#dc143c" />
+<path d="M-98,200 L-98,192.5" stroke="#dc143c" />
+<path d="M-75,200 L-75,192.5" stroke="#dc143c" />
+<path d="M-57,200 L-57,192.5" stroke="#dc143c" />
+<path d="M-46,200 L-46,192.5" stroke="#dc143c" />
+<path d="M-26,200 L-26,192.5" stroke="#dc143c" />
+<path d="M-18,200 L-18,192.5" stroke="#dc143c" />
+<path d="M-13,200 L-13,192.5" stroke="#dc143c" />
+<path d="M3,200 L3,192.5" stroke="#dc143c" />
+<path d="M32,200 L32,192.5" stroke="#dc143c" />
+<path d="M42,200 L42,192.5" stroke="#dc143c" />
+<path d="M46,200 L46,192.5" stroke="#dc143c" />
+<path d="M73,200 L73,192.5" stroke="#dc143c" />
+<rect x="-200" y="200" width="373" height="25" fill="white" stroke="black" />
+<rect x="-200" y="200" width="27.0" height="25" fill="#dc143c" stroke="black" />
+<rect x="-44.0" y="200" width="113.0" height="25" fill="#ffd700" stroke="black" />
+<rect x="108.0" y="200" width="22.0" height="25" fill="#1e90ff" stroke="black" />
+</svg>
