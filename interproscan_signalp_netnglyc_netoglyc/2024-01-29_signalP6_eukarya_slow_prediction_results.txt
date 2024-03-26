@@ -1,0 +1,143 @@
+# SignalP-6.0	Organism: Eukarya	Timestamp: 20240129175736
+# ID	Prediction	OTHER	SP(Sec/SPI)	CS Position
+cercopithecinebeta5_RL11A	SP	0.000156	0.999834	CS pos: 22-23. Pr: 0.9219
+cercopithecinebeta5_RL11B	NO_SP	0.813610	0.186373	
+cercopithecinebeta5_RL11C1	SP	0.000150	0.999854	CS pos: 28-29. Pr: 0.9827
+cercopithecinebeta5_RL11C2	SP	0.333478	0.666538	CS pos: 23-24. Pr: 0.6519
+cercopithecinebeta5_RL11D	SP	0.166704	0.833318	CS pos: 35-36. Pr: 0.8194
+cercopithecinebeta5_RL11F	SP	0.000544	0.999487	CS pos: 25-26. Pr: 0.6244
+cercopithecinebeta5_RL11G	SP	0.000199	0.999784	CS pos: 17-18. Pr: 0.9811
+cercopithecinebeta5_RL11H	SP	0.000231	0.999781	CS pos: 27-28. Pr: 0.9747
+cercopithecinebeta5_RL11I	SP	0.000219	0.999780	CS pos: 27-28. Pr: 0.9810
+cercopithecinebeta5_RL11J	SP	0.000170	0.999846	CS pos: 16-17. Pr: 0.9749
+cercopithecinebeta5_RL11K	SP	0.000148	0.999847	CS pos: 18-19. Pr: 0.9843
+cercopithecinebeta5_RL11M	SP	0.000165	0.999838	CS pos: 29-30. Pr: 0.9802
+cercopithecinebeta5_RL11N	SP	0.000450	0.999562	CS pos: 24-25. Pr: 0.6448
+cercopithecinebeta5_RL11O	SP	0.000168	0.999849	CS pos: 30-31. Pr: 0.9824
+cercopithecinebeta5_RL11P	NO_SP	0.701596	0.298419	
+cercopithecinebeta5_RL11Q	SP	0.000165	0.999867	CS pos: 29-30. Pr: 0.9798
+cercopithecinebeta5_RL11R	SP	0.000176	0.999841	CS pos: 21-22. Pr: 0.9768
+cercopithecinebeta5_RL11S	SP	0.000166	0.999856	CS pos: 25-26. Pr: 0.8617
+cercopithecinebeta5_RL11T	SP	0.000261	0.999736	CS pos: 25-26. Pr: 0.9795
+humanbeta5_RL5A	NO_SP	0.951901	0.048111	
+humanbeta5_RL6	NO_SP	0.999990	0.000000	
+humanbeta5_RL11	SP	0.000155	0.999838	CS pos: 28-29. Pr: 0.6819
+humanbeta5_RL12	NO_SP	0.834141	0.165853	
+humanbeta5_RL13	SP	0.000204	0.999787	CS pos: 19-20. Pr: 0.9042
+humanbeta5_UL1	SP	0.000153	0.999844	CS pos: 27-28. Pr: 0.9798
+humanbeta5_UL4	SP	0.000217	0.999783	CS pos: 25-26. Pr: 0.9757
+humanbeta5_UL5	NO_SP	0.602037	0.397963	
+humanbeta5_UL6	NO_SP	0.999990	0.000001	
+humanbeta5_UL7	SP	0.024329	0.975692	CS pos: 38-39. Pr: 0.9660
+humanbeta5_UL8	NO_SP	1.000017	0.000000	
+humanbeta5_UL9	SP	0.000468	0.999554	CS pos: 20-21. Pr: 0.9830
+humanbeta5_UL10	SP	0.139376	0.860625	CS pos: 31-32. Pr: 0.4991
+humanbeta5_UL11	SP	0.188436	0.811589	CS pos: 31-32. Pr: 0.8093
+macacinebetajap_RL11A	SP	0.000154	0.999866	CS pos: 21-22. Pr: 0.9823
+macacinebetajap_RL11B	SP	0.000179	0.999798	CS pos: 17-18. Pr: 0.9830
+macacinebetajap_RL11C	NO_SP	0.833569	0.166444	
+macacinebetajap_RL11D1	SP	0.166917	0.833130	CS pos: 28-29. Pr: 0.2767
+macacinebetajap_RL11D2	SP	0.000173	0.999824	CS pos: 18-19. Pr: 0.9810
+macacinebetajap_RL11F	SP	0.000166	0.999822	CS pos: 19-20. Pr: 0.9776
+macacinebetajap_RL11G	SP	0.000180	0.999848	CS pos: 25-26. Pr: 0.9793
+macacinebetajap_RL11H	SP	0.002204	0.997779	CS pos: 50-51. Pr: 0.8263
+macacinebetajap_RL11I	SP	0.000209	0.999795	CS pos: 22-23. Pr: 0.9796
+macacinebetajap_RL11J	SP	0.000155	0.999849	CS pos: 16-17. Pr: 0.9814
+macacinebetajap_RL11K	SP	0.000162	0.999826	CS pos: 19-20. Pr: 0.9818
+macacinebetajap_RL11L	SP	0.000155	0.999856	CS pos: 18-19. Pr: 0.9813
+macacinebetajap_RL11M	SP	0.000240	0.999780	CS pos: 30-31. Pr: 0.5797
+macacinebetajap_RL11N	NO_SP	0.667040	0.332951	
+macacinebetajap_RL11O	SP	0.000162	0.999848	CS pos: 28-29. Pr: 0.9806
+macacinebetajap_RL11P	SP	0.001181	0.998837	CS pos: 22-23. Pr: 0.9224
+macacinebetajap_RL11Q	SP	0.000166	0.999841	CS pos: 22-23. Pr: 0.9772
+macacinebetajap_RL11R	SP	0.439058	0.560973	CS pos: 25-26. Pr: 0.5263
+macacinebetajap_RL11S	SP	0.000203	0.999831	CS pos: 33-34. Pr: 0.4515
+macacinebetajap_RL11T	SP	0.000308	0.999688	CS pos: 27-28. Pr: 0.7958
+macacinebeta3_RL11A	SP	0.000151	0.999820	CS pos: 21-22. Pr: 0.9834
+macacinebeta3_RL11B	SP	0.000157	0.999833	CS pos: 18-19. Pr: 0.9778
+macacinebeta3_RL11C	NO_SP	0.702666	0.297330	
+macacinebeta3_RL11D1	SP	0.000154	0.999865	CS pos: 23-24. Pr: 0.9838
+macacinebeta3_RL11D2	SP	0.000155	0.999839	CS pos: 18-19. Pr: 0.9796
+macacinebeta3_RL11F	SP	0.000192	0.999800	CS pos: 18-19. Pr: 0.9818
+macacinebeta3_RL11G	SP	0.000205	0.999795	CS pos: 25-26. Pr: 0.9779
+macacinebeta3_RL11H	SP	0.000203	0.999782	CS pos: 21-22. Pr: 0.9820
+macacinebeta3_RL11I	SP	0.000181	0.999808	CS pos: 22-23. Pr: 0.9832
+macacinebeta3_RL11J	SP	0.000153	0.999847	CS pos: 14-15. Pr: 0.9796
+macacinebeta3_RL11K	SP	0.000157	0.999844	CS pos: 19-20. Pr: 0.9822
+macacinebeta3_RL11L	SP	0.048394	0.951624	CS pos: 23-24. Pr: 0.6790
+macacinebeta3_RL11M	SP	0.000180	0.999844	CS pos: 30-31. Pr: 0.9616
+macacinebeta3_RL11N	NO_SP	1.000002	0.000001	
+macacinebeta3_RL11O	NO_SP	0.562391	0.437656	
+macacinebeta3_RL11O2	SP	0.000175	0.999810	CS pos: 30-31. Pr: 0.9793
+macacinebeta3_RL11Q	SP	0.000226	0.999770	CS pos: 20-21. Pr: 0.9600
+macacinebeta3_RL11R	SP	0.000165	0.999832	CS pos: 28-29. Pr: 0.8912
+macacinebeta3_RL11S	SP	0.000192	0.999826	CS pos: 30-31. Pr: 0.9776
+macacinebeta3_RL11T	SP	0.000299	0.999703	CS pos: 27-28. Pr: 0.8988
+macacinebeta8_RL11A	SP	0.000154	0.999848	CS pos: 21-22. Pr: 0.9821
+macacinebeta8_RL11B	SP	0.000169	0.999815	CS pos: 17-18. Pr: 0.9805
+macacinebeta8_RL11C	NO_SP	0.999988	0.000000	
+macacinebeta8_RL11D	SP	0.000153	0.999859	CS pos: 23-24. Pr: 0.9833
+macacinebeta8_RL11H	SP	0.147830	0.852170	CS pos: 13-14. Pr: 0.7929
+macacinebeta8_RL11I	SP	0.000179	0.999812	CS pos: 22-23. Pr: 0.9827
+macacinebeta8_RL11J	SP	0.000156	0.999860	CS pos: 14-15. Pr: 0.9824
+macacinebeta8_RL11K	SP	0.000216	0.999780	CS pos: 20-21. Pr: 0.8686
+macacinebeta8_RL11L	NO_SP	1.000008	0.000000	
+macacinebeta8_RL11M	SP	0.000189	0.999802	CS pos: 28-29. Pr: 0.9600
+macacinebeta8_RL11N	NO_SP	1.000016	0.000003	
+macacinebeta8_RL11O	SP	0.000167	0.999840	CS pos: 30-31. Pr: 0.7524
+macacinebeta8_RL11O2	SP	0.000150	0.999846	CS pos: 17-18. Pr: 0.9801
+macacinebeta8_RL11Q	SP	0.000169	0.999828	CS pos: 20-21. Pr: 0.9742
+macacinebeta8_RL11R	SP	0.166807	0.833222	CS pos: 24-25. Pr: 0.8217
+macacinebeta8_RL11S	SP	0.000195	0.999814	CS pos: 29-30. Pr: 0.9741
+macacinebeta8_RL11T	SP	0.000268	0.999754	CS pos: 27-28. Pr: 0.9783
+mandrillinebeta1_RL11T	SP	0.057692	0.942314	CS pos: 27-28. Pr: 0.9318
+mandrillinebeta1_RL11S	SP	0.000865	0.999119	CS pos: 32-33. Pr: 0.4656
+mandrillinebeta1_RL11R	SP	0.000175	0.999841	CS pos: 21-22. Pr: 0.9818
+mandrillinebeta1_RL11Q	SP	0.000150	0.999840	CS pos: 21-22. Pr: 0.9798
+mandrillinebeta1_RL11P	SP	0.166905	0.833097	CS pos: 24-25. Pr: 0.6609
+mandrillinebeta1_RL11O	NO_SP	1.000036	0.000002	
+mandrillinebeta1_RL11N	SP	0.000151	0.999856	CS pos: 32-33. Pr: 0.9815
+mandrillinebeta1_RL11K	SP	0.000180	0.999824	CS pos: 18-19. Pr: 0.9827
+mandrillinebeta1_RL11J	SP	0.000160	0.999850	CS pos: 16-17. Pr: 0.9791
+mandrillinebeta1_RL11H	SP	0.000181	0.999819	CS pos: 27-28. Pr: 0.9819
+mandrillinebeta1_RL11G	SP	0.000198	0.999798	CS pos: 21-22. Pr: 0.9638
+mandrillinebeta1_RL11F	SP	0.000156	0.999834	CS pos: 17-18. Pr: 0.9833
+mandrillinebeta1_RL11D2	NO_SP	0.500443	0.499582	
+mandrillinebeta1_RL11D1	NO_SP	0.656158	0.343900	
+mandrillinebeta1_RL11B4	NO_SP	0.833454	0.166530	
+mandrillinebeta1_RL11B3	NO_SP	0.999995	0.000000	
+mandrillinebeta1_RL11B2	SP	0.000801	0.999216	CS pos: 26-27. Pr: 0.7025
+mandrillinebeta1_RL11B1	NO_SP	0.666337	0.333643	
+mandrillinebeta1_RL11A	SP	0.000156	0.999827	CS pos: 21-22. Pr: 0.8349
+paninebeta2_RL11	SP	0.000181	0.999797	CS pos: 30-31. Pr: 0.3179
+paninebeta2_RL12	NO_SP	1.000003	0.000000	
+paninebeta2_RL13	SP	0.000312	0.999684	CS pos: 23-24. Pr: 0.6537
+paninebeta2_UL5	SP	0.167027	0.832964	CS pos: 47-48. Pr: 0.8050
+paninebeta2_UL6	SP	0.238202	0.761808	CS pos: 36-37. Pr: 0.4076
+paninebeta2_UL7	SP	0.000222	0.999762	CS pos: 36-37. Pr: 0.9743
+paninebeta2_UL8	NO_SP	0.999998	0.000001	
+paninebeta2_UL9	NO_SP	0.999984	0.000000	
+paninebeta2_UL10	NO_SP	0.999098	0.000927	
+paninebeta2_UL11	SP	0.000185	0.999815	CS pos: 25-26. Pr: 0.9821
+papiinebeta4_RL11T	SP	0.000262	0.999740	CS pos: 26-27. Pr: 0.9771
+papiinebeta4_RL11S	SP	0.000218	0.999823	CS pos: 31-32. Pr: 0.5261
+papiinebeta4_RL11R	SP	0.166832	0.833179	CS pos: 20-21. Pr: 0.7803
+papiinebeta4_RL11Q	SP	0.000146	0.999870	CS pos: 20-21. Pr: 0.9826
+papiinebeta4_RL11P	NO_SP	0.666945	0.333054	
+papiinebeta4_RL11O	SP	0.000158	0.999860	CS pos: 29-30. Pr: 0.6375
+papiinebeta4_RL11N	SP	0.000201	0.999798	CS pos: 25-26. Pr: 0.9797
+papiinebeta4_RL11M	SP	0.000164	0.999852	CS pos: 29-30. Pr: 0.9817
+papiinebeta4_RL11K	SP	0.000160	0.999851	CS pos: 26-27. Pr: 0.9808
+papiinebeta4_RL11J	SP	0.001431	0.998571	CS pos: 16-17. Pr: 0.9392
+papiinebeta4_RL11H	SP	0.000196	0.999841	CS pos: 32-33. Pr: 0.9863
+papiinebeta4_RL11G	SP	0.000167	0.999815	CS pos: 21-22. Pr: 0.7893
+papiinebeta4_RL11F	NO_SP	0.685839	0.314155	
+papiinebeta4_RL11D3	NO_SP	0.999991	0.000000	
+papiinebeta4_RL11D2	NO_SP	0.999991	0.000019	
+papiinebeta4_RL11D1	NO_SP	0.999995	0.000000	
+papiinebeta4_RL11C	SP	0.000154	0.999832	CS pos: 23-24. Pr: 0.9748
+papiinebeta4_RL11B4	SP	0.000155	0.999855	CS pos: 22-23. Pr: 0.9807
+papiinebeta4_RL11B3	SP	0.000157	0.999854	CS pos: 26-27. Pr: 0.9825
+papiinebeta4_RL11B2	SP	0.000153	0.999859	CS pos: 23-24. Pr: 0.9843
+papiinebeta4_RL11B1	SP	0.000175	0.999820	CS pos: 34-35. Pr: 0.9772
+papiinebeta4_RL11A	SP	0.000155	0.999834	CS pos: 21-22. Pr: 0.9252
