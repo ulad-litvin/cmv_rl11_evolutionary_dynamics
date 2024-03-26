@@ -12,7 +12,7 @@ clipkit al.fa -m smart-gap
 
 [DIGS folder](digs)
 
-Contains [raw DIGS results](digs/digs_raw_results.csv) and [processed DIGS results](digs/digs_processed_results_bitscore_46_length_75_one_hcmv.csv) generated with [DIGS notebook](notebooks/process_digs_results_manuscript.ipynb) and used to create the [Table S2](supplementary_tables/sup_table_2_digs_results_table.csv).
+Contains [raw DIGS results](digs/digs_raw_results.csv) and [processed DIGS results](digs/digs_processed_results_bitscore_46_length_75_one_hcmv.csv) generated with [DIGS notebook](notebooks/process_digs_results_manuscript.ipynb) and used to create [Table S2](supplementary_tables/sup_table_2_digs_results_table.csv).
 
 [ESMFold folder](esmfold)
 
@@ -24,7 +24,7 @@ esm-fold -i ../fasta_files/adeno_cr1_cmv_rl11_elephantidbeta_ee50.fa -o ../esmfo
 
 [FASTA files folder](fasta_files)
 
-Contains FASTA files with sequences from the [Table S2](supplementary_tables/sup_table_2_digs_results_table.csv).
+Contains FASTA files with sequences from [Table S2](supplementary_tables/sup_table_2_digs_results_table.csv).
 
 [Foldseek folder](foldseek)
 
