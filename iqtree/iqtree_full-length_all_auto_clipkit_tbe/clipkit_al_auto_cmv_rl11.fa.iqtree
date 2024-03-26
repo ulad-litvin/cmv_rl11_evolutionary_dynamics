@@ -1,0 +1,809 @@
+IQ-TREE 2.1.3 COVID-edition built Apr 21 2021
+
+Input file name: clipkit_al_auto_cmv_rl11.fa
+Type of analysis: ModelFinder + tree reconstruction + non-parametric bootstrap (100 replicates)
+Random seed number: 658491
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+To cite ModelFinder please use: 
+
+Subha Kalyaanamoorthy, Bui Quang Minh, Thomas KF Wong, Arndt von Haeseler,
+and Lars S Jermiin (2017) ModelFinder: Fast model selection for
+accurate phylogenetic estimates. Nature Methods, 14:587–589.
+https://doi.org/10.1038/nmeth.4285
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 141 sequences with 732 amino-acid sites
+Number of constant sites: 30 (= 4.09836% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 30 (= 4.09836% of all sites)
+Number of parsimony informative sites: 610
+Number of distinct site patterns: 707
+
+ModelFinder
+-----------
+
+Best-fit model according to BIC: WAG+F+R5
+
+List of models sorted by BIC scores: 
+
+Model                  LogL         AIC      w-AIC        AICc     w-AICc         BIC      w-BIC
+WAG+F+R5         -59327.985  119267.970 +    0.876  119710.050 +    0.997  120674.279 +    0.999
+WAG+F+R6         -59327.944  119271.887 +    0.124  119721.873 -   0.0027  120687.388 -  0.00142
+VT+F+R5          -59372.405  119356.809 - 4.48e-20  119798.889 -  5.1e-20  120763.118 - 5.11e-20
+VT+F+R6          -59382.374  119380.748 - 2.84e-25  119830.734 - 6.21e-27  120796.248 - 3.27e-27
+JTT+F+R5         -59390.669  119393.339 - 5.24e-28  119835.419 - 5.96e-28  120799.648 - 5.97e-28
+JTT+F+R6         -59398.036  119412.071 - 4.48e-32  119862.057 - 9.79e-34  120827.572 - 5.16e-34
+JTTDCMut+F+R5    -59405.712  119423.424 - 1.54e-34  119865.504 - 1.75e-34  120829.733 - 1.75e-34
+JTTDCMut+F+R6    -59412.787  119441.574 - 1.76e-38  119891.560 - 3.84e-40  120857.075 - 2.02e-40
+FLU+F+R5         -59554.515  119721.029 - 3.65e-99  120163.109 - 4.15e-99  121127.338 - 4.16e-99
+FLU+F+R6         -59563.807  119743.614 - 4.55e-104  120193.599 - 9.94e-106  121159.114 - 5.23e-106
+cpREV+F+R5       -59639.514  119891.029 - 4.44e-136  120333.109 - 5.05e-136  121297.338 - 5.06e-136
+cpREV+F+R6       -59638.656  119893.312 - 1.42e-136  120343.298 - 3.1e-138  121308.813 - 1.63e-138
+Q.pfam+F+R5      -59646.813  119905.625 -   3e-139  120347.705 - 3.42e-139  121311.934 - 3.42e-139
+Q.pfam+F+R6      -59646.684  119909.369 - 4.62e-140  120359.355 - 1.01e-141  121324.869 - 5.32e-142
+PMB+F+R5         -59664.562  119941.125 - 5.88e-147  120383.205 - 6.69e-147  121347.433 - 6.7e-147
+PMB+F+R6         -59673.300  119962.599 - 1.28e-151  120412.585 - 2.79e-153  121378.100 - 1.47e-153
+LG+F+R5          -59732.779  120077.559 - 1.39e-176  120519.639 - 1.58e-176  121483.867 - 1.58e-176
+Blosum62+F+R5    -59735.659  120083.318 - 7.8e-178  120525.398 - 8.88e-178  121489.627 - 8.89e-178
+LG+F+R6          -59729.142  120074.283 - 7.15e-176  120524.269 - 1.56e-177  121489.784 - 8.22e-178
+Blosum62+F+R6    -59745.643  120107.286 - 4.87e-183  120557.272 - 1.06e-184  121522.786 - 5.6e-185
+Q.mammal+F+R5    -59796.099  120204.197 - 4.4e-204  120646.277 - 5.01e-204  121610.506 - 5.02e-204
+Q.mammal+F+R6    -59798.508  120213.016 - 5.35e-206  120663.002 - 1.17e-207  121628.517 - 6.16e-208
+Q.yeast+F+R5     -59818.917  120249.834 - 5.42e-214  120691.914 - 6.17e-214  121656.142 - 6.17e-214
+Q.insect+F+R5    -59820.889  120253.779 - 7.54e-215  120695.859 - 8.58e-215  121660.087 - 8.59e-215
+Q.yeast+F+R6     -59818.545  120253.090 - 1.06e-214  120703.076 - 2.32e-216  121668.591 - 1.22e-216
+Q.plant+F+R5     -59826.109  120264.218 - 4.08e-217  120706.298 - 4.64e-217  121670.527 - 4.64e-217
+Q.plant+F+R6     -59824.134  120264.268 - 3.98e-217  120714.254 - 8.69e-219  121679.768 - 4.57e-219
+Q.insect+F+R6    -59829.355  120274.710 - 2.15e-219  120724.696 - 4.69e-221  121690.211 - 2.47e-221
+JTTDCMut+R5      -59902.040  120378.081 - 7.68e-242  120750.405 - 1.23e-226  121697.070 -   8e-223
+JTT+R5           -59904.327  120382.653 - 7.81e-243  120754.977 - 1.25e-227  121701.642 - 8.14e-224
+VT+R5            -59905.258  120384.516 - 3.08e-243  120756.840 - 4.91e-228  121703.505 - 3.21e-224
+JTTDCMut+R6      -59907.899  120393.799 - 2.97e-245  120773.030 - 1.5e-231  121721.980 - 3.12e-228
+JTT+R6           -59910.732  120399.464 - 1.75e-246  120778.695 - 8.82e-233  121727.645 - 1.84e-229
+VT+R6            -59914.814  120407.628 - 2.95e-248  120786.858 - 1.49e-234  121735.808 - 3.1e-231
+DCMut+F+R5       -59860.532  120333.065 - 4.57e-232  120775.145 - 5.21e-232  121739.374 - 5.21e-232
+Dayhoff+F+R5     -59863.943  120339.887 - 1.51e-233  120781.967 - 1.72e-233  121746.195 - 1.72e-233
+DCMut+F+R6       -59860.606  120337.213 - 5.75e-233  120787.198 - 1.26e-234  121752.713 - 6.61e-235
+Dayhoff+F+R6     -59863.942  120343.883 - 2.05e-234  120793.869 - 4.47e-236  121759.383 - 2.36e-236
+WAG+R5           -59981.174  120536.348 - 3.3e-276  120908.673 - 5.26e-261  121855.337 - 3.43e-257
+WAG+R6           -59986.626  120551.252 - 1.91e-279  120930.483 - 9.67e-266  121879.433 - 2.01e-262
+FLU+R5           -60025.657  120625.314 - 1.58e-295  120997.638 - 2.53e-280  121944.303 - 1.65e-276
+FLU+R6           -60024.532  120627.064 - 6.59e-296  121006.295 - 3.33e-282  121955.245 - 6.94e-279
+mtInv+F+R5       -60054.302  120720.603 - 3.22e-316  121162.683 - 3.66e-316  122126.912 - 3.67e-316
+mtInv+F+R6       -60059.043  120734.087 - 3.8e-319  121184.073 - 8.3e-321  122149.587 - 4.37e-321
+Q.pfam+R5        -60156.446  120886.892 -        0  121259.216 -        0  122205.881 -        0
+Q.pfam+R6        -60155.024  120888.048 -        0  121267.279 -        0  122216.229 -        0
+cpREV+R5         -60163.548  120901.096 -        0  121273.420 -        0  122220.085 -        0
+Q.insect+R5      -60174.699  120923.399 -        0  121295.723 -        0  122242.388 -        0
+cpREV+R6         -60168.858  120915.717 -        0  121294.948 -        0  122243.898 -        0
+Q.bird+F+R5      -60114.110  120840.221 -        0  121282.301 -        0  122246.530 -        0
+rtREV+F+R5       -60115.951  120843.902 -        0  121285.982 -        0  122250.210 -        0
+rtREV+F+R6       -60115.903  120847.806 -        0  121297.792 -        0  122263.306 -        0
+Q.bird+F+R6      -60116.860  120849.720 -        0  121299.705 -        0  122265.220 -        0
+Q.insect+R6      -60183.784  120945.569 -        0  121324.800 -        0  122273.749 -        0
+LG+R5            -60204.330  120982.661 -        0  121354.985 -        0  122301.650 -        0
+LG+R6            -60202.524  120983.048 -        0  121362.279 -        0  122311.229 -        0
+LG+R4            -60222.757  121015.515 -        0  121381.030 -        0  122325.312 -        0
+PMB+R5           -60241.302  121056.604 -        0  121428.928 -        0  122375.593 -        0
+HIVb+F+R5        -60180.373  120972.745 -        0  121414.825 -        0  122379.054 -        0
+HIVb+F+R6        -60177.502  120971.004 -        0  121420.990 -        0  122386.505 -        0
+PMB+R6           -60248.068  121074.137 -        0  121453.367 -        0  122402.317 -        0
+LG+I+G4          -60295.162  121152.323 -        0  121504.510 -        0  122443.737 -        0
+LG+R3            -60302.181  121170.362 -        0  121529.166 -        0  122470.968 -        0
+LG+G4            -60336.343  121232.687 -        0  121581.600 -        0  122519.505 -        0
+Q.yeast+R5       -60323.872  121221.744 -        0  121594.069 -        0  122540.733 -        0
+mtMet+F+R5       -60266.626  121145.251 -        0  121587.331 -        0  122551.560 -        0
+Q.yeast+R6       -60330.960  121239.920 -        0  121619.151 -        0  122568.100 -        0
+mtMet+F+R6       -60270.099  121156.199 -        0  121606.185 -        0  122571.699 -        0
+HIVw+F+R5        -60282.886  121177.771 -        0  121619.851 -        0  122584.080 -        0
+HIVw+F+R6        -60278.540  121173.080 -        0  121623.066 -        0  122588.580 -        0
+Q.mammal+R5      -60388.379  121350.758 -        0  121723.083 -        0  122669.747 -        0
+Q.mammal+R6      -60398.582  121375.164 -        0  121754.394 -        0  122703.344 -        0
+Blosum62+R5      -60413.090  121400.180 -        0  121772.504 -        0  122719.169 -        0
+LG+R2            -60433.600  121429.199 -        0  121781.386 -        0  122720.614 -        0
+Blosum62+R6      -60421.177  121420.355 -        0  121799.585 -        0  122748.535 -        0
+Q.plant+R6       -60466.653  121511.307 -        0  121890.538 -        0  122839.487 -        0
+Q.plant+R5       -60474.226  121522.452 -        0  121894.776 -        0  122841.441 -        0
+rtREV+R5         -60484.565  121543.130 -        0  121915.454 -        0  122862.119 -        0
+rtREV+R6         -60483.454  121544.908 -        0  121924.139 -        0  122873.089 -        0
+HIVb+R6          -60597.043  121772.086 -        0  122151.317 -        0  123100.267 -        0
+HIVb+R5          -60604.116  121782.232 -        0  122154.556 -        0  123101.221 -        0
+mtVer+F+R5       -60643.389  121898.778 -        0  122340.858 -        0  123305.087 -        0
+mtVer+F+R6       -60645.089  121906.178 -        0  122356.164 -        0  123321.679 -        0
+Q.bird+R5        -60757.636  122089.273 -        0  122461.597 -        0  123408.262 -        0
+mtREV+F+R6       -60695.167  122006.334 -        0  122456.320 -        0  123421.835 -        0
+mtREV+F+R5       -60702.594  122017.187 -        0  122459.267 -        0  123423.496 -        0
+Q.bird+R6        -60759.254  122096.507 -        0  122475.738 -        0  123424.688 -        0
+LG+I             -60879.723  122319.447 -        0  122668.360 -        0  123606.265 -        0
+DCMut+R5         -60942.030  122458.059 -        0  122830.384 -        0  123777.048 -        0
+Dayhoff+R5       -60945.700  122465.401 -        0  122837.725 -        0  123784.390 -        0
+DCMut+R6         -60940.306  122458.611 -        0  122837.842 -        0  123786.792 -        0
+LG               -60973.748  122505.495 -        0  122851.159 -        0  123787.718 -        0
+Dayhoff+R6       -60943.906  122465.812 -        0  122845.043 -        0  123793.993 -        0
+mtZOA+F+R6       -60930.423  122476.846 -        0  122926.831 -        0  123892.346 -        0
+mtZOA+F+R5       -60940.524  122493.049 -        0  122935.129 -        0  123899.358 -        0
+HIVw+R5          -61313.359  123200.718 -        0  123573.043 -        0  124519.707 -        0
+HIVw+R6          -61309.178  123196.356 -        0  123575.586 -        0  124524.536 -        0
+mtMAM+F+R6       -61695.457  124006.914 -        0  124456.899 -        0  125422.414 -        0
+mtMAM+F+R5       -61711.531  124035.062 -        0  124477.142 -        0  125441.371 -        0
+mtART+F+R6       -61808.137  124232.275 -        0  124682.261 -        0  125647.775 -        0
+mtART+F+R5       -61822.476  124256.952 -        0  124699.032 -        0  125663.261 -        0
+mtREV+R6         -61973.091  124524.182 -        0  124903.413 -        0  125852.362 -        0
+mtREV+R5         -61983.900  124541.801 -        0  124914.125 -        0  125860.790 -        0
+mtVer+R5         -61994.343  124562.686 -        0  124935.011 -        0  125881.675 -        0
+mtVer+R6         -62000.799  124579.597 -        0  124958.828 -        0  125907.778 -        0
+mtMet+R5         -62236.344  125046.689 -        0  125419.013 -        0  126365.678 -        0
+mtMet+R6         -62242.189  125062.379 -        0  125441.609 -        0  126390.559 -        0
+mtZOA+R5         -62671.494  125916.988 -        0  126289.312 -        0  127235.977 -        0
+mtZOA+R6         -62666.152  125910.304 -        0  126289.535 -        0  127238.485 -        0
+mtInv+R5         -62924.053  126422.107 -        0  126794.431 -        0  127741.096 -        0
+mtInv+R6         -62932.562  126443.125 -        0  126822.356 -        0  127771.305 -        0
+mtMAM+R6         -63308.468  127194.935 -        0  127574.166 -        0  128523.116 -        0
+mtMAM+R5         -63327.921  127229.841 -        0  127602.166 -        0  128548.830 -        0
+mtART+R6         -64043.388  128664.776 -        0  129044.006 -        0  129992.956 -        0
+mtART+R5         -64060.883  128695.767 -        0  129068.091 -        0  130014.756 -        0
+
+AIC, w-AIC   : Akaike information criterion scores and weights.
+AICc, w-AICc : Corrected AIC scores and weights.
+BIC, w-BIC   : Bayesian information criterion scores and weights.
+
+Plus signs denote the 95% confidence sets.
+Minus signs denote significant exclusion.
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: WAG+F+R5
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.0471
+  pi(R) = 0.0402
+  pi(N) = 0.0676
+  pi(D) = 0.0288
+  pi(C) = 0.0313
+  pi(Q) = 0.0341
+  pi(E) = 0.0297
+  pi(G) = 0.0389
+  pi(H) = 0.0359
+  pi(I) = 0.0625
+  pi(L) = 0.0843
+  pi(K) = 0.0434
+  pi(M) = 0.0216
+  pi(F) = 0.0336
+  pi(P) = 0.0447
+  pi(S) = 0.0835
+  pi(T) = 0.1415
+  pi(W) = 0.0179
+  pi(Y) = 0.0517
+  pi(V) = 0.0617
+
+Model of rate heterogeneity: FreeRate with 5 categories
+Site proportion and rates:  (0.0126,0.0320) (0.0665,0.3458) (0.2559,0.6446) (0.2957,0.9653) (0.3693,1.4248)
+
+ Category  Relative_rate  Proportion
+  1         0.0320         0.0126
+  2         0.3458         0.0665
+  3         0.6446         0.2559
+  4         0.9653         0.2957
+  5         1.4248         0.3693
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -59286.7573 (s.e. 2364.1476)
+Unconstrained log-likelihood (without tree): -4768.8405
+Number of free parameters (#branches + #model parameters): 306
+Akaike information criterion (AIC) score: 119185.5146
+Corrected Akaike information criterion (AICc) score: 119627.5946
+Bayesian information criterion (BIC) score: 120591.8234
+
+Total tree length (sum of branch lengths): 107.7231
+Sum of internal branch lengths: 52.0152 (48.2860% of tree length)
+
+NOTE: Tree is UNROOTED although outgroup taxon 'cercopithecinebeta5_RL11A' is drawn at root
+Numbers in parentheses are  standard bootstrap support (%)
+
++--cercopithecinebeta5_RL11A
+|
+|     +--mandrillinebeta1_RL11A
+|  +--| (72)
+|  |  +--papiinebeta4_RL11A
++--| (44)
+|  |     +--macacinebetajap_RL11A
+|  +-----| (100)
+|        |  +--macacinebeta3_RL11A
+|        +--| (100)
+|           +--macacinebeta8_RL11A
+|
+|                           +--cercopithecinebeta5_RL11G
+|                        +--| (88)
+|                        |  |  +--mandrillinebeta1_RL11G
+|                        |  +--| (98)
+|                        |     +--papiinebeta4_RL11G
+|              +---------| (100)
+|              |         |  +--macacinebetajap_RL11G
+|              |         +--| (100)
+|              |            +--macacinebeta3_RL11G
+|           +--| (36)
+|           |  |                                     +--cercopithecinebeta5_RL11H
+|           |  |                                  +--| (52)
+|           |  |                                  |  +-----cercopithecinebeta5_RL11I
+|           |  |                               +--| (68)
+|           |  |                               |  |  +--mandrillinebeta1_RL11H
+|           |  |                               |  +--| (85)
+|           |  |                               |     +--papiinebeta4_RL11H
+|           |  |                          +----| (80)
+|           |  |                          |    |          +--macacinebetajap_RL11H
+|           |  |                          |    |       +--| (83)
+|           |  |                          |    |       |  +--macacinebeta3_RL11H
+|           |  |                          |    |  +----| (99)
+|           |  |                          |    |  |    +--macacinebeta8_RL11H
+|           |  |                          |    +--| (73)
+|           |  |                          |       |   +--macacinebetajap_RL11I
+|           |  |                          |       +---| (98)
+|           |  |                          |           |  +--macacinebeta3_RL11I
+|           |  |                          |           +--| (100)
+|           |  |                          |              +--macacinebeta8_RL11I
+|           |  |                    +-----| (81)
+|           |  |                    |     +-----------humanbeta5_UL4
+|           |  |                 +--| (20)
+|           |  |                 |  |             +---cercopithecinebeta5_RL11R
+|           |  |                 |  +-------------| (100)
+|           |  |                 |                |     +--mandrillinebeta1_RL11R
+|           |  |                 |                |  +--| (28)
+|           |  |                 |                |  |  |          +--macacinebetajap_RL11R
+|           |  |                 |                |  |  |       +--| (80)
+|           |  |                 |                |  |  |       |  +--macacinebeta8_RL11R
+|           |  |                 |                |  |  +-------| (96)
+|           |  |                 |                |  |          +--macacinebeta3_RL11R
+|           |  |                 |                +--| (31)
+|           |  |                 |                   +--papiinebeta4_RL11R
+|           |  |              +--| (5)
+|           |  |              |  |                +--cercopithecinebeta5_RL11J
+|           |  |              |  |             +--| (91)
+|           |  |              |  |             |  |  +--mandrillinebeta1_RL11J
+|           |  |              |  |             |  +--| (89)
+|           |  |              |  |             |     +--papiinebeta4_RL11J
+|           |  |              |  |       +-----| (99)
+|           |  |              |  |       |     |  +--macacinebetajap_RL11J
+|           |  |              |  |       |     +--| (87)
+|           |  |              |  |       |        |  +--macacinebeta3_RL11J
+|           |  |              |  |       |        +--| (94)
+|           |  |              |  |       |           +--macacinebeta8_RL11J
+|           |  |              |  +-------| (99)
+|           |  |              |          |   +-------humanbeta5_UL6
+|           |  |              |          +---| (94)
+|           |  |              |              +---paninebeta2_UL6
+|           |  |           +--| (1)
+|           |  |           |  |                +-------cercopithecinebeta5_RL11B
+|           |  |           |  |             +--| (40)
+|           |  |           |  |             |  |              +--macacinebetajap_RL11B
+|           |  |           |  |             |  |          +---| (99)
+|           |  |           |  |             |  |          |   +--macacinebeta8_RL11B
+|           |  |           |  |             |  |     +----| (98)
+|           |  |           |  |             |  |     |    +----macacinebeta3_RL11B
+|           |  |           |  |             |  |  +--| (49)
+|           |  |           |  |             |  |  |  |          +--macacinebetajap_RL11C
+|           |  |           |  |             |  |  |  |  +-------| (100)
+|           |  |           |  |             |  |  |  |  |       |  +--macacinebeta3_RL11C
+|           |  |           |  |             |  |  |  |  |       +--| (80)
+|           |  |           |  |             |  |  |  |  |          +--macacinebeta8_RL11C
+|           |  |           |  |             |  |  |  +--| (48)
+|           |  |           |  |             |  |  |     |    +----cercopithecinebeta5_RL11C2
+|           |  |           |  |             |  |  |     +----| (100)
+|           |  |           |  |             |  |  |          +---papiinebeta4_RL11C
+|           |  |           |  |             |  +--| (36)
+|           |  |           |  |             |     |     +----cercopithecinebeta5_RL11C1
+|           |  |           |  |             |     |  +--| (82)
+|           |  |           |  |             |     |  |  |     +---mandrillinebeta1_RL11B4
+|           |  |           |  |             |     |  |  +-----| (100)
+|           |  |           |  |             |     |  |        +--papiinebeta4_RL11B4
+|           |  |           |  |             |     +--| (87)
+|           |  |           |  |             |        |  +---mandrillinebeta1_RL11B3
+|           |  |           |  |             |        +--| (100)
+|           |  |           |  |             |           +---papiinebeta4_RL11B3
+|           |  |           |  |       +-----| (92)
+|           |  |           |  |       |     |       +---mandrillinebeta1_RL11B2
+|           |  |           |  |       |     |  +----| (99)
+|           |  |           |  |       |     |  |    +---papiinebeta4_RL11B2
+|           |  |           |  |       |     +--| (60)
+|           |  |           |  |       |        |     +--mandrillinebeta1_RL11B1
+|           |  |           |  |       |        +-----| (99)
+|           |  |           |  |       |              +---papiinebeta4_RL11B1
+|           |  |           |  +-------| (90)
+|           |  |           |          |             +--------cercopithecinebeta5_RL11D
+|           |  |           |          |          +--| (30)
+|           |  |           |          |          |  |     +----mandrillinebeta1_RL11D2
+|           |  |           |          |          |  |  +--| (60)
+|           |  |           |          |          |  |  |  +----papiinebeta4_RL11D3
+|           |  |           |          |          |  +--| (58)
+|           |  |           |          |          |     +-----papiinebeta4_RL11D1
+|           |  |           |          |       +--| (36)
+|           |  |           |          |       |  |   +----mandrillinebeta1_RL11D1
+|           |  |           |          |       |  +---| (99)
+|           |  |           |          |       |      +-------papiinebeta4_RL11D2
+|           |  |           |          |  +----| (76)
+|           |  |           |          |  |    |          +--macacinebetajap_RL11D1
+|           |  |           |          |  |    |  +-------| (100)
+|           |  |           |          |  |    |  |       |  +--macacinebeta3_RL11D1
+|           |  |           |          |  |    |  |       +--| (92)
+|           |  |           |          |  |    |  |          +--macacinebeta8_RL11D
+|           |  |           |          |  |    +--| (57)
+|           |  |           |          |  |       |     +--macacinebetajap_RL11D2
+|           |  |           |          |  |       +-----| (100)
+|           |  |           |          |  |             +--macacinebeta3_RL11D2
+|           |  |           |          +--| (48)
+|           |  |           |             |             +-----cercopithecinebeta5_RL11F
+|           |  |           |             |          +--| (61)
+|           |  |           |             |          |  +---mandrillinebeta1_RL11F
+|           |  |           |             |  +-------| (100)
+|           |  |           |             |  |       +--papiinebeta4_RL11F
+|           |  |           |             +--| (50)
+|           |  |           |                |           +--macacinebetajap_RL11F
+|           |  |           |                +-----------| (100)
+|           |  |           |                            +--macacinebeta3_RL11F
+|           |  |        +--| (12)
+|           |  |        |  |                 +---cercopithecinebeta5_RL11K
+|           |  |        |  |           +-----| (36)
+|           |  |        |  |           |     |     +--mandrillinebeta1_RL11K
+|           |  |        |  |           |     |  +--| (99)
+|           |  |        |  |           |     |  |  +--papiinebeta4_RL11K
+|           |  |        |  |           |     +--| (21)
+|           |  |        |  |           |        |        +--macacinebetajap_RL11L
+|           |  |        |  |           |        |     +--| (83)
+|           |  |        |  |           |        |     |  +---macacinebeta3_RL11L
+|           |  |        |  |           |        |  +--| (34)
+|           |  |        |  |           |        |  |  +-------------------macacinebeta8_RL11L
+|           |  |        |  |           |        +--| (31)
+|           |  |        |  |           |           |       +--macacinebetajap_RL11K
+|           |  |        |  |           |           +-------| (100)
+|           |  |        |  |           |                   |  +--macacinebeta3_RL11K
+|           |  |        |  |           |                   +--| (55)
+|           |  |        |  |           |                      +--macacinebeta8_RL11K
+|           |  |        |  |        +--| (3)
+|           |  |        |  |        |  |           +----humanbeta5_UL7
+|           |  |        |  |        |  |  +--------| (100)
+|           |  |        |  |        |  |  |        +-----------paninebeta2_UL7
+|           |  |        |  |        |  +--| (22)
+|           |  |        |  |        |     |               +--cercopithecinebeta5_RL11P
+|           |  |        |  |        |     |            +--| (65)
+|           |  |        |  |        |     |            |  +--mandrillinebeta1_RL11P
+|           |  |        |  |        |     |         +--| (70)
+|           |  |        |  |        |     |         |  +---macacinebetajap_RL11P
+|           |  |        |  |        |     +---------| (100)
+|           |  |        |  |        |               +--papiinebeta4_RL11P
+|           |  |        |  |     +--| (1)
+|           |  |        |  |     |  |              +--cercopithecinebeta5_RL11M
+|           |  |        |  |     |  |           +--| (58)
+|           |  |        |  |     |  |           |  +--papiinebeta4_RL11M
+|           |  |        |  |     |  |     +-----| (95)
+|           |  |        |  |     |  |     |     |     +--macacinebetajap_RL11M
+|           |  |        |  |     |  |     |     |  +--| (59)
+|           |  |        |  |     |  |     |     |  |  +--macacinebeta3_RL11M
+|           |  |        |  |     |  |     |     +--| (99)
+|           |  |        |  |     |  |     |        +--macacinebeta8_RL11M
+|           |  |        |  |     |  |  +--| (19)
+|           |  |        |  |     |  |  |  |     +---------humanbeta5_UL8
+|           |  |        |  |     |  |  |  |  +--| (80)
+|           |  |        |  |     |  |  |  |  |  +---paninebeta2_UL8
+|           |  |        |  |     |  |  |  +--| (41)
+|           |  |        |  |     |  |  |     |     +-------humanbeta5_UL9
+|           |  |        |  |     |  |  |     +-----| (87)
+|           |  |        |  |     |  |  |           +-----------paninebeta2_UL9
+|           |  |        |  |     |  +--| (10)
+|           |  |        |  |     |     |    +------humanbeta5_UL11
+|           |  |        |  |     |     +----| (90)
+|           |  |        |  |     |          +--------paninebeta2_UL11
+|           |  |        |  |  +--| (5)
+|           |  |        |  |  |  |     +--cercopithecinebeta5_RL11S
+|           |  |        |  |  |  +-----| (94)
+|           |  |        |  |  |        |     +--mandrillinebeta1_RL11S
+|           |  |        |  |  |        |  +--| (43)
+|           |  |        |  |  |        |  |  +--papiinebeta4_RL11S
+|           |  |        |  |  |        +--| (44)
+|           |  |        |  |  |           |      +--macacinebetajap_RL11S
+|           |  |        |  |  |           |   +--| (79)
+|           |  |        |  |  |           |   |  +--macacinebeta3_RL11S
+|           |  |        |  |  |           +---| (99)
+|           |  |        |  |  |               +--macacinebeta8_RL11S
+|           |  |        |  +--| (1)
+|           |  |        |     |                              +-------cercopithecinebeta5_RL11N
+|           |  |        |     |                           +--| (49)
+|           |  |        |     |                           |  +--mandrillinebeta1_RL11N
+|           |  |        |     |                    +------| (94)
+|           |  |        |     |                    |      +--papiinebeta4_RL11N
+|           |  |        |     |           +--------| (68)
+|           |  |        |     |           |        |            +--macacinebetajap_RL11N
+|           |  |        |     |           |        |         +--| (56)
+|           |  |        |     |           |        |         |  +--macacinebeta8_RL11N
+|           |  |        |     |           |        +---------| (98)
+|           |  |        |     |           |                  +--macacinebeta3_RL11N
+|           |  |        |     |        +--| (24)
+|           |  |        |     |        |  |          +---cercopithecinebeta5_RL11O
+|           |  |        |     |        |  |       +--| (62)
+|           |  |        |     |        |  |       |  |  +--mandrillinebeta1_RL11O
+|           |  |        |     |        |  |       |  +--| (90)
+|           |  |        |     |        |  |       |     +--papiinebeta4_RL11O
+|           |  |        |     |        |  |  +----| (89)
+|           |  |        |     |        |  |  |    |  +--macacinebetajap_RL11O
+|           |  |        |     |        |  |  |    +--| (49)
+|           |  |        |     |        |  |  |       |  +--macacinebeta3_RL11O
+|           |  |        |     |        |  |  |       +--| (96)
+|           |  |        |     |        |  |  |          +--macacinebeta8_RL11O
+|           |  |        |     |        |  +--| (41)
+|           |  |        |     |        |     |         +----cercopithecinebeta5_RL11Q
+|           |  |        |     |        |     |      +--| (31)
+|           |  |        |     |        |     |      |  |  +--mandrillinebeta1_RL11Q
+|           |  |        |     |        |     |      |  +--| (87)
+|           |  |        |     |        |     |      |     +--papiinebeta4_RL11Q
+|           |  |        |     |        |     +------| (98)
+|           |  |        |     |        |            |     +--macacinebetajap_RL11Q
+|           |  |        |     |        |            +-----| (100)
+|           |  |        |     |        |                  |  +--macacinebeta3_RL11Q
+|           |  |        |     |        |                  +--| (100)
+|           |  |        |     |        |                     +--macacinebeta8_RL11Q
+|           |  |        |     |     +--| (28)
+|           |  |        |     |     |  |        +--macacinebeta3_RL11O2
+|           |  |        |     |     |  +--------| (100)
+|           |  |        |     |     |           +--macacinebeta8_RL11O2
+|           |  |        |     |  +--| (14)
+|           |  |        |     |  |  |    +------humanbeta5_UL10
+|           |  |        |     |  |  +----| (84)
+|           |  |        |     |  |       +---------paninebeta2_UL10
+|           |  |        |     +--| (11)
+|           |  |        |        +-----------------humanbeta5_UL1
+|           |  |     +--| (10)
+|           |  |     |  |         +---------humanbeta5_UL5
+|           |  |     |  +---------| (96)
+|           |  |     |            +-----paninebeta2_UL5
+|           |  |  +--| (7)
+|           |  |  |  |          +--cercopithecinebeta5_RL11T
+|           |  |  |  |       +--| (65)
+|           |  |  |  |       |  |  +--mandrillinebeta1_RL11T
+|           |  |  |  |       |  +--| (99)
+|           |  |  |  |       |     +--papiinebeta4_RL11T
+|           |  |  |  |  +----| (100)
+|           |  |  |  |  |    |     +--macacinebetajap_RL11T
+|           |  |  |  |  |    |  +--| (98)
+|           |  |  |  |  |    |  |  +--macacinebeta8_RL11T
+|           |  |  |  |  |    +--| (97)
+|           |  |  |  |  |       +--macacinebeta3_RL11T
+|           |  |  |  +--| (54)
+|           |  |  |     |     +-------humanbeta5_RL12
+|           |  |  |     |  +--| (100)
+|           |  |  |     |  |  +------paninebeta2_RL12
+|           |  |  |     +--| (45)
+|           |  |  |        |   +------humanbeta5_RL13
+|           |  |  |        +---| (90)
+|           |  |  |            +-----paninebeta2_RL13
+|           |  +--| (10)
+|           |     |          +-----humanbeta5_RL11
+|           |     +----------| (100)
+|           |                +------paninebeta2_RL11
++-----------| (88)
+            |            +---------humanbeta5_RL5A
+            +------------| (90)
+                         +-----------humanbeta5_RL6
+
+Tree in newick format:
+
+(cercopithecinebeta5_RL11A:0.1994708289,((mandrillinebeta1_RL11A:0.1803771206,papiinebeta4_RL11A:0.2876878203)72:0.1104810542,(macacinebetajap_RL11A:0.0103739719,(macacinebeta3_RL11A:0.0256225799,macacinebeta8_RL11A:0.0324622688)100:0.0785561680)100:0.6261255720)44:0.1866287339,((((cercopithecinebeta5_RL11G:0.2024160127,(mandrillinebeta1_RL11G:0.2169751419,papiinebeta4_RL11G:0.1584828898)98:0.2204301442)88:0.1430486290,(macacinebetajap_RL11G:0.0343769427,macacinebeta3_RL11G:0.1293829008)100:0.3085052480)100:1.0287736306,(((((((((((cercopithecinebeta5_RL11H:0.3685798447,cercopithecinebeta5_RL11I:0.6397716035)52:0.1367768496,(mandrillinebeta1_RL11H:0.1997073066,papiinebeta4_RL11H:0.1520736067)85:0.1220544343)68:0.3238938715,(((macacinebetajap_RL11H:0.1058557360,macacinebeta3_RL11H:0.0568683224)83:0.0430860447,macacinebeta8_RL11H:0.0507573473)99:0.5353966283,(macacinebetajap_RL11I:0.1682513528,(macacinebeta3_RL11I:0.0553946336,macacinebeta8_RL11I:0.0690062392)100:0.1699441442)98:0.4269984652)73:0.2940374884)80:0.5186933151,humanbeta5_UL4:1.2566061630)81:0.6958236463,(cercopithecinebeta5_RL11R:0.4844081162,((mandrillinebeta1_RL11R:0.2079884523,((macacinebetajap_RL11R:0.2107885292,macacinebeta8_RL11R:0.0996460226)80:0.0822958116,macacinebeta3_RL11R:0.1763426876)96:0.8352863949)28:0.1148374299,papiinebeta4_RL11R:0.3122462739)31:0.1424415301)100:1.4537631414)20:0.1653706141,(((cercopithecinebeta5_RL11J:0.3421906631,(mandrillinebeta1_RL11J:0.3041013669,papiinebeta4_RL11J:0.3118541171)89:0.1294222780)91:0.1864460935,(macacinebetajap_RL11J:0.1433508821,(macacinebeta3_RL11J:0.1470807966,macacinebeta8_RL11J:0.0351271647)94:0.0994471670)87:0.1921815760)99:0.6093563305,(humanbeta5_UL6:0.8820733112,paninebeta2_UL6:0.4066782791)94:0.4550596893)99:0.8398977798)5:0.0829823335,(((cercopithecinebeta5_RL11B:0.8559345537,((((macacinebetajap_RL11B:0.1845866560,macacinebeta8_RL11B:0.2229710837)99:0.4151716930,macacinebeta3_RL11B:0.5146145477)98:0.6035503141,((macacinebetajap_RL11C:0.1748975536,(macacinebeta3_RL11C:0.0441414983,macacinebeta8_RL11C:0.0190424520)80:0.1329881695)100:0.8321841382,(cercopithecinebeta5_RL11C2:0.5499333092,papiinebeta4_RL11C:0.4525483009)100:0.5139188259)48:0.1005760937)49:0.1640032877,((cercopithecinebeta5_RL11C1:0.5208602065,(mandrillinebeta1_RL11B4:0.4262179245,papiinebeta4_RL11B4:0.3577642741)100:0.6069220749)82:0.2290822759,(mandrillinebeta1_RL11B3:0.4902066964,papiinebeta4_RL11B3:0.4561109195)100:0.3695871883)87:0.2404401987)36:0.1698272389)40:0.1287320990,((mandrillinebeta1_RL11B2:0.4676557582,papiinebeta4_RL11B2:0.4693520716)99:0.5178704812,(mandrillinebeta1_RL11B1:0.2945438660,papiinebeta4_RL11B1:0.4718804722)99:0.6597884777)60:0.1740915875)92:0.6447854182,((((cercopithecinebeta5_RL11D:0.9705571796,((mandrillinebeta1_RL11D2:0.5203472678,papiinebeta4_RL11D3:0.5484349815)60:0.1294178394,papiinebeta4_RL11D1:0.6831744702)58:0.2661521141)30:0.0843788367,(mandrillinebeta1_RL11D1:0.5233449751,papiinebeta4_RL11D2:0.8333092716)99:0.4254744579)36:0.1956028305,((macacinebetajap_RL11D1:0.3187977519,(macacinebeta3_RL11D1:0.2281178297,macacinebeta8_RL11D:0.0751603868)92:0.1701222912)100:0.8091412739,(macacinebetajap_RL11D2:0.3149365508,macacinebeta3_RL11D2:0.1679173893)100:0.6818227157)57:0.1860371383)76:0.5232383969,(((cercopithecinebeta5_RL11F:0.6867612521,mandrillinebeta1_RL11F:0.4453976444)61:0.1705398402,papiinebeta4_RL11F:0.2546226334)100:0.8830060601,(macacinebetajap_RL11F:0.0958108164,macacinebeta3_RL11F:0.1160448251)100:1.2753361000)50:0.2629182676)48:0.1757796177)90:0.8149122117)1:0.0908373309,(((((cercopithecinebeta5_RL11K:0.4707124858,((mandrillinebeta1_RL11K:0.2930778936,papiinebeta4_RL11K:0.2822425083)99:0.2817372170,(((macacinebetajap_RL11L:0.2862272269,macacinebeta3_RL11L:0.4633060383)83:0.1699901859,macacinebeta8_RL11L:2.0546353178)34:0.2041213160,(macacinebetajap_RL11K:0.0679685683,(macacinebeta3_RL11K:0.1355081138,macacinebeta8_RL11K:0.3748156451)55:0.0752531305)100:0.8599009967)31:0.3841782390)21:0.1700584519)36:0.6734654676,((humanbeta5_UL7:0.5183570399,paninebeta2_UL7:1.2712261358)100:0.9878816380,(((cercopithecinebeta5_RL11P:0.3651498665,mandrillinebeta1_RL11P:0.3244471797)65:0.0926205532,macacinebetajap_RL11P:0.4892745803)70:0.2309999836,papiinebeta4_RL11P:0.3801865216)100:1.0747833927)22:0.2218382786)3:0.1547798315,((((cercopithecinebeta5_RL11M:0.3743042816,papiinebeta4_RL11M:0.3196426229)58:0.1238535058,((macacinebetajap_RL11M:0.0910541629,macacinebeta3_RL11M:0.0855027702)59:0.0440370268,macacinebeta8_RL11M:0.0736769047)99:0.3611191198)95:0.7047693261,((humanbeta5_UL8:1.0657800041,paninebeta2_UL8:0.4870326483)80:0.3318458622,(humanbeta5_UL9:0.8786058036,paninebeta2_UL9:1.2735981050)87:0.6621034927)41:0.1936014487)19:0.1038522309,(humanbeta5_UL11:0.7220177072,paninebeta2_UL11:0.9207458246)90:0.5538653278)10:0.1010030787)1:0.1374389450,(cercopithecinebeta5_RL11S:0.2911852370,((mandrillinebeta1_RL11S:0.3060683482,papiinebeta4_RL11S:0.2354263202)43:0.0822422517,((macacinebetajap_RL11S:0.1075823970,macacinebeta3_RL11S:0.0688749542)79:0.0185516518,macacinebeta8_RL11S:0.0239224537)99:0.4281434207)44:0.0941264587)94:0.6506613122)5:0.0745188053,(((((((cercopithecinebeta5_RL11N:0.8453107792,mandrillinebeta1_RL11N:0.2647107798)49:0.2607348160,papiinebeta4_RL11N:0.0538025164)94:0.7229268443,((macacinebetajap_RL11N:0.1484045708,macacinebeta8_RL11N:0.0596602756)56:0.0391812661,macacinebeta3_RL11N:0.0630681470)98:1.0713932932)68:0.9541461948,(((cercopithecinebeta5_RL11O:0.4868093071,(mandrillinebeta1_RL11O:0.2652251594,papiinebeta4_RL11O:0.3256692645)90:0.2726363468)62:0.1597879858,(macacinebetajap_RL11O:0.2709005302,(macacinebeta3_RL11O:0.0467234187,macacinebeta8_RL11O:0.0360592854)96:0.3305909336)49:0.1513113514)89:0.6049046327,((cercopithecinebeta5_RL11Q:0.5117789369,(mandrillinebeta1_RL11Q:0.2309478790,papiinebeta4_RL11Q:0.3085214710)87:0.2027973479)31:0.0544544369,(macacinebetajap_RL11Q:0.1821654375,(macacinebeta3_RL11Q:0.0293934314,macacinebeta8_RL11Q:0.0307319606)100:0.2783528007)100:0.6241423845)98:0.7176192194)41:0.1832213262)24:0.0755724243,(macacinebeta3_RL11O2:0.1343775032,macacinebeta8_RL11O2:0.1242075478)100:0.9395577447)28:0.1707283836,(humanbeta5_UL10:0.7919299969,paninebeta2_UL10:1.0172446080)84:0.5855054168)14:0.1120507810,humanbeta5_UL1:1.9130255039)11:0.1469926075)1:0.1767482039)12:0.1513070240,(humanbeta5_UL5:1.1083629587,paninebeta2_UL5:0.6954888901)96:1.0877503866)10:0.1356961917,(((cercopithecinebeta5_RL11T:0.2954445397,(mandrillinebeta1_RL11T:0.3345805244,papiinebeta4_RL11T:0.2372534217)99:0.2258787717)65:0.1135873228,((macacinebetajap_RL11T:0.1080568192,macacinebeta8_RL11T:0.1474116805)98:0.1112440899,macacinebeta3_RL11T:0.2827403643)97:0.1388956989)100:0.5856118140,((humanbeta5_RL12:0.8824750800,paninebeta2_RL12:0.7272067451)100:0.3049899573,(humanbeta5_RL13:0.7914362909,paninebeta2_RL13:0.6993821325)90:0.4223038160)45:0.0932053157)54:0.2895768619)7:0.1810825853,(humanbeta5_RL11:0.6150384779,paninebeta2_RL11:0.7968664302)100:1.1938766332)10:0.1423123937)36:0.1199715994,(humanbeta5_RL5A:1.1005026468,humanbeta5_RL6:1.2224401543)90:1.3246340520)88:1.3042993129);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 100 bootstrap trees
+Log-likelihood of consensus tree: -59298.970663
+Robinson-Foulds distance between ML tree and consensus tree: 30
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++--cercopithecinebeta5_RL11A
+|
+|  +--mandrillinebeta1_RL11A
++--| (72)
+|  +--papiinebeta4_RL11A
+|
+|      +--macacinebetajap_RL11A
+|  +---| (100)
+|  |   |  +--macacinebeta3_RL11A
+|  |   +--| (100)
+|  |      +--macacinebeta8_RL11A
++--| (47)
+   |                                  +--cercopithecinebeta5_RL11G
+   |                               +--| (88)
+   |                               |  |  +--mandrillinebeta1_RL11G
+   |                               |  +--| (98)
+   |                               |     +--papiinebeta4_RL11G
+   |                    +----------| (100)
+   |                    |          |  +--macacinebetajap_RL11G
+   |                    |          +--| (100)
+   |                    |             +--macacinebeta3_RL11G
+   |                 +--| (16)
+   |                 |  |         +-----------humanbeta5_UL5
+   |                 |  +---------| (96)
+   |                 |            +------paninebeta2_UL5
+   |              +--| (16)
+   |              |  |                              +--cercopithecinebeta5_RL11H
+   |              |  |                           +--| (52)
+   |              |  |                           |  +-----cercopithecinebeta5_RL11I
+   |              |  |                        +--| (68)
+   |              |  |                        |  |  +--mandrillinebeta1_RL11H
+   |              |  |                        |  +--| (85)
+   |              |  |                        |     +--papiinebeta4_RL11H
+   |              |  |                  +-----| (80)
+   |              |  |                  |     |          +--macacinebetajap_RL11H
+   |              |  |                  |     |       +--| (83)
+   |              |  |                  |     |       |  +--macacinebeta3_RL11H
+   |              |  |                  |     |  +----| (99)
+   |              |  |                  |     |  |    +--macacinebeta8_RL11H
+   |              |  |                  |     +--| (73)
+   |              |  |                  |        |   +--macacinebetajap_RL11I
+   |              |  |                  |        +---| (98)
+   |              |  |                  |            |  +--macacinebeta3_RL11I
+   |              |  |                  |            +--| (100)
+   |              |  |                  |               +--macacinebeta8_RL11I
+   |              |  |           +------| (81)
+   |              |  |           |      +-----------humanbeta5_UL4
+   |              |  |        +--| (20)
+   |              |  |        |  |                    +-----cercopithecinebeta5_RL11R
+   |              |  |        |  |                 +--| (50)
+   |              |  |        |  |                 |  +--papiinebeta4_RL11R
+   |              |  |        |  |              +--| (47)
+   |              |  |        |  |              |  +--mandrillinebeta1_RL11R
+   |              |  |        |  +--------------| (100)
+   |              |  |        |                 |         +--macacinebetajap_RL11R
+   |              |  |        |                 |      +--| (80)
+   |              |  |        |                 |      |  +--macacinebeta8_RL11R
+   |              |  |        |                 +------| (96)
+   |              |  |        |                        +--macacinebeta3_RL11R
+   |              |  |     +--| (5)
+   |              |  |     |  |                 +--cercopithecinebeta5_RL11J
+   |              |  |     |  |              +--| (91)
+   |              |  |     |  |              |  |  +--mandrillinebeta1_RL11J
+   |              |  |     |  |              |  +--| (89)
+   |              |  |     |  |              |     +--papiinebeta4_RL11J
+   |              |  |     |  |        +-----| (99)
+   |              |  |     |  |        |     |  +--macacinebetajap_RL11J
+   |              |  |     |  |        |     +--| (87)
+   |              |  |     |  |        |        |  +--macacinebeta3_RL11J
+   |              |  |     |  |        |        +--| (94)
+   |              |  |     |  |        |           +--macacinebeta8_RL11J
+   |              |  |     |  +--------| (99)
+   |              |  |     |           |   +--------humanbeta5_UL6
+   |              |  |     |           +---| (94)
+   |              |  |     |               +---paninebeta2_UL6
+   |              |  |  +--| (4)
+   |              |  |  |  |                       +----cercopithecinebeta5_RL11K
+   |              |  |  |  |                    +--| (23)
+   |              |  |  |  |                    |  |     +--macacinebetajap_RL11L
+   |              |  |  |  |                    |  |  +--| (83)
+   |              |  |  |  |                    |  |  |  +---macacinebeta3_RL11L
+   |              |  |  |  |                    |  +--| (55)
+   |              |  |  |  |                    |     |        +--macacinebetajap_RL11K
+   |              |  |  |  |                    |     +--------| (100)
+   |              |  |  |  |                    |              |  +--macacinebeta3_RL11K
+   |              |  |  |  |                    |              +--| (55)
+   |              |  |  |  |                    |                 +--macacinebeta8_RL11K
+   |              |  |  |  |                 +--| (60)
+   |              |  |  |  |                 |  |  +--mandrillinebeta1_RL11K
+   |              |  |  |  |                 |  +--| (99)
+   |              |  |  |  |                 |     +--papiinebeta4_RL11K
+   |              |  |  |  |           +-----| (36)
+   |              |  |  |  |           |     +----------------------macacinebeta8_RL11L
+   |              |  |  |  |        +--| (5)
+   |              |  |  |  |        |  |     +--cercopithecinebeta5_RL11S
+   |              |  |  |  |        |  +-----| (94)
+   |              |  |  |  |        |        |     +--mandrillinebeta1_RL11S
+   |              |  |  |  |        |        |  +--| (43)
+   |              |  |  |  |        |        |  |  +--papiinebeta4_RL11S
+   |              |  |  |  |        |        +--| (44)
+   |              |  |  |  |        |           |      +--macacinebetajap_RL11S
+   |              |  |  |  |        |           |   +--| (79)
+   |              |  |  |  |        |           |   |  +--macacinebeta3_RL11S
+   |              |  |  |  |        |           +---| (99)
+   |              |  |  |  |        |               +--macacinebeta8_RL11S
+   |              |  |  |  |     +--| (3)
+   |              |  |  |  |     |  |               +--cercopithecinebeta5_RL11M
+   |              |  |  |  |     |  |            +--| (58)
+   |              |  |  |  |     |  |            |  +--papiinebeta4_RL11M
+   |              |  |  |  |     |  |     +------| (95)
+   |              |  |  |  |     |  |     |      |     +--macacinebetajap_RL11M
+   |              |  |  |  |     |  |     |      |  +--| (59)
+   |              |  |  |  |     |  |     |      |  |  +--macacinebeta3_RL11M
+   |              |  |  |  |     |  |     |      +--| (99)
+   |              |  |  |  |     |  |     |         +--macacinebeta8_RL11M
+   |              |  |  |  |     |  |  +--| (30)
+   |              |  |  |  |     |  |  |  |    +------humanbeta5_UL11
+   |              |  |  |  |     |  |  |  +----| (90)
+   |              |  |  |  |     |  |  |       +--------paninebeta2_UL11
+   |              |  |  |  |     |  +--| (10)
+   |              |  |  |  |     |     |     +----------humanbeta5_UL8
+   |              |  |  |  |     |     |  +--| (80)
+   |              |  |  |  |     |     |  |  +----paninebeta2_UL8
+   |              |  |  |  |     |     +--| (41)
+   |              |  |  |  |     |        |     +--------humanbeta5_UL9
+   |              |  |  |  |     |        +-----| (87)
+   |              |  |  |  |     |              +------------paninebeta2_UL9
+   |              |  |  |  |  +--| (5)
+   |              |  |  |  |  |  |           +----humanbeta5_UL7
+   |              |  |  |  |  |  |  +--------| (100)
+   |              |  |  |  |  |  |  |        +------------paninebeta2_UL7
+   |              |  |  |  |  |  +--| (22)
+   |              |  |  |  |  |     |                +--cercopithecinebeta5_RL11P
+   |              |  |  |  |  |     |             +--| (65)
+   |              |  |  |  |  |     |             |  +--mandrillinebeta1_RL11P
+   |              |  |  |  |  |     |          +--| (70)
+   |              |  |  |  |  |     |          |  +----macacinebetajap_RL11P
+   |              |  |  |  |  |     +----------| (100)
+   |              |  |  |  |  |                +---papiinebeta4_RL11P
+   |              |  |  |  +--| (1)
+   |              |  |  |     |                               +-------cercopithecinebeta5_RL11N
+   |              |  |  |     |                            +--| (49)
+   |              |  |  |     |                            |  +--mandrillinebeta1_RL11N
+   |              |  |  |     |                     +------| (94)
+   |              |  |  |     |                     |      +--papiinebeta4_RL11N
+   |              |  |  |     |           +---------| (68)
+   |              |  |  |     |           |         |             +--macacinebetajap_RL11N
+   |              |  |  |     |           |         |          +--| (56)
+   |              |  |  |     |           |         |          |  +--macacinebeta8_RL11N
+   |              |  |  |     |           |         +----------| (98)
+   |              |  |  |     |           |                    +--macacinebeta3_RL11N
+   |              |  |  |     |        +--| (24)
+   |              |  |  |     |        |  |           +----cercopithecinebeta5_RL11O
+   |              |  |  |     |        |  |        +--| (62)
+   |              |  |  |     |        |  |        |  |  +--mandrillinebeta1_RL11O
+   |              |  |  |     |        |  |        |  +--| (90)
+   |              |  |  |     |        |  |        |     +--papiinebeta4_RL11O
+   |              |  |  |     |        |  |  +-----| (89)
+   |              |  |  |     |        |  |  |     |  +--macacinebetajap_RL11O
+   |              |  |  |     |        |  |  |     +--| (49)
+   |              |  |  |     |        |  |  |        |  +--macacinebeta3_RL11O
+   |              |  |  |     |        |  |  |        +--| (96)
+   |              |  |  |     |        |  |  |           +--macacinebeta8_RL11O
+   |              |  |  |     |        |  +--| (41)
+   |              |  |  |     |        |     |       +----cercopithecinebeta5_RL11Q
+   |              |  |  |     |        |     +-------| (98)
+   |              |  |  |     |        |             |     +--mandrillinebeta1_RL11Q
+   |              |  |  |     |        |             |  +--| (87)
+   |              |  |  |     |        |             |  |  +--papiinebeta4_RL11Q
+   |              |  |  |     |        |             +--| (40)
+   |              |  |  |     |        |                |      +--macacinebetajap_RL11Q
+   |              |  |  |     |        |                +------| (100)
+   |              |  |  |     |        |                       |  +--macacinebeta3_RL11Q
+   |              |  |  |     |        |                       +--| (100)
+   |              |  |  |     |        |                          +--macacinebeta8_RL11Q
+   |              |  |  |     |     +--| (28)
+   |              |  |  |     |     |  |        +--macacinebeta3_RL11O2
+   |              |  |  |     |     |  +--------| (100)
+   |              |  |  |     |     |           +--macacinebeta8_RL11O2
+   |              |  |  |     |  +--| (14)
+   |              |  |  |     |  |  |     +-------humanbeta5_UL10
+   |              |  |  |     |  |  +-----| (84)
+   |              |  |  |     |  |        +---------paninebeta2_UL10
+   |              |  |  |     +--| (11)
+   |              |  |  |        +-------------------humanbeta5_UL1
+   |              |  +--| (12)
+   |              |     |                 +-------cercopithecinebeta5_RL11B
+   |              |     |              +--| (41)
+   |              |     |              |  |       +---mandrillinebeta1_RL11B2
+   |              |     |              |  |  +----| (99)
+   |              |     |              |  |  |    +----papiinebeta4_RL11B2
+   |              |     |              |  +--| (60)
+   |              |     |              |     |     +--mandrillinebeta1_RL11B1
+   |              |     |              |     +-----| (99)
+   |              |     |              |           +---papiinebeta4_RL11B1
+   |              |     |        +-----| (92)
+   |              |     |        |     |               +--macacinebetajap_RL11B
+   |              |     |        |     |           +---| (99)
+   |              |     |        |     |           |   +--macacinebeta8_RL11B
+   |              |     |        |     |     +-----| (98)
+   |              |     |        |     |     |     +----macacinebeta3_RL11B
+   |              |     |        |     |  +--| (49)
+   |              |     |        |     |  |  |          +--macacinebetajap_RL11C
+   |              |     |        |     |  |  |  +-------| (100)
+   |              |     |        |     |  |  |  |       |  +--macacinebeta3_RL11C
+   |              |     |        |     |  |  |  |       +--| (80)
+   |              |     |        |     |  |  |  |          +--macacinebeta8_RL11C
+   |              |     |        |     |  |  +--| (48)
+   |              |     |        |     |  |     |    +----cercopithecinebeta5_RL11C2
+   |              |     |        |     |  |     +----| (100)
+   |              |     |        |     |  |          +---papiinebeta4_RL11C
+   |              |     |        |     +--| (36)
+   |              |     |        |        |     +----cercopithecinebeta5_RL11C1
+   |              |     |        |        |  +--| (82)
+   |              |     |        |        |  |  |     +---mandrillinebeta1_RL11B4
+   |              |     |        |        |  |  +-----| (100)
+   |              |     |        |        |  |        +--papiinebeta4_RL11B4
+   |              |     |        |        +--| (87)
+   |              |     |        |           |  +----mandrillinebeta1_RL11B3
+   |              |     |        |           +--| (100)
+   |              |     |        |              +---papiinebeta4_RL11B3
+   |              |     +--------| (90)
+   |              |              |             +---------cercopithecinebeta5_RL11D
+   |              |              |          +--| (30)
+   |              |              |          |  |     +----mandrillinebeta1_RL11D2
+   |              |              |          |  |  +--| (60)
+   |              |              |          |  |  |  +----papiinebeta4_RL11D3
+   |              |              |          |  +--| (58)
+   |              |              |          |     +------papiinebeta4_RL11D1
+   |              |              |       +--| (36)
+   |              |              |       |  |   +----mandrillinebeta1_RL11D1
+   |              |              |       |  +---| (99)
+   |              |              |       |      +-------papiinebeta4_RL11D2
+   |              |              |  +----| (76)
+   |              |              |  |    |          +--macacinebetajap_RL11D1
+   |              |              |  |    |  +-------| (100)
+   |              |              |  |    |  |       |  +--macacinebeta3_RL11D1
+   |              |              |  |    |  |       +--| (92)
+   |              |              |  |    |  |          +--macacinebeta8_RL11D
+   |              |              |  |    +--| (57)
+   |              |              |  |       |      +--macacinebetajap_RL11D2
+   |              |              |  |       +------| (100)
+   |              |              |  |              +--macacinebeta3_RL11D2
+   |              |              +--| (48)
+   |              |                 |              +------cercopithecinebeta5_RL11F
+   |              |                 |           +--| (61)
+   |              |                 |           |  +---mandrillinebeta1_RL11F
+   |              |                 |  +--------| (100)
+   |              |                 |  |        +--papiinebeta4_RL11F
+   |              |                 +--| (50)
+   |              |                    |            +--macacinebetajap_RL11F
+   |              |                    +------------| (100)
+   |              |                                 +--macacinebeta3_RL11F
+   |          +---| (36)
+   |          |   |              +--cercopithecinebeta5_RL11T
+   |          |   |           +--| (65)
+   |          |   |           |  |  +--mandrillinebeta1_RL11T
+   |          |   |           |  +--| (99)
+   |          |   |           |     +--papiinebeta4_RL11T
+   |          |   |     +-----| (100)
+   |          |   |     |     |     +--macacinebetajap_RL11T
+   |          |   |     |     |  +--| (98)
+   |          |   |     |     |  |  +--macacinebeta8_RL11T
+   |          |   |     |     +--| (97)
+   |          |   |     |        +--macacinebeta3_RL11T
+   |          |   |  +--| (54)
+   |          |   |  |  |     +--------humanbeta5_RL12
+   |          |   |  |  |  +--| (100)
+   |          |   |  |  |  |  +------paninebeta2_RL12
+   |          |   |  |  +--| (45)
+   |          |   |  |     |   +-------humanbeta5_RL13
+   |          |   |  |     +---| (90)
+   |          |   |  |         +------paninebeta2_RL13
+   |          |   +--| (20)
+   |          |      |            +-----humanbeta5_RL11
+   |          |      +------------| (100)
+   |          |                   +-------paninebeta2_RL11
+   +----------| (88)
+              |           +-----------humanbeta5_RL5A
+              +-----------| (90)
+                          +-----------humanbeta5_RL6
+
+
+Consensus tree in newick format: 
+
+(cercopithecinebeta5_RL11A:0.3734066972,(mandrillinebeta1_RL11A:0.1811470246,papiinebeta4_RL11A:0.2872688099)72:0.1158424409,((macacinebetajap_RL11A:0.0090552365,(macacinebeta3_RL11A:0.0255703119,macacinebeta8_RL11A:0.0323898954)100:0.0796931844)100:0.4019378458,((((((cercopithecinebeta5_RL11G:0.1966421716,(mandrillinebeta1_RL11G:0.2162320570,papiinebeta4_RL11G:0.1582564065)98:0.2239855931)88:0.1700951576,(macacinebetajap_RL11G:0.0342008923,macacinebeta3_RL11G:0.1292710499)100:0.2823728380)100:1.0911356767,(humanbeta5_UL5:1.1593966626,paninebeta2_UL5:0.6824990293)96:0.9716355622)16:0.1047885355,((((((((cercopithecinebeta5_RL11H:0.3682757755,cercopithecinebeta5_RL11I:0.6399458266)52:0.1391498075,(mandrillinebeta1_RL11H:0.2000132354,papiinebeta4_RL11H:0.1516684520)85:0.1186339718)68:0.3354410506,(((macacinebetajap_RL11H:0.1057306713,macacinebeta3_RL11H:0.0569033815)83:0.0431181003,macacinebeta8_RL11H:0.0506656974)99:0.5356934023,(macacinebetajap_RL11I:0.1676848122,(macacinebeta3_RL11I:0.0553324664,macacinebeta8_RL11I:0.0690088905)100:0.1702468491)98:0.4260187897)73:0.2869465544)80:0.5709984136,humanbeta5_UL4:1.2273701257)81:0.7175267475,(((cercopithecinebeta5_RL11R:0.6212131238,papiinebeta4_RL11R:0.3086092899)50:0.1238970858,mandrillinebeta1_RL11R:0.2043584134)47:0.1896830321,((macacinebetajap_RL11R:0.2120608574,macacinebeta8_RL11R:0.0979534140)80:0.0754583275,macacinebeta3_RL11R:0.1837197669)96:0.6615760013)100:1.4815440194)20:0.1454149807,(((cercopithecinebeta5_RL11J:0.3424886952,(mandrillinebeta1_RL11J:0.3030483477,papiinebeta4_RL11J:0.3127969750)89:0.1286233567)91:0.1884815021,(macacinebetajap_RL11J:0.1420092253,(macacinebeta3_RL11J:0.1469051903,macacinebeta8_RL11J:0.0350594913)94:0.1003946955)87:0.1916386835)99:0.5954626038,(humanbeta5_UL6:0.8716652414,paninebeta2_UL6:0.4140860218)94:0.4530757231)99:0.8629688714)5:0.1234392923,(((((((cercopithecinebeta5_RL11K:0.5603326269,((macacinebetajap_RL11L:0.2875333512,macacinebeta3_RL11L:0.4605993213)83:0.3673446012,(macacinebetajap_RL11K:0.0718861634,(macacinebeta3_RL11K:0.1354236865,macacinebeta8_RL11K:0.3740889244)55:0.0710731858)100:0.8831843829)55:0.3606802012)23:0.0918847454,(mandrillinebeta1_RL11K:0.2875426493,papiinebeta4_RL11K:0.2896441831)99:0.2702682039)60:0.2145356365,macacinebeta8_RL11L:2.2440061992)36:0.5742002712,(cercopithecinebeta5_RL11S:0.2692981017,((mandrillinebeta1_RL11S:0.3055404176,papiinebeta4_RL11S:0.2339426031)43:0.0799069602,((macacinebetajap_RL11S:0.1075151205,macacinebeta3_RL11S:0.0686312349)79:0.0185878376,macacinebeta8_RL11S:0.0238202904)99:0.4291464839)44:0.1165377101)94:0.5831616586)5:0.1026670689,((((cercopithecinebeta5_RL11M:0.3733276420,papiinebeta4_RL11M:0.3215161757)58:0.1307472974,((macacinebetajap_RL11M:0.0911187309,macacinebeta3_RL11M:0.0852572607)59:0.0439682077,macacinebeta8_RL11M:0.0740190472)99:0.3508026320)95:0.7065026822,(humanbeta5_UL11:0.7116040554,paninebeta2_UL11:0.9199656634)90:0.5401188627)30:0.0681713009,((humanbeta5_UL8:1.0659206205,paninebeta2_UL8:0.4923277058)80:0.3211195050,(humanbeta5_UL9:0.8876527323,paninebeta2_UL9:1.2660645052)87:0.6402402130)41:0.2251600709)10:0.1488835139)3:0.1486749415,((humanbeta5_UL7:0.5583784430,paninebeta2_UL7:1.2314680824)100:0.9394188676,(((cercopithecinebeta5_RL11P:0.3695614661,mandrillinebeta1_RL11P:0.3188074071)65:0.0945248464,macacinebetajap_RL11P:0.4878156627)70:0.1775915051,papiinebeta4_RL11P:0.4306255723)100:1.0935397575)22:0.2652231774)5:0.0356617301,(((((((cercopithecinebeta5_RL11N:0.8451626283,mandrillinebeta1_RL11N:0.2652360889)49:0.2524062786,papiinebeta4_RL11N:0.0621152054)94:0.7050064924,((macacinebetajap_RL11N:0.1482733086,macacinebeta8_RL11N:0.0595745356)56:0.0393014354,macacinebeta3_RL11N:0.0629364831)98:1.0804340021)68:0.9556402713,(((cercopithecinebeta5_RL11O:0.4839743781,(mandrillinebeta1_RL11O:0.2639894395,papiinebeta4_RL11O:0.3267813526)90:0.2757738414)62:0.1520539223,(macacinebetajap_RL11O:0.2736397076,(macacinebeta3_RL11O:0.0461914395,macacinebeta8_RL11O:0.0366041837)96:0.3285398355)49:0.1580256164)89:0.5927030642,(cercopithecinebeta5_RL11Q:0.4753838342,((mandrillinebeta1_RL11Q:0.2318689968,papiinebeta4_RL11Q:0.3064614923)87:0.1880567606,(macacinebetajap_RL11Q:0.1841059921,(macacinebeta3_RL11Q:0.0292983894,macacinebeta8_RL11Q:0.0308092157)100:0.2759584623)100:0.6669577909)40:0.0635204978)98:0.7599716684)41:0.1826732950)24:0.1030649446,(macacinebeta3_RL11O2:0.1341895185,macacinebeta8_RL11O2:0.1243260268)100:0.9240687853)28:0.1419489115,(humanbeta5_UL10:0.8249571312,paninebeta2_UL10:0.9740376805)84:0.5853979360)14:0.1090324564,humanbeta5_UL1:1.9119944622)11:0.1738530436)1:0.1384786909)4:0.0937226416,(((cercopithecinebeta5_RL11B:0.8375423999,((mandrillinebeta1_RL11B2:0.4626413493,papiinebeta4_RL11B2:0.4761424234)99:0.5208580760,(mandrillinebeta1_RL11B1:0.2997887255,papiinebeta4_RL11B1:0.4667040405)99:0.6486827866)60:0.2083482486)41:0.1516935872,((((macacinebetajap_RL11B:0.1865396880,macacinebeta8_RL11B:0.2208884377)99:0.4109149819,macacinebeta3_RL11B:0.5199048748)98:0.6265295905,((macacinebetajap_RL11C:0.1714280362,(macacinebeta3_RL11C:0.0442522220,macacinebeta8_RL11C:0.0189680925)80:0.1363998272)100:0.8439470931,(cercopithecinebeta5_RL11C2:0.5571880282,papiinebeta4_RL11C:0.4479950614)100:0.5105892672)48:0.0783127045)49:0.1830245823,((cercopithecinebeta5_RL11C1:0.5170592825,(mandrillinebeta1_RL11B4:0.4259680099,papiinebeta4_RL11B4:0.3583057700)100:0.6119421875)82:0.2294146586,(mandrillinebeta1_RL11B3:0.4929905878,papiinebeta4_RL11B3:0.4561177148)100:0.3736216232)87:0.2342956279)36:0.1363199177)92:0.6206573559,((((cercopithecinebeta5_RL11D:0.9637824974,((mandrillinebeta1_RL11D2:0.5207261160,papiinebeta4_RL11D3:0.5504189402)60:0.1325295230,papiinebeta4_RL11D1:0.6785426510)58:0.2678205970)30:0.0847403597,(mandrillinebeta1_RL11D1:0.5232123307,papiinebeta4_RL11D2:0.8311755853)99:0.4194762133)36:0.2001848077,((macacinebetajap_RL11D1:0.3187895193,(macacinebeta3_RL11D1:0.2274518137,macacinebeta8_RL11D:0.0754663027)92:0.1698326904)100:0.7921841590,(macacinebetajap_RL11D2:0.3140140813,macacinebeta3_RL11D2:0.1690960684)100:0.6912714829)57:0.1859776504)76:0.5355088640,(((cercopithecinebeta5_RL11F:0.6853138577,mandrillinebeta1_RL11F:0.4459217317)61:0.1673210279,papiinebeta4_RL11F:0.2561123641)100:0.8723452342,(macacinebetajap_RL11F:0.0922450166,macacinebeta3_RL11F:0.1193426774)100:1.2859736178)50:0.2537045785)48:0.1756569384)90:0.8643693520)12:0.1803563982)16:0.1654914392,((((cercopithecinebeta5_RL11T:0.2941035497,(mandrillinebeta1_RL11T:0.3348197896,papiinebeta4_RL11T:0.2369233399)99:0.2256650663)65:0.1120457242,((macacinebetajap_RL11T:0.1078240139,macacinebeta8_RL11T:0.1475690282)98:0.1110848542,macacinebeta3_RL11T:0.2820509306)97:0.1428485636)100:0.5775030588,((humanbeta5_RL12:0.8864795416,paninebeta2_RL12:0.7248370261)100:0.2984673901,(humanbeta5_RL13:0.7861594908,paninebeta2_RL13:0.7024747587)90:0.4230739583)45:0.0948219066)54:0.2527489109,(humanbeta5_RL11:0.6219101285,paninebeta2_RL11:0.7845392373)100:1.2479520917)20:0.0416455173)36:0.4698834747,(humanbeta5_RL5A:1.1663124032,humanbeta5_RL6:1.1492578633)90:1.1726371945)88:1.0992673200)47:0.2350111269);
+
+TIME STAMP
+----------
+
+Date and time: Tue Jan 23 22:00:23 2024
+Total CPU time used: 1691.344851 seconds (0h:28m:11s)
+Total wall-clock time used: 218.8457692 seconds (0h:3m:38s)
+

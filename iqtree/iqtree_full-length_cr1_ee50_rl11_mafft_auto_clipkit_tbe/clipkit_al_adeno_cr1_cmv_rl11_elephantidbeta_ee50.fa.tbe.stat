@@ -1,0 +1,319 @@
+EdgeId	Depth	MeanMinDist
+2	2	0.130000
+3	3	0.750000
+4	6	1.460000
+5	2	0.190000
+8	4	0.000000
+9	3	0.390000
+10	2	0.270000
+15	9	3.830000
+16	25	9.050000
+17	75	26.450000
+18	24	11.110000
+19	10	0.100000
+20	7	2.050000
+21	4	0.530000
+22	2	0.640000
+25	2	0.100000
+28	3	0.000000
+29	2	0.300000
+33	3	0.080000
+35	2	0.020000
+38	14	4.670000
+39	8	0.000000
+40	6	0.000000
+41	3	0.440000
+43	2	0.240000
+46	3	0.120000
+48	2	0.040000
+51	2	0.070000
+54	6	0.000000
+55	3	0.550000
+57	2	0.610000
+60	3	0.000000
+61	2	0.140000
+65	61	18.470000
+66	27	7.230000
+67	10	0.810000
+68	8	1.030000
+69	6	0.000000
+70	3	0.430000
+72	2	0.030000
+75	3	0.000000
+76	2	0.420000
+80	2	0.090000
+83	2	0.030000
+86	17	5.950000
+87	9	3.200000
+88	7	1.640000
+89	5	0.000000
+90	3	0.070000
+92	2	0.020000
+95	2	0.000000
+98	2	0.220000
+101	2	0.010000
+104	8	1.460000
+105	6	0.060000
+106	3	0.320000
+108	2	0.190000
+111	3	0.050000
+113	2	0.060000
+116	2	0.350000
+119	34	0.560000
+120	29	2.950000
+121	18	0.680000
+122	16	0.870000
+123	14	1.370000
+124	9	2.120000
+126	8	1.650000
+127	3	0.040000
+128	2	0.010000
+132	5	0.680000
+133	3	0.000000
+135	2	0.310000
+138	2	0.020000
+141	5	0.470000
+142	3	0.370000
+144	2	0.000000
+147	2	0.000000
+150	2	0.000000
+153	2	0.010000
+156	11	0.040000
+157	10	0.740000
+158	8	1.490000
+160	7	1.550000
+161	5	0.450000
+162	3	0.000000
+164	2	0.210000
+167	2	0.000000
+170	2	0.000000
+173	2	0.100000
+177	5	0.630000
+178	3	0.000000
+180	2	0.230000
+183	2	0.000000
+186	50	17.980000
+187	26	11.110000
+188	20	8.100000
+189	12	4.410000
+190	5	2.400000
+191	3	0.770000
+193	2	0.220000
+196	2	0.390000
+199	7	0.790000
+200	5	0.000000
+201	2	0.350000
+204	3	0.000000
+205	2	0.460000
+209	2	0.210000
+212	8	0.040000
+213	3	0.560000
+215	2	0.000000
+218	5	0.830000
+219	2	0.110000
+222	3	0.000000
+223	2	0.500000
+227	6	0.020000
+228	3	0.780000
+230	2	0.550000
+233	3	0.020000
+235	2	0.660000
+238	24	6.830000
+239	23	6.050000
+240	22	5.240000
+241	20	4.610000
+242	12	4.220000
+243	6	0.450000
+244	3	0.000000
+246	2	0.280000
+249	3	0.020000
+251	2	0.170000
+254	6	0.490000
+255	3	0.430000
+257	2	0.050000
+260	3	0.150000
+262	2	0.030000
+265	8	1.180000
+266	2	0.000000
+269	6	0.020000
+270	3	0.560000
+272	2	0.110000
+275	3	0.000000
+277	2	0.000000
+280	2	0.020000
+285	16	1.740000
+286	11	0.220000
+287	8	1.320000
+288	2	0.000000
+291	6	1.190000
+292	2	0.000000
+295	4	0.820000
+296	3	0.550000
+298	2	0.010000
+302	3	0.400000
+304	2	0.000000
+307	5	0.270000
+308	2	0.000000
+311	3	0.690000
+312	2	0.660000
+Taxon	tIndex
+elephantidbeta1_EE50	1.116230
+elephantidbeta5_EE50	1.514018
+humanbeta5_UL7	0.314706
+paninebeta2_UL7	0.405182
+cercopithecinebeta5_RL11P	0.933515
+mandrillinebeta1_RL11P	0.933515
+macacinebetajap_RL11P	0.933515
+papiinebeta4_RL11P	0.933515
+cercopithecinebeta5_RL11H	0.426561
+cercopithecinebeta5_RL11I	0.426561
+mandrillinebeta1_RL11H	0.426561
+papiinebeta4_RL11H	0.426561
+macacinebetajap_RL11H	0.426561
+macacinebeta3_RL11H	0.426561
+macacinebeta8_RL11H	0.426561
+macacinebetajap_RL11I	0.426561
+macacinebeta3_RL11I	0.426561
+macacinebeta8_RL11I	0.426561
+cercopithecinebeta5_RL11J	0.191749
+mandrillinebeta1_RL11J	0.191749
+papiinebeta4_RL11J	0.191749
+macacinebetajap_RL11J	0.191749
+macacinebeta3_RL11J	0.191749
+macacinebeta8_RL11J	0.191749
+humanbeta5_UL6	0.191749
+paninebeta2_UL6	0.191749
+cercopithecinebeta5_RL11R	0.777650
+mandrillinebeta1_RL11R	0.777650
+papiinebeta4_RL11R	0.777650
+macacinebetajap_RL11R	0.777650
+macacinebeta8_RL11R	0.777650
+macacinebeta3_RL11R	0.777650
+cercopithecinebeta5_RL11T	0.000000
+mandrillinebeta1_RL11T	0.000000
+papiinebeta4_RL11T	0.000000
+macacinebetajap_RL11T	0.000000
+macacinebeta8_RL11T	0.000000
+macacinebeta3_RL11T	0.000000
+humanbeta5_RL12	1.214241
+paninebeta2_RL12	1.259695
+humanbeta5_RL13	0.292167
+paninebeta2_RL13	0.268358
+cercopithecinebeta5_RL11G	0.643057
+mandrillinebeta1_RL11G	0.643057
+papiinebeta4_RL11G	0.643057
+macacinebetajap_RL11G	0.643057
+macacinebeta3_RL11G	0.643057
+humanbeta5_UL5	0.820124
+paninebeta2_UL5	0.622271
+humanbeta5_RL11	0.402310
+paninebeta2_RL11	0.402310
+cercopithecinebeta5_RL11A	0.386697
+mandrillinebeta1_RL11A	0.386697
+papiinebeta4_RL11A	0.386697
+macacinebetajap_RL11A	0.386697
+macacinebeta3_RL11A	0.386697
+macacinebeta8_RL11A	0.386697
+humanbeta5_RL5A	4.003044
+humanbeta5_RL6	4.429965
+cercopithecinebeta5_RL11B	0.869271
+macacinebetajap_RL11B	0.051282
+macacinebeta8_RL11B	0.051282
+macacinebeta3_RL11B	0.051282
+macacinebetajap_RL11C	0.000000
+macacinebeta3_RL11C	0.000000
+macacinebeta8_RL11C	0.000000
+cercopithecinebeta5_RL11C2	0.075641
+papiinebeta4_RL11C	0.075641
+cercopithecinebeta5_RL11C1	0.000000
+mandrillinebeta1_RL11B4	0.204750
+papiinebeta4_RL11B4	0.204750
+mandrillinebeta1_RL11B3	0.023810
+papiinebeta4_RL11B3	0.023810
+mandrillinebeta1_RL11B2	0.905745
+papiinebeta4_RL11B2	0.905745
+mandrillinebeta1_RL11B1	0.470530
+papiinebeta4_RL11B1	0.470530
+cercopithecinebeta5_RL11D	0.878764
+macacinebetajap_RL11D1	0.000000
+macacinebeta3_RL11D1	0.000000
+macacinebeta8_RL11D	0.000000
+macacinebetajap_RL11D2	0.102240
+macacinebeta3_RL11D2	0.102240
+mandrillinebeta1_RL11D1	0.216628
+papiinebeta4_RL11D2	0.216628
+mandrillinebeta1_RL11D2	0.027027
+papiinebeta4_RL11D3	0.027027
+papiinebeta4_RL11D1	1.816079
+cercopithecinebeta5_RL11F	1.567270
+mandrillinebeta1_RL11F	1.567270
+papiinebeta4_RL11F	1.567270
+macacinebetajap_RL11F	1.815368
+macacinebeta3_RL11F	1.815368
+humanbeta5_UL4	3.008007
+humanbeta5_UL9	1.088637
+paninebeta2_UL9	1.272942
+humanbeta5_UL8	1.827819
+paninebeta2_UL8	1.623325
+cercopithecinebeta5_RL11M	0.025641
+papiinebeta4_RL11M	0.025641
+macacinebetajap_RL11M	0.025641
+macacinebeta8_RL11M	0.025641
+macacinebeta3_RL11M	0.025641
+humanbeta5_UL11	0.046739
+paninebeta2_UL11	0.275559
+cercopithecinebeta5_RL11K	0.122112
+mandrillinebeta1_RL11K	0.047863
+papiinebeta4_RL11K	0.047863
+macacinebetajap_RL11L	0.047863
+macacinebeta3_RL11L	0.047863
+macacinebetajap_RL11K	0.113081
+macacinebeta3_RL11K	0.113081
+macacinebeta8_RL11K	0.113081
+cercopithecinebeta5_RL11S	0.105363
+mandrillinebeta1_RL11S	0.105363
+papiinebeta4_RL11S	0.105363
+macacinebetajap_RL11S	0.105363
+macacinebeta3_RL11S	0.105363
+macacinebeta8_RL11S	0.105363
+cercopithecinebeta5_RL11N	0.474654
+mandrillinebeta1_RL11N	0.474654
+papiinebeta4_RL11N	0.474654
+macacinebetajap_RL11N	1.143687
+macacinebeta3_RL11N	1.143687
+macacinebeta8_RL11N	1.143687
+cercopithecinebeta5_RL11O	0.000000
+mandrillinebeta1_RL11O	0.000000
+papiinebeta4_RL11O	0.000000
+macacinebetajap_RL11O	0.000000
+macacinebeta3_RL11O	0.000000
+macacinebeta8_RL11O	0.000000
+macacinebeta3_RL11O2	1.923223
+macacinebeta8_RL11O2	1.923223
+cercopithecinebeta5_RL11Q	0.000000
+mandrillinebeta1_RL11Q	0.000000
+papiinebeta4_RL11Q	0.000000
+macacinebetajap_RL11Q	0.000000
+macacinebeta3_RL11Q	0.000000
+macacinebeta8_RL11Q	0.000000
+humanbeta5_UL10	1.420797
+paninebeta2_UL10	1.369515
+humanadeno4_CR1delta2	3.825259
+humanbeta5_UL1	2.069970
+humanadeno12_CR1beta	0.556589
+humanadeno18_CR1beta	0.556589
+simianadeno16_CR1beta	0.292400
+simianadeno8_CR1beta	0.292400
+humanadeno40_CR1beta	0.269672
+humanadeno52_CR1beta	0.244031
+simianadeno19_CR1beta	0.244031
+simianadeno17_CR1beta	0.629874
+simianadeno55_CR1beta	0.457861
+simianadeno20_CR1beta	0.295448
+simianadeno3_CR1beta	0.295448
+humanadeno17_CR1beta	0.197477
+humanadeno8_CR1beta	0.197477
+humanadeno3_CR1beta	0.174750
+humanadeno3_CR1beta2	0.174750
+humanadeno4_CR1beta	0.174750
+elephantidbeta5_EE62	2.016509
