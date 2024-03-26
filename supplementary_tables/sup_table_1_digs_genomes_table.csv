@@ -1,0 +1,76 @@
+﻿organism_group,organism,genome_completeness,database,genome_accession_number
+Adenovirus,titi_monkey_adenovirus_1,complete,NCBI Genbank,HQ913600.1
+Adenovirus,simian_adenovirus_55,complete,NCBI Genbank,KX505867.1
+Adenovirus,simian_adenovirus_3,complete,NCBI Genbank,AY598782.1
+Adenovirus,simian_adenovirus_20,complete,NCBI Genbank,HQ605912.1
+Adenovirus,simian_adenovirus_13,complete,NCBI Genbank,KP329563.1
+Adenovirus,simian_adenovirus_54,complete,NCBI Genbank,KM190146.1
+Adenovirus,human_adenovirus_18,complete,NCBI Genbank,GU191019.1
+Adenovirus,simian_adenovirus_16,complete,NCBI Genbank,KP329564.1
+Adenovirus,simian_adenovirus_8,complete,NCBI Genbank,KP329561.1
+Adenovirus,simian_adenovirus_17,complete,NCBI Genbank,KP329566.1
+Adenovirus,human_adenovirus_40,complete,NCBI Genbank,L19443.1
+Adenovirus,human_adenovirus_52,complete,NCBI Genbank,DQ923122.1
+Adenovirus,simian_adenovirus_19,complete,NCBI Genbank,KP329565.1
+Adenovirus,human_adenovirus_5,complete,NCBI Genbank,AC_000008.1
+Adenovirus,human_adenovirus_8,complete,NCBI Genbank,AB448767.1
+Adenovirus,human_adenovirus_4,complete,NCBI Genbank,AY487947.1
+Adenovirus,human_adenovirus_3,complete,NCBI Genbank,DQ086466.1
+Adenovirus,human_adenovirus_12,complete,NCBI Genbank,X73487.1
+Adenovirus,human_adenovirus_2,complete,NCBI Genbank,J01917.1
+Adenovirus,human_adenovirus_17,complete,NCBI Genbank,AF108105.1
+Adenovirus,human_adenovirus_5,complete,NCBI Genbank,M73260.1
+Cytomegalovirus,papiine_betaherpesvirus_4,complete,NCBI Genbank,KR351281.1
+Cytomegalovirus,mandrilline_betaherpesvirus_1,complete,NCBI Genbank,KR297253.1
+Cytomegalovirus,cercopithecine_betaherpesvirus_5,complete,NCBI Genbank,FJ483968.2
+Cytomegalovirus,macacine_betaherpesvirus_8,complete,NCBI Genbank,JN227533.1
+Cytomegalovirus,macacine_betaherpesvirus_3,complete,NCBI Genbank,AY186194.1
+Cytomegalovirus,japanese_macacine_betaherpesvirus,complete,NCBI Genbank,MT157324.1
+Cytomegalovirus,panine_betaherpesvirus_2,complete,NCBI Genbank,AF480884.1
+Cytomegalovirus,aotine_betaherpesvirus_1,complete,NCBI Genbank,FJ483970.2
+Cytomegalovirus,saimiriine_betaherpesvirus_4,complete,NCBI Genbank,FJ483967.2
+Cytomegalovirus,human_betaherpesvirus_5,complete,NCBI Genbank,FJ527563.1
+Cytomegalovirus,human_betaherpesvirus_5,complete,NCBI Genbank,KJ361963.1
+Cytomegalovirus,human_betaherpesvirus_5,complete,NCBI Genbank,KU550087.1
+Cytomegalovirus,human_betaherpesvirus_5,complete,NCBI Genbank,JX512200.1
+Cytomegalovirus,human_betaherpesvirus_5,complete,NCBI Genbank,GQ466044.1
+Cytomegalovirus,human_betaherpesvirus_5,complete,NCBI Genbank,HQ380895.1
+Cytomegalovirus,human_betaherpesvirus_5,complete,NCBI Genbank,AY446894.2
+Cytomegalovirus,human_betaherpesvirus_5,complete,NCBI Genbank,JX512199.1
+Cytomegalovirus,human_betaherpesvirus_5,complete,NCBI Genbank,KF297339.1
+Cytomegalovirus,human_betaherpesvirus_5,complete,NCBI Genbank,KF021605.1
+Betaherpesvirus,tupaiid_betaherpesvirus_1,complete,NCBI Genbank,AF281817.1
+Betaherpesvirus,caviid_betaherpesvirus_2,complete,NCBI Genbank,KC503762.1
+Betaherpesvirus,miniopterid_betaherpesvirus_1,complete,NCBI Genbank,JQ805139.1
+Betaherpesvirus,murid_betaherpesvirus_1,complete,NCBI Genbank,GU305914
+Betaherpesvirus,murid_betaherpesvirus_2,complete,NCBI Genbank,AF232689
+Betaherpesvirus,murid_betaherpesvirus_8,complete,NCBI Genbank,JX867617
+Betaherpesvirus,suid_betaherpesvirus_2,complete,NCBI Genbank,KF017583
+Betaherpesvirus,murid_betaherpesvirus_3,complete,NCBI Genbank,KY355735
+Betaherpesvirus,human_betaherpesvirus_6A,complete,NCBI Genbank,X83413
+Betaherpesvirus,human_betaherpesvirus_6B,complete,NCBI Genbank,AF157706
+Betaherpesvirus,macacine_betaherpesvirus_9,complete,NCBI Genbank,KU351741
+Betaherpesvirus,human_betaherpesvirus_7,complete,NCBI Genbank,AF037218
+Betaherpesvirus,elephantid_betaherpesvirus_4,complete,NCBI Genbank,KT832477
+Betaherpesvirus,elephantid_betaherpesvirus_5,complete,NCBI Genbank,KF921519
+Betaherpesvirus,elephantid_betaherpesvirus_1,complete,NCBI Genbank,KC462165
+Mammalia,Papio_anubis,complete,Ensembl,ensembl_79_PapAnu2.0
+Mammalia,Mandrillus_leucophaeus,low_coverage,Ensembl,Mleu.le_1.0
+Mammalia,Chlorocebus_aethiops,low_coverage,NCBI Genbank,GCA_023783515.1_ASM2378351v1
+Mammalia,Macaca_fascicularis,complete,NCBI Genbank,mfa_ref_Macaca_fascicularis_5.0
+Mammalia,Macaca_mulatta,complete,Ensembl,ensembl_79_MMUL_1
+Mammalia,Macaca_fuscata,low_coverage,NCBI Genbank,GCA_003118495
+Mammalia,Pan_troglodytes,complete,Ensembl,ensembl_79_CHIMP2.1.4
+Mammalia,Homo_sapiens,complete,Ensembl,ensembl_79_GRCh38
+Mammalia,Aotus_nancymaae,low_coverage,NCBI Genbank,ncbi_1.0_April_2015
+Mammalia,Saimiri_boliviensis,complete,Ensembl,goldenpath_saiBol1
+Mammalia,Rattus_norvegicus,complete,Ensembl,ensembl_79_Rnor_5.0
+Mammalia,Cavia_porcellus,complete,Ensembl,ensembl_79_cavPor3
+Mammalia,Mus_musculus,complete,Ensembl,ensembl_79_GRCm38
+Mammalia,Tupaia_belangeri,complete,Ensembl,ensembl_79_TREESHREW
+Mammalia,Miniopterus_schreibersii,low_coverage,UCSC Genome Browser database,GCA_004026525.1_MinSch_v1_BIUU
+Mammalia,Sus_scrofa,complete,Ensembl,ensembl_79_Sscrofa10.2
+Mammalia,Elephas_maximus,low_coverage,NCBI Genbank,GCA_014332765.1_ASM1433276v1
+Mammalia,Macaca_nemestrina,low_coverage,NCBI Genbank,mne_ref_Mnem_1.0
+Mammalia,Rhinopithecus_roxellana,low_coverage,NCBI Genbank,ncbi_100_2014-11-18
+Mammalia,Plecturocebus_donacophilus,low_coverage,UCSC Genome Browser database,CalDon_v1_BIUU
