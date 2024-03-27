@@ -4,7 +4,7 @@ Python scripts and data to reproduce the results from Ulad Litvin, Eddie C.Y. Wa
 
 ## [ClipKit folder](clipkit)
 
-Contains MAFFT and Foldseek protein alignments processed with ClipKit v.1.3.0 using:
+Contains MAFFT and Foldseek protein MSAs processed with ClipKit v.1.3.0 using:
 
 ```bash
 clipkit al.fa -m smart-gap
@@ -59,7 +59,7 @@ iqtree2 -s clipkit_al.fa -b 100 --tbe
 ```
 ## [MAFFT folder](mafft)
 
-Contains multiple sequence alignment files generated from [FASTA files](fasta_files) with MAFFT v.7.475 using:
+Contains MSA files generated from [FASTA files](fasta_files) with MAFFT v.7.475 using:
 
 ```bash
 mafft --auto --reorder fasta.fa > al.fa
