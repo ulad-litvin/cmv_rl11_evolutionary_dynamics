@@ -10,11 +10,11 @@ Contains MAFFT and Foldseek protein alignments processed with ClipKit v.1.3.0 us
 clipkit al.fa -m smart-gap
 ```
 
-## [DIGS folder](digs)
+## [DIGS folder](digs)
 
 Contains [raw DIGS results](digs/digs_raw_results.csv) and [processed DIGS results](digs/digs_processed_results_bitscore_46_length_75_one_hcmv.csv) generated with [DIGS notebook](notebooks/process_digs_results_manuscript.ipynb) and used to create [Table S2](supplementary_tables/sup_table_2_digs_results_table.csv).
 
-## [ESMFold folder](esmfold)
+## [ESMFold folder](esmfold)
 
 Contains protein structures predicted with ESMFold v.1.0.3 using:
 
@@ -67,7 +67,7 @@ mafft --auto --reorder fasta.fa > al.fa
 
 ## [Notebooks folder](notebooks)
 
-Contains Jyputer notebooks with Python scripts to process [DIGS results](digs), [Foldseek results](foldseek) and [Functional regions prediction results](interproscan_signalp_netnglyc_netoglyc).
+Contains Jupyter notebooks with Python scripts to process [DIGS results](digs), [Foldseek results](foldseek) and [Functional regions prediction results](interproscan_signalp_netnglyc_netoglyc).
 
 ## [Supplementary tables folder](supplementary_tables)
 
